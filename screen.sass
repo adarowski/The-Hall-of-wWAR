@@ -1,0 +1,822 @@
+// mixins
+
+@mixin border_radius($radius) 
+  -moz-border-radius: #{$radius}
+  -webkit-border-radius: #{$radius}
+  border-radius: #{$radius}
+
+@mixin box_shadow($color, $values)
+  -webkit-box-shadow: unquote("#{$color} #{$values}")
+  -moz-box-shadow: unquote("#{$color} #{$values}")
+  box-shadow: unquote("#{$color} #{$values}")
+
+@mixin bar($start,$end)
+  $start_value: $start - 1870
+  $length: $end - $start
+  margin-left: ($start_value*8) + px
+  width: (($length*8) - 4) + px
+
+body
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
+  background-color: #eee
+  font-size: 14px
+
+header, footer, nav, section, small
+  display: block
+
+a
+  text-decoration: none
+  &:link
+    color: #333383
+  &:visited
+    color: #6666A2
+  &:hover, &:active
+    color: #000064
+  &:active
+    text-decoration: underline
+
+#wrapper
+  width: 1120px
+  margin: 0 auto 80px
+  border: 4px solid #CCC
+  padding: 20px
+  background-color: white
+
+// header
+
+header
+  width: 1160px
+  margin: 40px auto 0
+  position: relative
+  h1
+    font-family: 'ChunkFiveRegular'
+    color: #666
+    margin: 0
+    font-weight: normal
+    font-size: 72px
+    line-height: 1
+    text-shadow: #BBB 0px 0px 8px
+  h2
+    color: #333
+    margin: 0
+    position: absolute
+    right: 0
+    font-size: 18px
+    bottom: 15px
+  h3
+    margin: 0
+    position: absolute
+    right: 0
+    top: 0
+    font-weight: normal
+    font-size: 15px
+
+#key
+  border-bottom: 1px solid #eee
+  padding-bottom: 20px
+  margin-bottom: 20px
+  ul
+    margin: 0
+    list-style: none
+    padding: 0
+    font-size: 12px
+  li
+    display: inline
+    margin-bottom: 10px
+  span
+    display: inline-block
+  .level1, .level2, .level3, .level4, .level5
+    height: 16px
+    width: 24px
+    text-indent: -9999px
+  .name
+    margin-right: 10px
+
+.level1
+  background-color: #000064
+.level2
+  background-color: #333383
+  background-color: fade_out(#000064, 0.2)
+.level3
+  background-color: #6666A2
+  background-color: fade_out(#000064, 0.4)
+.level4
+  background-color: #9999C1
+  background-color: fade_out(#000064, 0.6)
+.level5
+  background-color: #CCCCE0
+  background-color: fade_out(#000064, 0.8)
+
+#toggles
+  width: 1120px
+  margin: 20px 0
+  dl
+    margin: 0
+  dt
+    font-weight: bold
+    margin: 10px 0 5px
+    display: inline-block
+  dd
+    @include border_radius(10px)
+    display: inline-block
+    padding: 2px 12px
+    background-color: #EEE
+    border: 1px solid #DDD
+    margin: 0 0 4px
+    white-space: nowrap
+    cursor: pointer
+    &:hover
+      border-color: #CCC
+    &.yah
+      background-color: #FF0
+    span
+      font-size: 11px
+      color: #666
+
+#timeline
+  width: 1120px
+  background: url(timeline.png) 0 0
+  padding-bottom: 100px
+  ul
+    list-style: none
+    padding: 40px 0 0
+    margin: 0
+  li
+    cursor: pointer
+    margin: 0 0 5px
+    padding: 0
+    display: block
+    padding: 2px
+    color: white
+    position: relative
+    div
+      @include box_shadow(#AAA, 0px 0px 10px)
+      @include border_radius(10px)
+      position: absolute
+      top: 150%
+      left: 0
+      color: black
+      display: block
+      width: auto
+      border: 2px solid #ccc
+      background-color: #fff
+      z-index: 1
+      padding: 10px
+      font-size: 18px
+      font-weight: bold
+      em
+        font-weight: normal
+        font-style: normal
+        font-size: 14px
+      dl
+        margin: 8px 0 0
+        white-space: nowrap
+      dt
+        font-weight: normal
+        font-size: 14px
+        vertical-align: baseline
+        display: inline-block
+        width: auto
+        color: #999
+      dd
+        font-size: 18px
+        margin: 0
+        padding: 0 4px
+        display: inline-block
+      small
+        font-weight: normal
+        margin-top: 8px
+        font-size: 11px
+
+table
+  width: 100%
+  border-left: 1px solid #ccc
+  border-top: 1px solid #ccc
+  border-collapse: collapse
+  th, td
+    padding: 4px
+    border-right: 1px solid #ccc
+    border-bottom: 1px solid #ccc
+  thead th, tbody td
+    text-align: right
+  tbody th, thead tr th:first-child
+    text-align: left
+  thead th
+    background-color: #eee
+    padding-right: 18px
+  thead tr .header
+    background-image: url(http://darowski.com/scripts/bg.gif)
+    background-repeat: no-repeat
+    background-position: center right
+    cursor: pointer
+  tbody td
+    vertical-align: top
+  thead tr .headerSortUp
+    background-image: url(http://darowski.com/scripts/asc.gif)
+  thead tr .headerSortDown
+    background-image: url(http://darowski.com/scripts/desc.gif)
+  thead tr .headerSortDown, thead tr .headerSortUp
+    background-color: #666
+    color: #FFF
+
+footer
+  margin-top: 20px
+  line-height: 1.5
+  #credits
+    display: inline-block
+    margin: 0 0 20px
+  #btb-box
+    text-align: center
+    background-color: #eee
+    padding: 10px
+    border: 1px solid #ccc
+    h4
+      font-size: 18px
+      margin: 0 0 5px
+  p
+    font-size: 12px
+  #social
+    float: right
+    iframe
+      vertical-align: top
+
+@font-face
+  font-family: 'ChunkFiveRegular'
+  src: url('fonts/Chunkfive-webfont.eot')
+  src: local('☺'), url('fonts/Chunkfive-webfont.woff') format('woff'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fonts/Chunkfive-webfont.svg#webfontb5K2fJwj') format('svg')
+  font-weight: normal
+  font-style: normal
+
+#timeline
+
+  // Hall of Famers
+
+  #canson
+    @include bar(1871, 1897)
+  #jorourke
+    @include bar(1872, 1893)
+  #pgalvin
+    @include bar(1875, 1892)
+  #mward-p
+    @include bar(1878, 1884)
+  #kkelly
+    @include bar(1878, 1893)
+  #mward
+    @include bar(1878, 1894)
+  #dbrouthers
+    @include bar(1879, 1904)
+  #mwelch
+    @include bar(1880, 1892)
+  #tkeefe
+    @include bar(1880, 1893)
+  #rconnor
+    @include bar(1880, 1897)
+  #bewing
+    @include bar(1880, 1897)
+  #cradbourn
+    @include bar(1881, 1891)
+  #jclarkson
+    @include bar(1882, 1894)
+  #bmcphee
+    @include bar(1882, 1899)
+  #tmccarthy
+    @include bar(1884, 1896)
+  #sthompson
+    @include bar(1885, 1906)
+  #bhamilton
+    @include bar(1888, 1901)
+  #edelahanty
+    @include bar(1888, 1903)
+  #hduffy
+    @include bar(1888, 1906)
+  #jbeckley
+    @include bar(1888, 1907)
+  #arusie
+    @include bar(1889, 1901)
+  #jburkett
+    @include bar(1890, 1905)
+  #knichols
+    @include bar(1890, 1906)
+  #gdavis
+    @include bar(1890, 1909)
+  #cyoung
+    @include bar(1890, 1911)
+  #jkelley
+    @include bar(1891, 1908)
+  #cgriffith
+    @include bar(1891, 1914)
+  #hjennings
+    @include bar(1891, 1918)
+  #wkeeler
+    @include bar(1892, 1910)
+  #fclarke
+    @include bar(1894, 1915)
+  #bwallace
+    @include bar(1894, 1918)
+  #jcollins
+    @include bar(1895, 1908)
+  #nlajoie
+    @include bar(1896, 1916)
+  #rwaddell
+    @include bar(1897, 1910)
+  #rbresnahan
+    @include bar(1897, 1915)
+  #hwagner
+    @include bar(1897, 1917)
+  #eflick
+    @include bar(1898, 1910)
+  #vwillis
+    @include bar(1898, 1910)
+  #fchance
+    @include bar(1898, 1914)
+  #jmcginnity
+    @include bar(1899, 1908)
+  #jchesbro
+    @include bar(1899, 1909)
+  #scrawford
+    @include bar(1899, 1917)
+  #cmathewson
+    @include bar(1900, 1916)
+  #eplank
+    @include bar(1901, 1917)
+  #ajoss
+    @include bar(1902, 1910)
+  #jtinker
+    @include bar(1902, 1916)
+  #jevers
+    @include bar(1902, 1929)
+  #mbrown
+    @include bar(1903, 1916)
+  #cbender
+    @include bar(1903, 1925)
+  #ewalsh
+    @include bar(1904, 1917)
+  #tcobb
+    @include bar(1905, 1928)
+  #ecollins
+    @include bar(1906, 1930)
+  #wjohnson
+    @include bar(1907, 1927)
+  #tspeaker
+    @include bar(1907, 1928)
+  #fbaker
+    @include bar(1908, 1922)
+  #rmarquard
+    @include bar(1908, 1925)
+  #hhooper
+    @include bar(1909, 1925)
+  #zwheat
+    @include bar(1909, 1927)
+  #mcarey
+    @include bar(1910, 1929)
+  #palexander
+    @include bar(1911, 1930)
+  #scoveleski
+    @include bar(1912, 1928)
+  #rschalk
+    @include bar(1912, 1929)
+  #erixey
+    @include bar(1912, 1933)
+  #hpennock
+    @include bar(1912, 1934)
+  #rmaranville
+    @include bar(1912, 1935)
+  #eroush
+    @include bar(1913, 1931)
+  #hheilmann
+    @include bar(1914, 1932)
+  #rfaber
+    @include bar(1914, 1933)
+  #bruth
+    @include bar(1914, 1935)
+  #gsisler
+    @include bar(1915, 1930)
+  #dbancroft
+    @include bar(1915, 1930)
+  #gkelly
+    @include bar(1915, 1932)
+  #srice
+    @include bar(1915, 1934)
+  #dvance
+    @include bar(1915, 1935)
+  #rhornsby
+    @include bar(1915, 1937)
+  #bgrimes
+    @include bar(1916, 1934)
+  #ryoungs
+    @include bar(1917, 1926)
+  #jhaines
+    @include bar(1918, 1937)
+  #whoyt
+    @include bar(1918, 1938)
+  #ffrisch
+    @include bar(1919, 1937)
+  #jsewell
+    @include bar(1920, 1933)
+  #ptraynor
+    @include bar(1920, 1937)
+  #ggoslin
+    @include bar(1921, 1938)
+  #kcuyler
+    @include bar(1921, 1938)
+  #tjackson
+    @include bar(1922, 1936)
+  #jbottomley
+    @include bar(1922, 1937)
+  #ghartnett
+    @include bar(1922, 1941)
+  #hwilson
+    @include bar(1923, 1934)
+  #bterry
+    @include bar(1923, 1936)
+  #lgehrig
+    @include bar(1923, 1939)
+  #hmanush
+    @include bar(1923, 1939)
+  #tlyons
+    @include bar(1923, 1946)
+  #ecombs
+    @include bar(1924, 1935)
+  #flindstrom
+    @include bar(1924, 1936)
+  #chafey
+    @include bar(1924, 1937)
+  #cgehringer
+    @include bar(1924, 1942)
+  #asimmons
+    @include bar(1924, 1944)
+  #rruffing
+    @include bar(1924, 1947)
+  #mcochrane
+    @include bar(1925, 1937)
+  #lgrove
+    @include bar(1925, 1941)
+  #jfoxx
+    @include bar(1925, 1945)
+  #tlazzeri
+    @include bar(1926, 1939)
+  #pwaner
+    @include bar(1926, 1945)
+  #jcronin
+    @include bar(1926, 1945)
+  #mott
+    @include bar(1926, 1947)
+  #lwaner
+    @include bar(1927, 1945)
+  #chubbell
+    @include bar(1928, 1943)
+  #cklein
+    @include bar(1928, 1944)
+  #bdickey
+    @include bar(1928, 1946)
+  #eaverill
+    @include bar(1929, 1941)
+  #rferrell
+    @include bar(1929, 1947)
+  #lgomez
+    @include bar(1930, 1943)
+  #hgreenberg
+    @include bar(1930, 1947)
+  #ddean
+    @include bar(1930, 1947)
+  #lappling
+    @include bar(1930, 1950)
+  #bherman
+    @include bar(1931, 1947)
+  #elombardi
+    @include bar(1931, 1947)
+  #avaughan
+    @include bar(1932, 1948)
+  #jmedwick
+    @include bar(1932, 1948)
+  #jdimaggio
+    @include bar(1936, 1951)
+  #jmize
+    @include bar(1936, 1953)
+  #bfeller
+    @include bar(1936, 1956)
+  #bdoerr
+    @include bar(1937, 1951)
+  #jgordon
+    @include bar(1938, 1950)
+  #lboudreau
+    @include bar(1938, 1952)
+  #eslaughter
+    @include bar(1938, 1959)
+  #hnewhouser
+    @include bar(1939, 1955)
+  #twilliams
+    @include bar(1939, 1960)
+  #ewynn
+    @include bar(1939, 1963)
+  #preese
+    @include bar(1940, 1958)
+  #prizzuto
+    @include bar(1941, 1956)
+  #smusial
+    @include bar(1941, 1963)
+  #wspahn
+    @include bar(1942, 1965)
+  #gkell
+    @include bar(1943, 1957)
+  #rschoendienst
+    @include bar(1945, 1963)
+  #rkiner
+    @include bar(1946, 1955)
+  #blemon
+    @include bar(1946, 1958)
+  #yberra
+    @include bar(1946, 1965)
+  #jrobinson
+    @include bar(1947, 1956)
+  #ldoby
+    @include bar(1947, 1959)
+  #dsnider
+    @include bar(1947, 1964)
+  #nfox
+    @include bar(1947, 1965)
+  #rcampanella
+    @include bar(1948, 1957)
+  #rashburn
+    @include bar(1948, 1962)
+  #rroberts
+    @include bar(1948, 1966)
+  #wford
+    @include bar(1950, 1967)
+  #mmantle
+    @include bar(1951, 1968)
+  #wmays
+    @include bar(1951, 1973)
+  #emathews
+    @include bar(1952, 1968)
+  #hwilhelm
+    @include bar(1952, 1972)
+  #ebanks
+    @include bar(1953, 1971)
+  #akaline
+    @include bar(1953, 1974)
+  #hkillebrew
+    @include bar(1954, 1975)
+  #haaron
+    @include bar(1954, 1976)
+  #skoufax
+    @include bar(1955, 1966)
+  #jbunning
+    @include bar(1955, 1971)
+  #rclemente
+    @include bar(1955, 1972)
+  #brobinson
+    @include bar(1955, 1977)
+  #ddrysdale
+    @include bar(1956, 1969)
+  #bmazeroski
+    @include bar(1956, 1972)
+  #laparicio
+    @include bar(1956, 1973)
+  #frobinson
+    @include bar(1956, 1976)
+  #ocepeda
+    @include bar(1958, 1974)
+  #bgibson
+    @include bar(1959, 1975)
+  #bwilliams
+    @include bar(1959, 1976)
+  #wmccovey
+    @include bar(1959, 1980)
+  #jmarichal
+    @include bar(1960, 1975)
+  #lbrock
+    @include bar(1961, 1979)
+  #cyastrzemski
+    @include bar(1961, 1983)
+  #wstargell
+    @include bar(1962, 1982)
+  #gperry
+    @include bar(1962, 1983)
+  #jmorgan
+    @include bar(1963, 1984)
+  #tperez
+    @include bar(1964, 1986)
+  #pniekro
+    @include bar(1964, 1987)
+  #chunter
+    @include bar(1965, 1979)
+  #fjenkins
+    @include bar(1965, 1983)
+  #jpalmer
+    @include bar(1965, 1984)
+  #scarlton
+    @include bar(1965, 1988)
+  #dsutton
+    @include bar(1966, 1988)
+  #nryan
+    @include bar(1966, 1993)
+  #jbench
+    @include bar(1967, 1983)
+  #rcarew
+    @include bar(1967, 1985)
+  #tseaver
+    @include bar(1967, 1986)
+  #rjackson
+    @include bar(1967, 1987)
+  #rfingers
+    @include bar(1968, 1985)
+  #cfisk
+    @include bar(1969, 1993)
+  #bblyleven
+    @include bar(1970, 1992)
+  #mschmidt
+    @include bar(1972, 1989)
+  #rgossage
+    @include bar(1972, 1994)
+  #gbrett
+    @include bar(1973, 1993)
+  #dwinfield
+    @include bar(1973, 1995)
+  #jrice
+    @include bar(1974, 1989)
+  #gcarter
+    @include bar(1974, 1992)
+  #ryount
+    @include bar(1974, 1993)
+  #deckersley
+    @include bar(1975, 1998)
+  #bsutter
+    @include bar(1976, 1988)
+  #adawson
+    @include bar(1976, 1996)
+  #emurray
+    @include bar(1977, 1997)
+  #osmith
+    @include bar(1978, 1996)
+  #pmolitor
+    @include bar(1978, 1998)
+  #rhenderson
+    @include bar(1979, 2003)
+  #rsandberg
+    @include bar(1981, 1997)
+  #cripken
+    @include bar(1981, 2001)
+  #wboggs
+    @include bar(1982, 1999)
+  #tgwynn
+    @include bar(1982, 2001)
+  #kpuckett
+    @include bar(1984, 1995)
+  #ralomar
+    @include bar(1988, 2004)
+
+  // Non-Hall of Famers
+
+  #tbond
+    @include bar(1874, 1884)
+  #jmccormick
+    @include bar(1878, 1887)
+  #jglasscock
+    @include bar(1879, 1895)
+  #tmullane
+    @include bar(1881, 1894)
+  #cbuffinton
+    @include bar(1882, 1892)
+  #emorris
+    @include bar(1884, 1890)
+  #bcaruthers
+    @include bar(1884, 1892)
+  #sking
+    @include bar(1886, 1897)
+  #gweyhing
+    @include bar(1887, 1901)
+  #cchilds
+    @include bar(1888, 1901)
+  #jmcgraw
+    @include bar(1891, 1906)
+  #bdahlen
+    @include bar(1891, 1911)
+  #smagee
+    @include bar(1904, 1919)
+  #ecicotte
+    @include bar(1905, 1920)
+  #jjackson
+    @include bar(1908, 1920)
+  #shack
+    @include bar(1932, 1947)
+  #belliott
+    @include bar(1939, 1953)
+  #bpierce
+    @include bar(1945, 1964)
+  #mminoso
+    @include bar(1949, 1980)
+  #ljackson
+    @include bar(1955, 1968)
+  #kboyer
+    @include bar(1955, 1969)
+  #vpinson
+    @include bar(1958, 1975)
+  #rsanto
+    @include bar(1960, 1974)
+  #jtorre
+    @include bar(1960, 1977)
+  #wdavis
+    @include bar(1960, 1979)
+  #bfreehan
+    @include bar(1961, 1976)
+  #wwood
+    @include bar(1961, 1978)
+  #jfregosi
+    @include bar(1961, 1978)
+  #dallen
+    @include bar(1963, 1977)
+  #jwynn
+    @include bar(1963, 1977)
+  #prose
+    @include bar(1963, 1986)
+  #ltiant
+    @include bar(1964, 1982)
+  #sbando
+    @include bar(1966, 1981)
+  #rsmith
+    @include bar(1966, 1982)
+  #jkoosman
+    @include bar(1967, 1985)
+  #gnettles
+    @include bar(1967, 1988)
+  #bbonds
+    @include bar(1968, 1981)
+  #tsimmons
+    @include bar(1968, 1988)
+  #tmunson
+    @include bar(1969, 1979)
+  #gtenace
+    @include bar(1969, 1983)
+  #daevans
+    @include bar(1969, 1989)
+  #bgrich
+    @include bar(1970, 1986)
+  #ccedeno
+    @include bar(1970, 1986)
+  #rcey
+    @include bar(1971, 1987)
+  #bbell
+    @include bar(1972, 1989)
+  #rreuschel
+    @include bar(1972, 1991)
+  #dwevans
+    @include bar(1972, 1991)
+  #ftanana
+    @include bar(1973, 1993)
+  #khernandez
+    @include bar(1974, 1990)
+  #wrandolph
+    @include bar(1975, 1992)
+  #dmurphy
+    @include bar(1976, 1993)
+  #lwhitaker
+    @include bar(1977, 1995)
+  #atrammell
+    @include bar(1977, 1996)
+  #dstieb
+    @include bar(1979, 1998)
+  #traines
+    @include bar(1979, 2002)
+  #bsaberhagen
+    @include bar(1984, 2001)
+  #wclark
+    @include bar(1986, 2000)
+  #mmcgwire
+    @include bar(1986, 2001)
+  #cfinley
+    @include bar(1986, 2002)
+  #dcone
+    @include bar(1986, 2003)
+  #blarkin
+    @include bar(1986, 2004)
+  #kbrown
+    @include bar(1986, 2005)
+  #rpalmeiro
+    @include bar(1986, 2005)
+  #emartinez
+    @include bar(1987, 2004)
+  #kappier
+    @include bar(1989, 2004)
+  #rventura
+    @include bar(1989, 2004)
+  #lwalker
+    @include bar(1989, 2005)
+  #jolerud
+    @include bar(1989, 2005)
+  #jbagwell
+    @include bar(1991, 2005)
+  #wschang
+    @include bar(1913, 1931)
+  #dwhite
+    @include bar(1871, 1890)
+  #hstovey
+    @include bar(1880, 1893)
+  #tjohn
+    @include bar(1963, 1989)
+  #ohershiser
+    @include bar(1983, 2000)
+  #ggore
+    @include bar(1879, 1892)
+  #dporter
+    @include bar(1971, 1987)
