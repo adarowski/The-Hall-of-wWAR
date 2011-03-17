@@ -92,20 +92,21 @@ header
   .name
     margin-right: 10px
 
+$bar_color: #000064
 .level1
-  background-color: #000064
+  background-color: $bar_color
 .level2
   background-color: #333383
-  background-color: fade_out(#000064, 0.2)
+  background-color: fade_out($bar_color, 0.2)
 .level3
   background-color: #6666A2
-  background-color: fade_out(#000064, 0.4)
+  background-color: fade_out($bar_color, 0.4)
 .level4
   background-color: #9999C1
-  background-color: fade_out(#000064, 0.6)
+  background-color: fade_out($bar_color, 0.6)
 .level5
   background-color: #CCCCE0
-  background-color: fade_out(#000064, 0.8)
+  background-color: fade_out($bar_color, 0.8)
 
 #toggles
   width: 1120px
