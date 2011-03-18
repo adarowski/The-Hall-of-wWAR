@@ -16,6 +16,22 @@
   margin-left: ($start_value*8) + px
   width: (($length*8) - 4) + px
 
+$default_color: #000064
+.level1
+  background-color: $default_color
+.level2
+  background-color: #333383
+  background-color: fade_out($default_color, 0.2)
+.level3
+  background-color: #6666A2
+  background-color: fade_out($default_color, 0.4)
+.level4
+  background-color: #9999C1
+  background-color: fade_out($default_color, 0.6)
+.level5
+  background-color: #CCCCE0
+  background-color: fade_out($default_color, 0.8)
+
 body
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
   background-color: #eee
@@ -27,11 +43,11 @@ header, footer, nav, section, small
 a
   text-decoration: none
   &:link
-    color: #333383
+    color: fade_out($default_color, 0.2)
   &:visited
-    color: #6666A2
+    color: fade_out($default_color, 0.4)
   &:hover, &:active
-    color: #000064
+    color: $default_color
   &:active
     text-decoration: underline
 
@@ -91,22 +107,6 @@ header
     text-indent: -9999px
   .name
     margin-right: 10px
-
-$bar_color: #000064
-.level1
-  background-color: $bar_color
-.level2
-  background-color: #333383
-  background-color: fade_out($bar_color, 0.2)
-.level3
-  background-color: #6666A2
-  background-color: fade_out($bar_color, 0.4)
-.level4
-  background-color: #9999C1
-  background-color: fade_out($bar_color, 0.6)
-.level5
-  background-color: #CCCCE0
-  background-color: fade_out($bar_color, 0.8)
 
 #toggles
   width: 1120px
