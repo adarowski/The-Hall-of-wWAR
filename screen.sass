@@ -15,6 +15,12 @@
   $length: $end - $start
   margin-left: ($start_value*8) + px
   width: ($length*8) - 4px
+  div
+    @if $end > 1970
+      right: 0
+    @else
+      left: 0
+
 
 $default_color: #000064
 .level1
@@ -155,7 +161,6 @@ header
       +border_radius(10px)
       position: absolute
       top: 150%
-      left: 0
       color: black
       display: block
       width: auto
