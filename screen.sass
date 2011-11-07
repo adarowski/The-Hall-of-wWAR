@@ -203,27 +203,27 @@ table
     padding: 4px
     border-right: 1px solid #ccc
     border-bottom: 1px solid #ccc
-  thead th, tbody td
     text-align: right
+    vertical-align: top
+  thead
+    th
+      background-color: #eee
+      padding-right: 18px
+    tr
+      .header
+        background-image: url(http://darowski.com/scripts/bg.gif)
+        background-repeat: no-repeat
+        background-position: center right
+        cursor: pointer
+      & .headerSortUp
+        background-image: url(http://darowski.com/scripts/asc.gif)
+      & .headerSortDown
+        background-image: url(http://darowski.com/scripts/desc.gif)
+      & .headerSortDown, & .headerSortUp
+        background-color: #666
+        color: #FFF
   tbody th, thead tr th:first-child
     text-align: left
-  thead th
-    background-color: #eee
-    padding-right: 18px
-  thead tr .header
-    background-image: url(http://darowski.com/scripts/bg.gif)
-    background-repeat: no-repeat
-    background-position: center right
-    cursor: pointer
-  tbody td
-    vertical-align: top
-  thead tr .headerSortUp
-    background-image: url(http://darowski.com/scripts/asc.gif)
-  thead tr .headerSortDown
-    background-image: url(http://darowski.com/scripts/desc.gif)
-  thead tr .headerSortDown, thead tr .headerSortUp
-    background-color: #666
-    color: #FFF
 
 footer
   margin-top: 20px
