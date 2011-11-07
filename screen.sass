@@ -10,7 +10,7 @@
   -moz-box-shadow: unquote("#{$color} #{$values}")
   box-shadow: unquote("#{$color} #{$values}")
 
-@mixin bar($start,$end)
+@mixin bar($start,$end,$wwar: 0)
   $start_value: $start - 1870
   $length: $end - $start
   margin-left: ($start_value*8) + px
@@ -149,6 +149,7 @@ header
     padding: 40px 0 0
     margin: 0
   li
+    background-color: $default_color
     cursor: pointer
     margin: 0 0 5px
     padding: 0
@@ -834,3 +835,418 @@ footer
     +bar(1879, 1892)
   #dporter
     +bar(1971, 1987)
+
+  // v2 players
+
+  #babe-ruth
+    +bar(1914, 1935, 418.9)
+  #ty-cobb
+    +bar(1905, 1928, 305.5)
+  #willie-mays
+    +bar(1951, 1973, 298.8)
+  #walter-johnson
+    +bar(1907, 1927, 273.1)
+  #honus-wagner
+    +bar(1897, 1917, 259.8)
+  #rogers-hornsby
+    +bar(1915, 1937, 258.0)
+  #hank-aaron
+    +bar(1954, 1976, 256.8)
+  #tris-speaker
+    +bar(1907, 1928, 247.9)
+  #lou-gehrig
+    +bar(1923, 1939, 246.9)
+  #ted-williams
+    +bar(1939, 1960, 240.3)
+  #eddie-collins
+    +bar(1906, 1930, 233.9)
+  #stan-musial
+    +bar(1941, 1963, 231.8)
+  #cy-young
+    +bar(1890, 1911, 231.6)
+  #mickey-mantle
+    +bar(1951, 1968, 228.4)
+  #cap-anson
+    +bar(1871, 1897, 205.0)
+  #mike-schmidt
+    +bar(1972, 1989, 197.3)
+  #rickey-henderson
+    +bar(1979, 2003, 194.1)
+  #pete-alexander
+    +bar(1911, 1930, 191.1)
+  #mel-ott
+    +bar(1926, 1947, 187.4)
+  #nap-lajoie
+    +bar(1896, 1916, 184.5)
+  #christy-mathewson
+    +bar(1900, 1916, 182.2)
+  #tom-seaver
+    +bar(1967, 1986, 177.5)
+  #joe-morgan
+    +bar(1963, 1984, 177.5)
+  #lefty-grove
+    +bar(1925, 1941, 175.4)
+  #jimmie-foxx
+    +bar(1925, 1945, 172.7)
+  #frank-robinson
+    +bar(1956, 1976, 170.6)
+  #eddie-mathews
+    +bar(1952, 1968, 170.5)
+  #bob-gibson
+    +bar(1959, 1975, 167.8)
+  #roger-connor
+    +bar(1880, 1897, 165.2)
+  #kid-nichols
+    +bar(1890, 1906, 163.4)
+  #johnny-bench
+    +bar(1967, 1983, 163.3)
+  #dan-brouthers
+    +bar(1879, 1904, 160.2)
+  #george-davis
+    +bar(1890, 1909, 149.7)
+  #gaylord-perry
+    +bar(1962, 1983, 149.5)
+  #gary-carter
+    +bar(1974, 1992, 149.3)
+  #wade-boggs
+    +bar(1982, 1999, 149.0)
+  #phil-niekro
+    +bar(1964, 1987, 148.0)
+  #warren-spahn
+    +bar(1942, 1965, 147.1)
+  #joe-dimaggio
+    +bar(1936, 1951, 145.7)
+  #cal-ripken
+    +bar(1981, 2001, 143.5)
+  #ed-delahanty
+    +bar(1888, 1903, 140.3)
+  #george-brett
+    +bar(1973, 1993, 140.3)
+  #steve-carlton
+    +bar(1965, 1988, 139.9)
+  #carl-yastrzemski
+    +bar(1961, 1983, 139.8)
+  #al-spalding
+    +bar(1871, 1878, 139.0)
+  #al-kaline
+    +bar(1953, 1974, 138.8)
+  #charlie-gehringer
+    +bar(1924, 1942, 138.0)
+  #bert-blyleven
+    +bar(1970, 1992, 136.9)
+  #robin-roberts
+    +bar(1948, 1966, 134.1)
+  #jeff-bagwell
+    +bar(1991, 2005, 132.6)
+  #carlton-fisk
+    +bar(1969, 1993, 131.8)
+  #roberto-clemente
+    +bar(1955, 1972, 131.6)
+  #fergie-jenkins
+    +bar(1965, 1983, 128.5)
+  #arky-vaughan
+    +bar(1932, 1948, 127.7)
+  #yogi-berra
+    +bar(1946, 1965, 127.5)
+  #rod-carew
+    +bar(1967, 1985, 121.2)
+  #bob-caruthers
+    +bar(1884, 1893, 120.8)
+  #reggie-jackson
+    +bar(1967, 1987, 119.5)
+  #eddie-plank
+    +bar(1901, 1917, 118.9)
+  #billy-hamilton
+    +bar(1888, 1901, 118.6)
+  #frankie-frisch
+    +bar(1919, 1937, 117.8)
+  #robin-yount
+    +bar(1974, 1993, 117.5)
+  #pete-rose
+    +bar(1963, 1986, 116.1)
+  #johnny-mize
+    +bar(1936, 1953, 115.8)
+  #sam-crawford
+    +bar(1899, 1917, 115.2)
+  #shoeless-joe-jackson
+    +bar(1908, 1920, 115.0)
+  #duke-snider
+    +bar(1947, 1964, 115.0)
+  #home-run-baker
+    +bar(1908, 1922, 114.4)
+  #nolan-ryan
+    +bar(1966, 1993, 113.8)
+  #bill-dahlen
+    +bar(1891, 1911, 113.2)
+  #jackie-robinson
+    +bar(1947, 1956, 113.1)
+  #buck-ewing
+    +bar(1880, 1897, 112.9)
+  #paul-waner
+    +bar(1926, 1945, 112.4)
+  #ernie-banks
+    +bar(1953, 1971, 111.3)
+  #rich-gossage
+    +bar(1972, 1994, 110.7)
+  #bob-feller
+    +bar(1936, 1956, 110.6)
+  #ron-santo
+    +bar(1960, 1974, 110.4)
+  #fred-clarke
+    +bar(1894, 1915, 110.1)
+  #don-drysdale
+    +bar(1956, 1969, 109.5)
+  #harry-heilmann
+    +bar(1914, 1932, 108.2)
+  #bill-dickey
+    +bar(1928, 1946, 107.7)
+  #juan-marichal
+    +bar(1960, 1975, 107.6)
+  #paul-molitor
+    +bar(1978, 1998, 107.6)
+  #carl-hubbell
+    +bar(1928, 1943, 106.7)
+  #mickey-cochrane
+    +bar(1925, 1937, 105.6)
+  #john-clarkson
+    +bar(1882, 1894, 105.4)
+  #ross-barnes
+    +bar(1871, 1881, 105.3)
+  #jack-glasscock
+    +bar(1879, 1895, 104.3)
+  #luke-appling
+    +bar(1930, 1950, 103.0)
+  #tim-keefe
+    +bar(1880, 1893, 102.8)
+  #ted-simmons
+    +bar(1968, 1988, 102.5)
+  #jim-orourke
+    +bar(1872, 1904, 102.3)
+  #deacon-white
+    +bar(1871, 1890, 101.9)
+  #jesse-burkett
+    +bar(1890, 1905, 101.5)
+  #ed-walsh
+    +bar(1904, 1917, 101.5)
+  #joe-torre
+    +bar(1960, 1977, 100.7)
+  #red-ruffing
+    +bar(1924, 1947, 100.7)
+  #edgar-martinez
+    +bar(1987, 2004, 100.5)
+  #brooks-robinson
+    +bar(1955, 1977, 100.5)
+  #jim-palmer
+    +bar(1965, 1984, 100.4)
+  #barry-larkin
+    +bar(1986, 2004, 100.2)
+  #bobby-grich
+    +bar(1970, 1986, 99.9)
+  #old-hoss-radbourn
+    +bar(1881, 1891, 99.7)
+  #alan-trammell
+    +bar(1977, 1996, 99.3)
+  #larry-walker
+    +bar(1989, 2005, 98.8)
+  #pee-wee-reese
+    +bar(1940, 1958, 98.6)
+  #dick-allen
+    +bar(1963, 1977, 98.1)
+  #al-simmons
+    +bar(1924, 1944, 98.0)
+  #sandy-koufax
+    +bar(1955, 1966, 96.6)
+  #willie-mccovey
+    +bar(1959, 1980, 96.4)
+  #bobby-wallace
+    +bar(1894, 1918, 96.2)
+  #hal-newhouser
+    +bar(1939, 1955, 96.0)
+  #jim-bunning
+    +bar(1955, 1971, 96.0)
+  #kevin-brown
+    +bar(1986, 2005, 95.9)
+  #hank-greenberg
+    +bar(1930, 1947, 95.8)
+  #tony-gwynn
+    +bar(1982, 2001, 95.6)
+  #monte-ward
+    +bar(1878, 1894, 95.2)
+  #jim-wynn
+    +bar(1963, 1977, 95.1)
+  #joe-cronin
+    +bar(1926, 1945, 94.7)
+  #willie-keeler
+    +bar(1892, 1910, 94.2)
+  #roberto-alomar
+    +bar(1988, 2004, 93.4)
+  #lou-whitaker
+    +bar(1977, 1995, 93.4)
+  #wes-ferrell
+    +bar(1927, 1941, 93.2)
+  #sal-bando
+    +bar(1966, 1981, 93.0)
+  #goose-goslin
+    +bar(1921, 1938, 92.6)
+  #hughie-jennings
+    +bar(1891, 1918, 92.2)
+  #ryne-sandberg
+    +bar(1981, 1997, 92.1)
+  #eddie-murray
+    +bar(1977, 1997, 92.1)
+  #amos-rusie
+    +bar(1889, 1901, 92.0)
+  #elmer-flick
+    +bar(1898, 1910, 92.0)
+  #rick-reuschel
+    +bar(1972, 1991, 91.9)
+  #thurman-munson
+    +bar(1969, 1979, 91.4)
+  #mark-mcgwire
+    +bar(1986, 2001, 91.3)
+  #king-kelly
+    +bar(1878, 1893, 91.0)
+  #keith-hernandez
+    +bar(1974, 1990, 90.8)
+  #gene-tenace
+    +bar(1969, 1983, 90.6)
+  #dazzy-vance
+    +bar(1915, 1935, 90.2)
+  #lou-boudreau
+    +bar(1938, 1952, 89.8)
+  #tim-raines
+    +bar(1979, 2002, 89.8)
+  #rafael-palmeiro
+    +bar(1986, 2005, 89.6)
+  #joe-kelley
+    +bar(1891, 1908, 88.9)
+  #george-sisler
+    +bar(1915, 1930, 88.8)
+  #mordecai-brown
+    +bar(1903, 1916, 88.7)
+  #tony-mullane
+    +bar(1881, 1894, 88.7)
+  #charlie-buffinton
+    +bar(1882, 1892, 88.4)
+  #joe-gordon
+    +bar(1938, 1950, 87.4)
+  #ozzie-smith
+    +bar(1978, 1996, 87.0)
+  #ken-boyer
+    +bar(1955, 1969, 87.0)
+  #bill-terry
+    +bar(1923, 1936, 86.9)
+  #ted-lyons
+    +bar(1923, 1946, 86.8)
+  #joe-mcginnity
+    +bar(1899, 1908, 86.7)
+  #gabby-hartnett
+    +bar(1922, 1941, 86.5)
+  #david-cone
+    +bar(1986, 2003, 86.5)
+  #luis-tiant
+    +bar(1964, 1982, 86.3)
+  #stan-coveleski
+    +bar(1912, 1928, 85.9)
+  #don-sutton
+    +bar(1966, 1988, 85.6)
+  #vic-willis
+    +bar(1898, 1910, 85.3)
+  #harmon-killebrew
+    +bar(1954, 1975, 85.2)
+  #jake-beckley
+    +bar(1888, 1907, 84.9)
+  #reggie-smith
+    +bar(1966, 1982, 84.8)
+  #sherry-magee
+    +bar(1904, 1919, 84.8)
+  #richie-ashburn
+    +bar(1948, 1962, 84.8)
+  #dwight-evans
+    +bar(1972, 1991, 84.6)
+  #john-mcgraw
+    +bar(1891, 1906, 84.5)
+  #joe-medwick
+    +bar(1932, 1948, 84.4)
+  #buddy-bell
+    +bar(1972, 1989, 84.2)
+  #john-olerud
+    +bar(1989, 2005, 84.0)
+  #hoyt-wilhelm
+    +bar(1952, 1972, 83.9)
+  #charlie-bennett
+    +bar(1878, 1893, 83.6)
+  #will-clark
+    +bar(1986, 2000, 83.3)
+  #bid-mcphee
+    +bar(1882, 1899, 83.3)
+  #george-gore
+    +bar(1879, 1892, 82.9)
+  #jimmy-collins
+    +bar(1895, 1908, 82.9)
+  #silver-king
+    +bar(1886, 1897, 82.8)
+  #early-wynn
+    +bar(1939, 1963, 82.7)
+  #rube-waddell
+    +bar(1897, 1910, 82.6)
+  #graig-nettles
+    +bar(1967, 1988, 82.5)
+  #orel-hershiser
+    +bar(1983, 2000, 82.3)
+  #ezra-sutton
+    +bar(1871, 1888, 82.1)
+  #dennis-eckersley
+    +bar(1975, 1998, 81.9)
+  #bill-freehan
+    +bar(1961, 1976, 81.8)
+  #willie-stargell
+    +bar(1962, 1982, 81.2)
+  #minnie-minoso
+    +bar(1949, 1980, 81.1)
+  #dave-winfield
+    +bar(1973, 1995, 81.1)
+  #bobby-bonds
+    +bar(1968, 1981, 80.6)
+  #andre-dawson
+    +bar(1976, 1996, 80.5)
+  #dave-stieb
+    +bar(1979, 1998, 80.3)
+  #bret-saberhagen
+    +bar(1984, 2001, 79.7)
+  #eddie-cicotte
+    +bar(1905, 1920, 79.5)
+  #jim-mccormick
+    +bar(1878, 1887, 78.6)
+  #bob-lemon
+    +bar(1941, 1958, 78.5)
+  #paul-hines
+    +bar(1872, 1891, 78.3)
+  #darrell-evans
+    +bar(1969, 1989, 78.3)
+  #willie-randolph
+    +bar(1975, 1992, 78.2)
+  #cupid-childs
+    +bar(1888, 1901, 78.2)
+  #roy-campanella
+    +bar(1948, 1957, 78.1)
+  #whitey-ford
+    +bar(1950, 1967, 77.8)
+  #billy-williams
+    +bar(1959, 1976, 76.9)
+  #kevin-appier
+    +bar(1989, 2004, 76.7)
+  #billy-herman
+    +bar(1931, 1947, 76.7)
+  #wilbur-wood
+    +bar(1961, 1978, 76.7)
+  #harry-stovey
+    +bar(1880, 1893, 76.7)
+  #cesar-cedeno
+    +bar(1970, 1986, 76.6)
+  #zack-wheat
+    +bar(1909, 1927, 76.5)
+  #red-faber
+    +bar(1914, 1933, 76.4)
+  #stan-hack
+    +bar(1932, 1947, 76.3)
