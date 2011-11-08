@@ -1,16 +1,33 @@
 // mixins
 
-@mixin border_radius($radius) 
-  -moz-border-radius: #{$radius}
-  -webkit-border-radius: #{$radius}
-  border-radius: #{$radius}
+=border_radius($radius)
+  -moz-border-radius: $radius
+  -webkit-border-radius: $radius
+  border-radius: $radius
 
-@mixin box_shadow($color, $values)
-  -webkit-box-shadow: unquote("#{$color} #{$values}")
-  -moz-box-shadow: unquote("#{$color} #{$values}")
-  box-shadow: unquote("#{$color} #{$values}")
+=box_shadow($color, $values)
+  -webkit-box-shadow: $color $values
+  -moz-box-shadow: $color $values
+  box-shadow: $color $values
 
-@mixin bar($start,$end,$wwar: 0)
+$default_color: #000064
+
+=level1
+  background-color: $default_color
+=level2
+  background-color: #333383
+  background-color: fade_out($default_color, 0.2)
+=level3
+  background-color: #6666A2
+  background-color: fade_out($default_color, 0.4)
+=level4
+  background-color: #9999C1
+  background-color: fade_out($default_color, 0.6)
+=level5
+  background-color: #CCCCE0
+  background-color: fade_out($default_color, 0.8)
+
+=bar($start,$end,$wwar: 0)
   $start_value: $start - 1870
   $length: $end - $start
   margin-left: ($start_value*8) + px
@@ -20,23 +37,16 @@
       right: 0
     @else
       left: 0
-
-
-$default_color: #000064
-.level1
-  background-color: $default_color
-.level2
-  background-color: #333383
-  background-color: fade_out($default_color, 0.2)
-.level3
-  background-color: #6666A2
-  background-color: fade_out($default_color, 0.4)
-.level4
-  background-color: #9999C1
-  background-color: fade_out($default_color, 0.6)
-.level5
-  background-color: #CCCCE0
-  background-color: fade_out($default_color, 0.8)
+  @if $wwar > 150
+    +level1
+  @else if $wwar > 120
+    +level2
+  @else if $wwar > 90
+    +level3
+  @else if $wwar > 60
+    +level4
+  @else
+    +level5
 
 body
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
@@ -107,6 +117,16 @@ header
     margin-bottom: 10px
   span
     display: inline-block
+  .level1
+    +level1
+  .level2
+    +level2
+  .level3
+    +level3
+  .level4
+    +level4
+  .level5
+    +level5
   .level1, .level2, .level3, .level4, .level5
     height: 16px
     width: 24px
@@ -149,7 +169,6 @@ header
     padding: 40px 0 0
     margin: 0
   li
-    background-color: $default_color
     cursor: pointer
     margin: 0 0 5px
     padding: 0
