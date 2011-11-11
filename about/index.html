@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of wWAR: The Hall of Fame Re-Populated by Weighted WAR</title>
+  <link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../screen.css" media="screen">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="../hall-of-wwar.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<header>
+  <h1>Hall of wWAR</h1>
+  <h2>The Hall of Fame Re-Populated by Weighted WAR</h2>
+  <h3>By <a href="http://darowski.com">Adam Darowski</a></h3>
+</header>
+
+<div id="wrapper">
+
+  <section id="about">
+    <h1>About the Hall of wWAR</h1>
+    <p>I love the Hall of Fame. But the Hall of Fame sucks.</p>
+    <p>Every year a player (or several) like Bert Blyleven, Tim Raines, or Edgar Martinez will hit the ballot. An alarming number of baseball writers and fans will argue that these players aren&rsquo;t deserving of the Hall of Fame. They will forget&mdash;or perhaps not even know&mdash;that the Hall of Fame already features players like Rube Marquard, Chick Hafey, or Tommy Freakin&rsquo; McCarthy.</p>
+    <p>This made me question what makes a player Hall of Fame-worthy. Take a guy like Will Clark. He&rsquo;s certainly no Lou Gehrig or Jimmie Foxx. But he&rsquo;s a hell of a lot better than High Pockets Kelly or Jim Bottomley (both are first basemen in the Hall of Fame). To determine whether or not Clark should be a Hall of Famer, I now have to do this balancing act between how much worse he is than the elite players at his position and how much better he is that some guys already inducted.</p>
+    <p>It&rsquo;s an absolute mess. The only way to fix it is to kick everyone out of the Hall of Fame and start from scratch. So that&rsquo;s what I did.</p>
+    <p>&ldquo;Why even bother voting for the Hall of Fame?&rdquo; they ask us stat geeks. &ldquo;Why don&rsquo;t you just pick a cutoff and everyone above the line is a Hall of Famer?&rdquo;</p>
+    <p>Hey, that&rsquo;s not a bad idea. However, I don&rsquo;t want to use &ldquo;plain old&rdquo; WAR. We all know there&rsquo;s more to a Hall of Fame case than simply providing value. There&rsquo;s also things like peak performance and postseason heroics. These are are but two of the components that go into my weighted version of WAR. I call it wWAR.</p>
+    <p>The formula:</p>
+    <h2><abbr title="Weighted Wins Above Replacement">wWAR</abbr> = <abbr title="Wins Above Replacement per 162 Games">WAR/162</abbr> + <abbr title="Wins Above Excellence">WAE</abbr> + <abbr title="Wins Above MVP">WAM</abbr> + <abbr title="Weighted Postseason Win Probability Added">wWPA</abbr></h2>
+    <p>What do all those acronyms mean?</p>
+    <h3><abbr title="Wins Above Replacement per 162 Games">WAR/162</abbr></h3>
+    <p>In 1872, Ross Barnes posted a 5.2 WAR season. In 2011, Prince Fielder also posted 5.2 WAR. But which was more impressive? Fielder produced 5.2 wins in a 162 game schedule. Barnes did the same in a 48-game schedule. WAR/162 projects Barnes&rsquo; WAR to a 162-game schedule, making him worth 17.6 WAR/162. Holy crap, huh?</p>
+    <p>I typically just used the league schedule for all seasons. But in more volatile leagues (like the National Association, Union Association, etc.) I went team-by-team (since there were several cases of teams folding mid-season).</p>
+    <p>For pitching seasons in 1891 and older, I don&rsquo;t project the pitching numbers. This is because of the huge differences in pitcher usage then. I do, however, project the pitchers&rsquo; hitting stats from those years.</p>
+    <h3><abbr title="Wins Above Excellence">WAE</abbr></h3>
+    <p><a href="http://www.hardballtimes.com/main/blog_article/andre-dawson-and-two-contemporaries/">Wins Above Excellence</a>, originally devised by Sean Smith (the father of Baseball-Reference&rsquo;s WAR), is the total of all single season WAR above 3.0. WAE aims to measure only &ldquo;excellent&rdquo; seasons while Wins Above MVP aims to capture dominant MVP-worthy performances.</p>
+    <p>There are some exceptions to the 3.0 baseline:</p>
+    <ul>
+      <li>For catchers, the WAE baseline is 2.0.</li>
+      <li>For relief pitchers (20% or more of appearances in relief), the WAE baseline is 1.5.</li>
+      <li>For starting pitchers with 400-500 innings, the WAE baseline is 4.5.</li>
+      <li>For starting pitchers with 500-600 innings, the WAE baseline is 6.0.</li>
+      <li>For starting pitchers with 600-700 innings, the WAE baseline is 7.5.</li>
+    </ul>
+    <p>Wins Above Excellence disregards negative position player WAR or pitcher WAR that drags a player&rsquo;s total WAR down. For example, if a pitcher posts 4.0 pitching WAR and -0.3 WAR as a hitter, his WAE will be 1.0. He is not docked for the negative WAR at the plate because he is already docked for it in his overall WAR.</p>
+    <h3><abbr title="Wins Above MVP">WAM</abbr></h3>
+    <p><a href="http://www.beyondtheboxscore.com/2010/2/25/1325611/wins-above-mvp-level">Wins Above MVP</a> is the total of all single season WAR above 6.0. After Sean Smith came up with WAE, I whipped up WAM as a way to capture dominant MVP-worthy performances.</p>
+    <p>There are some exceptions to the 6.0 baseline:</p>
+    <ul>
+      <li>For catchers, the WAE baseline is 4.0.</li>
+      <li>For relief pitchers (20% or more of appearances in relief), the WAE baseline is 3.0.</li>
+      <li>For starting pitchers with 400-500 innings, the WAE baseline is 9.0.</li>
+      <li>For starting pitchers with 500-600 innings, the WAE baseline is 12.0.</li>
+      <li>For starting pitchers with 600-700 innings, the WAE baseline is 15.0.</li>
+    </ul>
+    <p>Like WAE, Wins Above MVP disregards negative position player WAR or pitcher WAR.</p>
+    <h3><abbr title="Weighted Postseason Win Probability Added">wWPA</abbr></h3>
+    <p>There&rsquo;s no Wins Above Replacement for the postseason. But we do have Win Probability Added. One way to measure the impact a player had in the postseason is to actually take the wins he was responsible for and add them to his wWAR total. Where WPA becomes wWPA is the fact that not all postseason series are created equal. I count the LDS once. I double count the LCS. And the World Series? It counts three times.</p>
+    <p>In order to avoid double-counting negative values, I calculate it like: <strong>wWPA = Total Postseason WPA + LCSWPA + (2*WSWPA)</strong></p>
+    <p>So, that&rsquo;s the formula. Some other notes I should mention:</p>
+    <ul>
+      <li>In order to better show what the value cutoff should be, I keep the Hall of wWAR the same size as the Hall of Fame (206 inducted as players).</li>
+      <li>I ignore PEDs because we just don&rsquo;t know how to handle them yet.</li>
+      <li>I ignore lifetime bans. This opens up the Hall of wWAR to Pete Rose, Shoeless Joe, and any other banned players.</li>
+      <li>While the cutoff for induction is 76.3 wWAR, I use different baselines for 1800s starting pitchers (they are so complicated), catchers (they have shorter careers), and relief pitchers (they just don&rsquo;t get as many opportunities to peform). I use normalized wWAR (wWAR/norm) to put all these baselines on a single scale, allowing me to sort all players by how good their Hall of Fame case is (this is how Rich Gossage can rank higher in wWAR/norm than he does by just plain wWAR).</li>
+      <li>I can&rsquo;t include Negro League players. This project relies on WAR and there is no WAR for Negro League players. Trust me, I wish there was. One day I hope to add Negro League players to this project.</li>
+      <li>I don&rsquo;t adjust for time lost to military service. I&rsquo;m just not comfortable doing that. I don&rsquo;t feel great about this because I know that Enos Slaughter (and perhaps others) would be inducted if I tried to estimate lost value.</li>
+    </ul>
+  </section>
+  
+  <footer>
+    <p id="credits">Created and curated by <a href="http://darowski.com" rel="author">Adam Darowski</a> &mdash; <span>On Twitter at <a href="http://twitter.com/adarowski">@adarowski</a> and <a href="http://twitter.com/baseballtwit">@baseballtwit</a>.</span></p>
+    <div id="social">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="baseballtwit">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdarowski.com%2Fhall-of-wwar&amp;layout=standard&amp;show_faces=false&amp&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+    </div>
+  </footer>
+
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-379490-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
