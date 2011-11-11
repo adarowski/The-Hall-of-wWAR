@@ -734,13 +734,6 @@ footer {
   background-color: rgba(0, 0, 100, 0.6); }
   #timeline #ernie-banks div {
     right: 0; }
-#timeline #rich-gossage {
-  margin-left: 816px;
-  width: 172px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #rich-gossage div {
-    right: 0; }
 #timeline #bob-feller {
   margin-left: 528px;
   width: 156px;
@@ -895,6 +888,13 @@ footer {
   background-color: rgba(0, 0, 100, 0.6); }
   #timeline #red-ruffing div {
     left: 0; }
+#timeline #rich-gossage {
+  margin-left: 816px;
+  width: 172px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #timeline #rich-gossage div {
+    right: 0; }
 #timeline #edgar-martinez {
   margin-left: 936px;
   width: 132px;
@@ -1385,13 +1385,6 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #john-olerud div {
     right: 0; }
-#timeline #hoyt-wilhelm {
-  margin-left: 656px;
-  width: 156px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #hoyt-wilhelm div {
-    right: 0; }
 #timeline #charlie-bennett {
   margin-left: 64px;
   width: 116px;
@@ -1658,6 +1651,13 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #stan-hack div {
     left: 0; }
+#timeline #hoyt-wilhelm {
+  margin-left: 656px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #timeline #hoyt-wilhelm div {
+    right: 0; }
 #timeline #frank-chance {
   margin-left: 224px;
   width: 124px;
@@ -1700,13 +1700,6 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #enos-slaughter div {
     left: 0; }
-#timeline #bruce-sutter {
-  margin-left: 848px;
-  width: 92px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bruce-sutter div {
-    right: 0; }
 #timeline #kiki-cuyler {
   margin-left: 408px;
   width: 132px;
@@ -1756,13 +1749,6 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #johnny-evers div {
     left: 0; }
-#timeline #rollie-fingers {
-  margin-left: 784px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #rollie-fingers div {
-    right: 0; }
 #timeline #tony-perez {
   margin-left: 752px;
   width: 172px;
@@ -1777,6 +1763,13 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #max-carey div {
     left: 0; }
+#timeline #bruce-sutter {
+  margin-left: 848px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #timeline #bruce-sutter div {
+    right: 0; }
 #timeline #dave-bancroft {
   margin-left: 360px;
   width: 116px;
@@ -1889,6 +1882,13 @@ footer {
   background-color: rgba(0, 0, 100, 0.4); }
   #timeline #ernie-lombardi div {
     left: 0; }
+#timeline #rollie-fingers {
+  margin-left: 784px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #timeline #rollie-fingers div {
+    right: 0; }
 #timeline #waite-hoyt {
   margin-left: 384px;
   width: 156px;
@@ -2130,12 +2130,6 @@ footer {
   background-color: #000064; }
   #timeline #albert-pujols div {
     right: 0; }
-#timeline #mariano-rivera {
-  margin-left: 1000px;
-  width: 124px;
-  background-color: #000064; }
-  #timeline #mariano-rivera div {
-    right: 0; }
 #timeline #greg-maddux {
   margin-left: 928px;
   width: 172px;
@@ -2147,6 +2141,12 @@ footer {
   width: 164px;
   background-color: #000064; }
   #timeline #randy-johnson div {
+    right: 0; }
+#timeline #mariano-rivera {
+  margin-left: 1000px;
+  width: 124px;
+  background-color: #000064; }
+  #timeline #mariano-rivera div {
     right: 0; }
 #timeline #ivan-rodriguez {
   margin-left: 968px;
