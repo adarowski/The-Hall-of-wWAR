@@ -111,7 +111,7 @@ header {
     #toggles dd:hover {
       border-color: #cccccc; }
     #toggles dd.yah {
-      background-color: yellow; }
+      background-color: #ffff99; }
     #toggles dd span {
       font-size: 11px;
       color: #666666; }
