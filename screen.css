@@ -101,23 +101,27 @@ header {
     margin: 10px 0 5px;
     display: inline-block; }
   #toggles dd {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
     display: inline-block;
-    padding: 2px 12px;
-    background-color: #eeeeee;
-    border: 1px solid #dddddd;
-    margin: 0 0 4px;
-    white-space: nowrap;
-    cursor: pointer; }
-    #toggles dd:hover {
-      border-color: #cccccc; }
-    #toggles dd.yah {
-      background-color: #ffff99; }
-    #toggles dd span {
-      font-size: 11px;
-      color: #666666; }
+    margin: 0;
+    padding: 0; }
+    #toggles dd a {
+      color: #333333;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      padding: 2px 12px;
+      background-color: #eeeeee;
+      border: 1px solid #dddddd;
+      margin: 0 0 4px;
+      white-space: nowrap;
+      cursor: pointer; }
+      #toggles dd a:hover {
+        border-color: #cccccc; }
+      #toggles dd a.yah {
+        background-color: #ffff99; }
+      #toggles dd a span {
+        font-size: 11px;
+        color: #666666; }
 
 #timeline {
   width: 1120px;
@@ -250,6 +254,23 @@ footer {
     margin: 0;
     font-weight: normal;
     font-size: 36px; }
+  #about .back {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 2px 12px;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    margin: 0 0 4px;
+    white-space: nowrap;
+    cursor: pointer; }
+    #about .back:hover {
+      border-color: #cccccc; }
+    #about .back.yah {
+      background-color: #ffff99; }
+    #about .back span {
+      font-size: 11px;
+      color: #666666; }
 
 #timeline #babe-ruth {
   margin-left: 352px;

@@ -48,6 +48,22 @@ $default_color: #000064
   @else
     +level5
 
+=toggle_button
+  +border_radius(10px)
+  padding: 2px 12px
+  background-color: #EEE
+  border: 1px solid #DDD
+  margin: 0 0 4px
+  white-space: nowrap
+  cursor: pointer
+  &:hover
+    border-color: #CCC
+  &.yah
+    background-color: #FF9
+  span
+    font-size: 11px
+    color: #666
+
 body
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
   background: #EEE url(old_mathematics.png)
@@ -149,21 +165,12 @@ header
     margin: 10px 0 5px
     display: inline-block
   dd
-    +border_radius(10px)
     display: inline-block
-    padding: 2px 12px
-    background-color: #EEE
-    border: 1px solid #DDD
-    margin: 0 0 4px
-    white-space: nowrap
-    cursor: pointer
-    &:hover
-      border-color: #CCC
-    &.yah
-      background-color: #FF9
-    span
-      font-size: 11px
-      color: #666
+    margin: 0
+    padding: 0
+    a
+      color: #333
+      +toggle_button
 
 #timeline
   width: 1120px
@@ -294,6 +301,8 @@ footer
     margin: 0
     font-weight: normal
     font-size: 36px
+  .back
+    +toggle_button
 
 #timeline
 

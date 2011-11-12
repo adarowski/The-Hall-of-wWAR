@@ -12,20 +12,20 @@ $(document).ready(function(){
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li").css("display","block"); // show all timeline-in boxes
     $("#list-in tbody tr").css("display","table-row"); // show all list-in rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-pitchers").click(function(){
+  $("#show-p").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.p").css("display","block"); // show all p boxes
     $("#list-in tbody tr.p").css("display","table-row"); // show all p rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-position").click(function(){
+  $("#show-pos").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
@@ -33,87 +33,87 @@ $(document).ready(function(){
     $("#list-in tbody tr").css("display","table-row"); // show all list-in rows
     $("#timeline-in li.p").css("display","none"); // hide all p boxes
     $("#list-in tbody tr.p").css("display","none"); // hide all p rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-catchers").click(function(){
+  $("#show-c").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.c").css("display","block"); // show all c boxes
     $("#list-in tbody tr.c").css("display","table-row"); // show all c rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-first").click(function(){
+  $("#show-1b").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.1b").css("display","block"); // show all 1b boxes
     $("#list-in tbody tr.1b").css("display","table-row"); // show all 1b rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-second").click(function(){
+  $("#show-2b").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.2b").css("display","block"); // show all 2b boxes
     $("#list-in tbody tr.2b").css("display","table-row"); // show all 2b rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-third").click(function(){
+  $("#show-3b").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.3b").css("display","block"); // show all 3b boxes
     $("#list-in tbody tr.3b").css("display","table-row"); // show all 3b rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-shortstop").click(function(){
+  $("#show-ss").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.ss").css("display","block"); // show all ss boxes
     $("#list-in tbody tr.ss").css("display","table-row"); // show all ss rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-left").click(function(){
+  $("#show-lf").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.lf").css("display","block"); // show all lf boxes
     $("#list-in tbody tr.lf").css("display","table-row"); // show all lf rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-center").click(function(){
+  $("#show-cf").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.cf").css("display","block"); // show all cf boxes
     $("#list-in tbody tr.cf").css("display","table-row"); // show all cf rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
-  $("#show-right").click(function(){
+  $("#show-rf").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.rf").css("display","block"); // show all rf boxes
     $("#list-in tbody tr.rf").css("display","table-row"); // show all rf rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
   $("#show-dh").click(function(){
@@ -123,7 +123,7 @@ $(document).ready(function(){
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
     $("#timeline-in li.dh").css("display","block"); // show all dh boxes
     $("#list-in tbody tr.dh").css("display","table-row"); // show all dh rows
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
   $("#whos-in").click(function(){
@@ -134,22 +134,26 @@ $(document).ready(function(){
     $("#list-in tbody tr").css("display","table-row"); // show all list-in rows
     $("#timeline-in li.hof").css("display","none"); // hide timeline-in boxes if they're in the hof
     $("#list-in tr.hof").css("display","none"); // hide list-in rows if they're in the hof
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
   $("#whos-out").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-out").css("display","block"); // show timeline-out
     $("#list-out").css("display","table"); // show list-out
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
   $("#whos-next").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables
     $("#timeline-next").css("display","block"); // show timeline-next
     $("#list-next").css("display","table"); // show list-next
-    $("#toggles dd").removeClass("yah"); // remove all yah classes from toggles
+    $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
+  if( window.location.hash ) {
+    $(window.location.hash).click();
+    $("a#trigger").removeClass("open");
+  }
 
 });
