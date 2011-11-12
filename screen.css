@@ -32,12 +32,15 @@ header {
   position: relative; }
   header h1 {
     font-family: "ChunkFiveRegular";
-    color: #666666;
     margin: 0;
     font-weight: normal;
     font-size: 72px;
     line-height: 1;
     text-shadow: #bbbbbb 0px 0px 8px; }
+    header h1 a:link, header h1 a:visited {
+      color: #666666; }
+    header h1 a:hover, header h1 a:active {
+      color: #555555; }
   header h2 {
     color: #333333;
     margin: 0;
