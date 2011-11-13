@@ -1,7 +1,8 @@
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
   background: #eeeeee url(old_mathematics.png);
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 0; }
 
 header, footer, nav, section, small {
   display: block; }
@@ -271,6 +272,20 @@ footer {
     #about .back span {
       font-size: 11px;
       color: #666666; }
+
+#notification {
+  background-color: #ffff99;
+  -webkit-box-shadow: #bbbbbb 0 0 8px;
+  -moz-box-shadow: #bbbbbb 0 0 8px;
+  box-shadow: #bbbbbb 0 0 8px;
+  text-align: center;
+  color: #333333;
+  font-size: 12px; }
+  #notification p {
+    margin: 0;
+    padding: 5px; }
+    #notification p a {
+      font-weight: bold; }
 
 #timeline #babe-ruth {
   margin-left: 352px;

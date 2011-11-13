@@ -68,6 +68,7 @@ body
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
   background: #EEE url(old_mathematics.png)
   font-size: 14px
+  margin: 0
 
 header, footer, nav, section, small
   display: block
@@ -301,6 +302,18 @@ footer
     font-size: 36px
   .back
     +toggle_button
+
+#notification
+  background-color: #FF9
+  +box_shadow(#BBB, 0 0 8px)
+  text-align: center
+  color: #333
+  font-size: 12px
+  p
+    margin: 0
+    padding: 5px
+    a
+      font-weight: bold
 
 #timeline
 
