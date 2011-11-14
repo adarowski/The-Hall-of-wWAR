@@ -44,7 +44,7 @@
       <li>For starting pitchers with 500-600 innings, the WAE baseline is 6.0.</li>
       <li>For starting pitchers with 600-700 innings, the WAE baseline is 7.5.</li>
     </ul>
-    <p>Wins Above Excellence disregards negative position player WAR or pitcher WAR that drags a player&rsquo;s total WAR down. For example, if a pitcher posts 4.0 pitching WAR and -0.3 WAR as a hitter, his WAE will be 1.0. He is not docked for the negative WAR at the plate because he is already docked for it in his overall WAR.</p>
+    <p>It is important to note that Wins Above Excellence (and Wins Above MVP) baselines are applied to the player&rsquo;s WAR, not his WAR/162. I think it is fair to give a player credit for value he lost because of schedule length, but I don't want to double count it by adding more WAE/WAM as well. WAE and WAM also disregard negative position player WAR or pitcher WAR that drags a player&rsquo;s total WAR down. For example, if a pitcher posts 4.0 pitching WAR and -0.3 WAR as a hitter, his WAE will be 1.0. He is not docked for the negative WAR at the plate because he is already docked for it in his overall WAR.</p>
     <h3><abbr title="Wins Above MVP">WAM</abbr></h3>
     <p><a href="http://www.beyondtheboxscore.com/2010/2/25/1325611/wins-above-mvp-level">Wins Above MVP</a> is the total of all single season WAR above 6.0. After Sean Smith came up with WAE, I whipped up WAM as a way to measure only seasons where a player was a legitimate MVP candidate.</p>
     <p>There are some exceptions to the 6.0 baseline:</p>
@@ -55,7 +55,6 @@
       <li>For starting pitchers with 500-600 innings, the WAM baseline is 12.0.</li>
       <li>For starting pitchers with 600-700 innings, the WAM baseline is 15.0.</li>
     </ul>
-    <p>Like WAE, Wins Above MVP disregards negative position player WAR or pitcher WAR.</p>
     <h3><abbr title="Weighted Postseason Win Probability Added">wWPA</abbr></h3>
     <p>Postseason statistics break the &ldquo;small sample size&rdquo; rule, but postseason heroics absolutely add to a player&rsquo;s Hall of Fame case (while being a postseason goat hurts some). Since there is no postseason WAR, how can we capture postseason value? We can use Win Probability Added (WPA), which measures a player&rsquo;s contribution to his team&rsquo;s victory. Add up his WPA and you have an estimate of the number of wins he was directly responsible for.</p>
     <p>I recently introduced a modification of postseason WPA called (of course) <a href="http://www.beyondtheboxscore.com/2011/10/17/2495296/wwpa-weighted-postseason-win-probability-added">wWPA (Weighted postseason Win Probability Added)</a>. The theory behind wWPA is that not all postseason series are created equal. I count the LDS once. I double count the LCS. And the World Series? It counts three times.</p>
