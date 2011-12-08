@@ -58,7 +58,7 @@
     <h3><abbr title="Weighted Postseason Win Probability Added">wWPA</abbr></h3>
     <p>Postseason statistics break the &ldquo;small sample size&rdquo; rule, but postseason heroics absolutely add to a player&rsquo;s Hall of Fame case (while being a postseason goat hurts some). Since there is no postseason WAR, how can we capture postseason value? We can use Win Probability Added (WPA), which measures a player&rsquo;s contribution to his team&rsquo;s victory. Add up his WPA and you have an estimate of the number of wins he was directly responsible for.</p>
     <p>I recently introduced a modification of postseason WPA called (of course) <a href="http://www.beyondtheboxscore.com/2011/10/17/2495296/wwpa-weighted-postseason-win-probability-added">wWPA (Weighted postseason Win Probability Added)</a>. The theory behind wWPA is that not all postseason series are created equal. I count the LDS once. I double count the LCS. And the World Series? It counts three times.</p>
-    <p>In order to avoid double-counting negative values, I calculate it like: <strong>wWPA = Total Postseason WPA + LCSWPA + (2*WSWPA)</strong></p>
+    <p>In order to avoid double-counting negative values, I calculate it like: <strong>wWPA = Total Postseason WPA + LCSWPA + (2*WSWPA)</strong> (where I only add the extra LCSWPA and WSWPA values if they are greater than zero).</p>
     <h2>More About the Project</h2>
     <ul>
       <li>All WAR data comes from <a href="http://www.baseball-reference.com/">Baseball-Reference</a>. This is the version of WAR created by Sean Smith (aka RallyMonkey) and originally posted on <a href="http://www.baseballprojection.com/">BaseballProjection.com</a>.</li>
@@ -73,7 +73,7 @@
     </ul>
     <h2>Changelog</h2>
     <dl id="changelog">
-      <dt>December 8, 2011</dt>
+      <dt><a href="http://www.beyondtheboxscore.com/2011/12/8/2619828/the-hall-of-wwar-inducts-frank-tanana">December 8, 2011</a></dt>
       <dd>With Ron Santo&rsquo;s induction to the Hall of Fame, the Hall of wWAR needed to also expand to 207 members. Since Santo was already in the Hall of wWAR, <strong>Frank Tanana</strong> is inducted into the Hall of wWAR.</dd>
       <dt><a href="http://www.beyondtheboxscore.com/2011/11/14/2559023/re-introducing-the-hall-of-wwar">November 14, 2011</a></dt>
       <dd>The Hall of wWAR is relaunched. In addition to an adjustment for peak, there is now a season length adjustment, a postseason adjustment, and more.</dd>
