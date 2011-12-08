@@ -59,11 +59,10 @@
     <p>Postseason statistics break the &ldquo;small sample size&rdquo; rule, but postseason heroics absolutely add to a player&rsquo;s Hall of Fame case (while being a postseason goat hurts some). Since there is no postseason WAR, how can we capture postseason value? We can use Win Probability Added (WPA), which measures a player&rsquo;s contribution to his team&rsquo;s victory. Add up his WPA and you have an estimate of the number of wins he was directly responsible for.</p>
     <p>I recently introduced a modification of postseason WPA called (of course) <a href="http://www.beyondtheboxscore.com/2011/10/17/2495296/wwpa-weighted-postseason-win-probability-added">wWPA (Weighted postseason Win Probability Added)</a>. The theory behind wWPA is that not all postseason series are created equal. I count the LDS once. I double count the LCS. And the World Series? It counts three times.</p>
     <p>In order to avoid double-counting negative values, I calculate it like: <strong>wWPA = Total Postseason WPA + LCSWPA + (2*WSWPA)</strong></p>
-    <hr />
-    <p>Here are some other things I should mention about this project:</p>
+    <h2>More About the Project</h2>
     <ul>
       <li>All WAR data comes from <a href="http://www.baseball-reference.com/">Baseball-Reference</a>. This is the version of WAR created by Sean Smith (aka RallyMonkey) and originally posted on <a href="http://www.baseballprojection.com/">BaseballProjection.com</a>.</li>
-      <li> I keep the Hall of wWAR the same size as the Hall of Fame (206 inducted as players). This is to show the difference in quality between the two Halls from top to bottom.</li>
+      <li> I keep the Hall of wWAR the same size as the Hall of Fame (207 inducted as players). This is to show the difference in quality between the two Halls from top to bottom.</li>
       <li>I ignore performance enhancing drugs because we just don&rsquo;t know how to handle them yet. Besides, <a href="http://www.npr.org/templates/story/story.php?storyId=5314753">they apparently go back to the 19th century</a>.</li>
       <li>I ignore lifetime bans. This opens up the Hall of wWAR to Pete Rose, Shoeless Joe, and any other banned players.</li>
       <li>I open this up for Hall of Famers who were inducted for a role other than player. This is why Hall of Famers Al Spalding (inducted as a pioneer) and John McGraw (inducted as a manager) aren&rsquo;t considered Hall of Famers in this exercise. Both <em>should</em> have been in because of their playing careers.</li>
@@ -72,6 +71,17 @@
       <li>I don&rsquo;t adjust for time lost to military service. I&rsquo;m just not comfortable doing that. I don&rsquo;t feel great about this because I know that Enos Slaughter (and perhaps others) would be inducted if I tried to estimate lost value. Bob Feller and Ted Williams stand out as other players who would be helped by such an adjustment.</li>
       <li>Pitching WAR does not exist for the National Association (1871&ndash;1875). Rather than ignore these players, <a href="http://www.beyondtheboxscore.com/2011/10/7/2473378/for-the-first-time-national-association-pitching-war-leaders">I estimated the WAR values</a>.</li>
     </ul>
+    <h2>Changelog</h2>
+    <dl id="changelog">
+      <dt>December 8, 2011</dt>
+      <dd>With Ron Santo&rsquo;s induction to the Hall of Fame, the Hall of wWAR needed to also expand to 207 members. Since Santo was already in the Hall of wWAR, <strong>Frank Tanana</strong> is inducted into the Hall of wWAR.</dd>
+      <dt><a href="http://www.beyondtheboxscore.com/2011/11/14/2559023/re-introducing-the-hall-of-wwar">November 14, 2011</a></dt>
+      <dd>The Hall of wWAR is relaunched. In addition to an adjustment for peak, there is now a season length adjustment, a postseason adjustment, and more.</dd>
+      <dt><a href="http://www.beyondtheboxscore.com/2011/3/7/2022771/hall-of-wwar">March 7, 2011</a></dt>
+      <dd>The Hall of wWAR is originally launched.</dd>
+      <dt><a href="http://www.beyondtheboxscore.com/2010/12/27/1897754/wwar-applying-extra-credit-for-peak-to-wins-above-replacement">December 27, 2010</a></dt>
+      <dd>The concept of wWAR is introduced. A later post goes into detail about <a href="http://www.beyondtheboxscore.com/2011/1/19/1943398/the-genesis-of-wwar">the genesis of wWAR</a>.</dd>
+    </dl>
     <p><a class="back" href="../">&laquo; Back to the Hall of wWAR</a></p>
   </section>
   

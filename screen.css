@@ -211,6 +211,15 @@ table {
   table tbody th, table thead tr th:first-child {
     text-align: left; }
 
+#changelog {
+  margin-bottom: 40px; }
+  #changelog dt {
+    font-size: 13px;
+    margin-bottom: 4px; }
+  #changelog dd {
+    margin-left: 0;
+    margin-bottom: 10px; }
+
 footer {
   margin-top: 20px;
   line-height: 1.5; }
