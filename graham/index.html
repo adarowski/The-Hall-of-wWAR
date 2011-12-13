@@ -16,6 +16,8 @@
       $("#graham-list li").hover(function(){
         $(this).find('div').toggle();
       });
+      var graphHeight = $("#bar-graph").height();
+      $("#induction-line").css("height",graphHeight + 40 + 'px');
     });
   </script>
 </head>

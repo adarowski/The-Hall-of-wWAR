@@ -2,17 +2,16 @@
 
 =graham_bar($start,$end,$wwar: 0)
   width: ($wwar*6) - 4px
-  background-color: #000064
+  background-color: fade_out(#000064, 0.2)
   div
     left: 20px
   &:hover
-    background-color: fade_out(#000064, 0.4)
+    background-color: #000064
 
 #induction-line
   display: block
   background-color: #FFC
   width: (76.2*6) + px
-  height: 1400px
   position: absolute
   top: 40px
   border-right: 1px solid orange
