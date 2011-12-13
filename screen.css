@@ -124,15 +124,15 @@ header {
         font-size: 11px;
         color: #666666; }
 
-#timeline {
+#timeline, #graham-list {
   width: 1120px;
   background: url(timeline.png) 0 0;
   padding-bottom: 100px; }
-  #timeline ul {
+  #timeline ul, #graham-list ul {
     list-style: none;
     padding: 40px 0 0;
     margin: 0; }
-  #timeline li {
+  #timeline li, #graham-list li {
     cursor: pointer;
     margin: 0 0 5px;
     padding: 0;
@@ -140,7 +140,7 @@ header {
     padding: 2px;
     color: white;
     position: relative; }
-    #timeline li div {
+    #timeline li div, #graham-list li div {
       -webkit-box-shadow: #aaaaaa 0px 0px 10px;
       -moz-box-shadow: #aaaaaa 0px 0px 10px;
       box-shadow: #aaaaaa 0px 0px 10px;
@@ -158,26 +158,26 @@ header {
       padding: 10px;
       font-size: 18px;
       font-weight: bold; }
-      #timeline li div em {
+      #timeline li div em, #graham-list li div em {
         font-weight: normal;
         font-style: normal;
         font-size: 14px; }
-      #timeline li div dl {
+      #timeline li div dl, #graham-list li div dl {
         margin: 8px 0 0;
         white-space: nowrap; }
-      #timeline li div dt {
+      #timeline li div dt, #graham-list li div dt {
         font-weight: normal;
         font-size: 14px;
         vertical-align: baseline;
         display: inline-block;
         width: auto;
         color: #999999; }
-      #timeline li div dd {
+      #timeline li div dd, #graham-list li div dd {
         font-size: 18px;
         margin: 0;
         padding: 0 4px;
         display: inline-block; }
-      #timeline li div small {
+      #timeline li div small, #graham-list li div small {
         font-weight: normal;
         margin-top: 8px;
         font-size: 11px; }
