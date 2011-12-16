@@ -1,0 +1,548 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of wWAR: Screwed by the Hall of Fame Voters</title>
+  <link rel="stylesheet" href="../screen.css" media="screen">
+  <link rel="stylesheet" href="screwed.css" media="screen">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="../hall-of-wwar.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script>
+    $(document).ready(function(){
+      $("#list li div").css("display","none");
+      $("#list li").hover(function(){
+        $(this).find('div').toggle();
+      });
+    });
+  </script>
+</head>
+<body>
+
+<header>
+  <h1><a href="../">Hall of wWAR</a></h1>
+  <h2>The Hall of Fame Re-Populated by Weighted WAR</h2>
+  <h3>By <a href="http://darowski.com">Adam Darowski</a></h3>
+</header>
+
+<div id="wrapper">
+
+  <section id="about">
+    <h1>Screwed by the Hall of Fame Voters</h1>
+    <p>Through the Hall of wWAR, we have identified <a href="../#whos-in">a list of players who belong in the Hall of Fame</a>. Now it&rsquo;s time to take a look at which teams are getting screwed the most by the Hall of Fame voters. For this list, I took the 64 players who belong in the Hall of Fame, according to wWAR. I then trimmed the 19th century players from the list (since franchises were far more voaltile back then). Then I removed banned players, since it wasn&rsquo;t the voters who rejected them. We are then left with a list of 44 players.</p>
+    <p>Teams are ranked by the total WAR produced for them by the 44 players on that list. Hover over a bar for a list of players who produced 10+ WAR for that team.</p>
+  </section>
+
+  <section id="list">
+  
+  <ul id="bar-graph">
+
+    <li id="det">
+      Detroit Tigers (204.8)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Lou Whitaker</dt>
+          <dd>69.7</dd>
+        </dl>
+        <dl>
+          <dt>Alan Trammell</dt>
+          <dd>66.9</dd>
+        </dl>
+        <dl>
+          <dt>Bill Freehan</dt>
+          <dd>43.3</dd>
+        </dl>
+        <dl>
+          <dt>Darrell Evans</dt>
+          <dd>13.3</dd>
+        </dl>
+        <dl>
+          <dt>Frank Tanana</dt>
+          <dd>11.6</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="stl">
+      St. Louis Cardinals (198.9)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Ken Boyer</dt>
+          <dd>53.5</dd>
+        </dl>
+        <dl>
+          <dt>Ted Simmons</dt>
+          <dd>45.7</dd>
+        </dl>
+        <dl>
+          <dt>Keith Hernandez</dt>
+          <dd>35.1</dd>
+        </dl>
+        <dl>
+          <dt>Joe Torre</dt>
+          <dd>23.1</dd>
+        </dl>
+        <dl>
+          <dt>Mark McGwire</dt>
+          <dd>19.8</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="hou">
+      Houston Astros (174.0)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Jeff Bagwell</dt>
+          <dd>79.9</dd>
+        </dl>
+        <dl>
+          <dt>Cesar Cedeno</dt>
+          <dd>49.4</dd>
+        </dl>
+        <dl>
+          <dt>Jim Wynn</dt>
+          <dd>44.4</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="nyy">
+      New York Yankees (165.9)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Willie Randoph</dt>
+          <dd>49.8</dd>
+        </dl>
+        <dl>
+          <dt>Thurman Munson</dt>
+          <dd>43.4</dd>
+        </dl>
+        <dl>
+          <dt>Graig Nettles</dt>
+          <dd>40.6</dd>
+        </dl>
+        <dl>
+          <dt>David Cone</dt>
+          <dd>18.8</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="bos">
+      Boston Red Sox (156.5)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Dwight Evans</dt>
+          <dd>61.1</dd>
+        </dl>
+        <dl>
+          <dt>Luis Tiant</dt>
+          <dd>33.5</dd>
+        </dl>
+        <dl>
+          <dt>Reggie Smith</dt>
+          <dd>32.6</dd>
+        </dl>
+        <dl>
+          <dt>Wes Ferrell</dt>
+          <dd>21.0</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="oak">
+      Oakland Athletics (125.7)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Sal Bando</dt>
+          <dd>52.5</dd>
+        </dl>
+        <dl>
+          <dt>Mark McGwire</dt>
+          <dd>43.9</dd>
+        </dl>
+        <dl>
+          <dt>Gene Tenace</dt>
+          <dd>24.8</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="tex">
+      Texas Rangers (116.4)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Rafael Palmeiro</dt>
+          <dd>40.1</dd>
+        </dl>
+        <dl>
+          <dt>Buddy Bell</dt>
+          <dd>34.3</dd>
+        </dl>
+        <dl>
+          <dt>Kevin Brown</dt>
+          <dd>16.7</dd>
+        </dl>
+        <dl>
+          <dt>Will Clark</dt>
+          <dd>14.5</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="chw">
+      Chicago White Sox (115.3)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Wilbur Wood</dt>
+          <dd>42.9</dd>
+        </dl>
+        <dl>
+          <dt>Minnie Minoso</dt>
+          <dd>42.7</dd>
+        </dl>
+        <dl>
+          <dt>Dick Allen</dt>
+          <dd>15.5</dd>
+        </dl>
+        <dl>
+          <dt>Tim Raines</dt>
+          <dd>14.4</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="cle">
+      Cleveland Indians (113.6)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Wes Ferrell</dt>
+          <dd>31.4</dd>
+        </dl>
+        <dl>
+          <dt>Luis Tiant</dt>
+          <dd>21.9</dd>
+        </dl>
+        <dl>
+          <dt>Buddy Bell</dt>
+          <dd>21.8</dd>
+        </dl>
+        <dl>
+          <dt>Graig Nettles</dt>
+          <dd>15.1</dd>
+        </dl>
+        <dl>
+          <dt>Minnie Minoso</dt>
+          <dd>11.8</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="sfg">
+      San Francisco Giants (105.9)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Will Clark</dt>
+          <dd>37.5</dd>
+        </dl>
+        <dl>
+          <dt>Bobby Bonds</dt>
+          <dd>36.9</dd>
+        </dl>
+        <dl>
+          <dt>Darrell Evans</dt>
+          <dd>21.5</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="lad">
+      Los Angeles Dodgers (105.3)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Orel Hershiser</dt>
+          <dd>42.5</dd>
+        </dl>
+        <dl>
+          <dt>Kevin Brown</dt>
+          <dd>19.6</dd>
+        </dl>
+        <dl>
+          <dt>Reggie Smith</dt>
+          <dd>19.9</dd>
+        </dl>
+        <dl>
+          <dt>Jim Wynn</dt>
+          <dd>13.1</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="chc">
+      Chicago Cubs (103.4)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Stan Hack</dt>
+          <dd>54.8</dd>
+        </dl>
+        <dl>
+          <dt>Rick Reuschel</dt>
+          <dd>46.7</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="kcr">
+      Kansas City Royals (93.8)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Kevin Appier</dt>
+          <dd>43.9</dd>
+        </dl>
+        <dl>
+          <dt>Bret Saberhagen</dt>
+          <dd>37.3</dd>
+        </dl>
+        <dl>
+          <dt>David Cone</dt>
+          <dd>12.6</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="nym">
+      New York Mets (87.1)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Keith Hernandez</dt>
+          <dd>26.5</dd>
+        </dl>
+        <dl>
+          <dt>John Olerud</dt>
+          <dd>18.6</dd>
+        </dl>
+        <dl>
+          <dt>David Cone</dt>
+          <dd>18.6</dd>
+        </dl>
+        <dl>
+          <dt>Bret Saberhagen</dt>
+          <dd>11.4</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="sea">
+      Seattle Mariners (83.1)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Edgar Martinez</dt>
+          <dd>67.2</dd>
+        </dl>
+        <dl>
+          <dt>John Olerud</dt>
+          <dd>15.9</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="phi">
+      Philadelphia Phillies (82.6)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Sherry Magee</dt>
+          <dd>45.5</dd>
+        </dl>
+        <dl>
+          <dt>Dick Allen</dt>
+          <dd>37.1</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="tor">
+      Toronto Blue Jays (80.1)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Dave Stieb</dt>
+          <dd>53.6</dd>
+        </dl>
+        <dl>
+          <dt>John Olerud</dt>
+          <dd>21.2</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="cin">
+      Cincinnati Reds (79.9)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Barry Larkin</dt>
+          <dd>68.9</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="laa">
+      Los Angeles Angels (76.3)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Bobby Grich</dt>
+          <dd>35.0</dd>
+        </dl>
+        <dl>
+          <dt>Frank Tanana</dt>
+          <dd>34.2</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="wsh">
+      Washington Nationals (65.2)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Tim Raines</dt>
+          <dd>46.5</dd>
+        </dl>
+        <dl>
+          <dt>Larry Walker</dt>
+          <dd>19.3</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="bal">
+      Baltimore Orioles (64.8)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Bobby Grich</dt>
+          <dd>32.6</dd>
+        </dl>
+        <dl>
+          <dt>Rafael Palmeiro</dt>
+          <dd>24.1</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="atl">
+      Atlanta Braves (62.6)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Joe Torre</dt>
+          <dd>30.9</dd>
+        </dl>
+        <dl>
+          <dt>Darrell Evans</dt>
+          <dd>22.5</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="col">
+      Colorado Rockies (44.1)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Larry Walker</dt>
+          <dd>44.1</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="sdp">
+      San Diego Padres (34.6)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Gene Tenace</dt>
+          <dd>20.1</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="mil">
+      Milwaukee Brewers (17.4)
+      <div>
+        <p>No players with 10+ WAR.</p>
+      </div>
+    </li>
+
+    <li id="fla">
+      Florida Marlins (13.2)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Kevin Brown</dt>
+          <dd>13.3</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="pit">
+      Pittsburgh Pirates (11.0)
+      <div>
+        <p>Players with 10+ WAR:</p>
+        <dl>
+          <dt>Rick Reuschel</dt>
+          <dd>11.2</dd>
+        </dl>
+      </div>
+    </li>
+
+    <li id="min">
+      Minnesota Twins (3.4)
+      <div>
+        <p>No players with 10+ WAR.</p>
+      </div>
+    </li>
+
+  </ul>
+
+  <small>Note: Tampa Bay and Arizona did not have any players on the list.</small>
+
+  </section>
+  
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-379490-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

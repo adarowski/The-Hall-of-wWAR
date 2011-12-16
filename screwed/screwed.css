@@ -1,0 +1,282 @@
+#list {
+  background-image: none;
+  position: relative; }
+  #list #det {
+    width: 1020px;
+    background-color: rgba(16, 41, 63, 0.8);
+    font-size: 31.48px;
+    white-space: nowrap; }
+    #list #det div {
+      left: 20px; }
+    #list #det:hover {
+      background-color: #10293f; }
+  #list #stl {
+    width: 990.5px;
+    background-color: rgba(196, 30, 58, 0.8);
+    font-size: 30.89px;
+    white-space: nowrap; }
+    #list #stl div {
+      left: 20px; }
+    #list #stl:hover {
+      background-color: #c41e3a; }
+  #list #hou {
+    width: 866px;
+    background-color: rgba(149, 50, 44, 0.8);
+    font-size: 28.4px;
+    white-space: nowrap; }
+    #list #hou div {
+      left: 20px; }
+    #list #hou:hover {
+      background-color: #95322c; }
+  #list #nyy {
+    width: 825.5px;
+    background-color: rgba(19, 36, 72, 0.8);
+    font-size: 27.59px;
+    white-space: nowrap; }
+    #list #nyy div {
+      left: 20px; }
+    #list #nyy:hover {
+      background-color: #132448; }
+  #list #bos {
+    width: 778.5px;
+    background-color: rgba(14, 43, 85, 0.8);
+    font-size: 26.65px;
+    white-space: nowrap; }
+    #list #bos div {
+      left: 20px; }
+    #list #bos:hover {
+      background-color: #0e2b55; }
+  #list #oak {
+    width: 624.5px;
+    background-color: rgba(0, 72, 58, 0.8);
+    font-size: 23.57px;
+    white-space: nowrap; }
+    #list #oak div {
+      left: 20px; }
+    #list #oak:hover {
+      background-color: #00483a; }
+  #list #tex {
+    width: 578px;
+    background-color: rgba(1, 49, 123, 0.8);
+    font-size: 22.64px;
+    white-space: nowrap; }
+    #list #tex div {
+      left: 20px; }
+    #list #tex:hover {
+      background-color: #01317b; }
+  #list #chw {
+    width: 572.5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 22.53px;
+    white-space: nowrap; }
+    #list #chw div {
+      left: 20px; }
+    #list #chw:hover {
+      background-color: black; }
+  #list #cle {
+    width: 564px;
+    background-color: rgba(2, 52, 101, 0.8);
+    font-size: 22.36px;
+    white-space: nowrap; }
+    #list #cle div {
+      left: 20px; }
+    #list #cle:hover {
+      background-color: #023465; }
+  #list #sfg {
+    width: 525.5px;
+    background-color: rgba(251, 91, 31, 0.8);
+    font-size: 21.59px;
+    white-space: nowrap; }
+    #list #sfg div {
+      left: 20px; }
+    #list #sfg:hover {
+      background-color: #fb5b1f; }
+  #list #lad {
+    width: 522.5px;
+    background-color: rgba(0, 85, 150, 0.8);
+    font-size: 21.53px;
+    white-space: nowrap; }
+    #list #lad div {
+      left: 20px; }
+    #list #lad:hover {
+      background-color: #005596; }
+  #list #chc {
+    width: 513px;
+    background-color: rgba(209, 35, 37, 0.8);
+    font-size: 21.34px;
+    white-space: nowrap; }
+    #list #chc div {
+      left: 20px; }
+    #list #chc:hover {
+      background-color: #d12325; }
+  #list #kcr {
+    width: 465px;
+    background-color: rgba(0, 5, 114, 0.8);
+    font-size: 20.38px;
+    white-space: nowrap; }
+    #list #kcr div {
+      left: 20px; }
+    #list #kcr:hover {
+      background-color: #000572; }
+  #list #nym {
+    width: 431.5px;
+    background-color: rgba(247, 116, 44, 0.8);
+    font-size: 19.71px;
+    white-space: nowrap; }
+    #list #nym div {
+      left: 20px; }
+    #list #nym:hover {
+      background-color: #f7742c; }
+  #list #sea {
+    width: 411.5px;
+    background-color: rgba(0, 49, 102, 0.8);
+    font-size: 19.31px;
+    white-space: nowrap; }
+    #list #sea div {
+      left: 20px; }
+    #list #sea:hover {
+      background-color: #003166; }
+  #list #phi {
+    width: 409px;
+    background-color: rgba(202, 31, 44, 0.8);
+    font-size: 19.26px;
+    white-space: nowrap; }
+    #list #phi div {
+      left: 20px; }
+    #list #phi:hover {
+      background-color: #ca1f2c; }
+  #list #tor {
+    width: 396.5px;
+    background-color: rgba(0, 103, 166, 0.8);
+    font-size: 19.01px;
+    white-space: nowrap; }
+    #list #tor div {
+      left: 20px; }
+    #list #tor:hover {
+      background-color: #0067a6; }
+  #list #cin {
+    width: 395.5px;
+    background-color: rgba(235, 24, 75, 0.8);
+    font-size: 18.99px;
+    white-space: nowrap; }
+    #list #cin div {
+      left: 20px; }
+    #list #cin:hover {
+      background-color: #eb184b; }
+  #list #laa {
+    width: 377.5px;
+    background-color: rgba(206, 17, 65, 0.8);
+    font-size: 18.63px;
+    white-space: nowrap; }
+    #list #laa div {
+      left: 20px; }
+    #list #laa:hover {
+      background-color: #ce1141; }
+  #list #wsh {
+    width: 322px;
+    background-color: rgba(20, 34, 90, 0.8);
+    font-size: 17.52px;
+    white-space: nowrap; }
+    #list #wsh div {
+      left: 20px; }
+    #list #wsh:hover {
+      background-color: #14225a; }
+  #list #bal {
+    width: 320px;
+    background-color: rgba(223, 70, 1, 0.8);
+    font-size: 17.48px;
+    white-space: nowrap; }
+    #list #bal div {
+      left: 20px; }
+    #list #bal:hover {
+      background-color: #df4601; }
+  #list #atl {
+    width: 309px;
+    background-color: rgba(1, 72, 126, 0.8);
+    font-size: 17.26px;
+    white-space: nowrap; }
+    #list #atl div {
+      left: 20px; }
+    #list #atl:hover {
+      background-color: #01487e; }
+  #list #col {
+    width: 216.5px;
+    background-color: rgba(51, 51, 102, 0.8);
+    font-size: 15.41px;
+    white-space: nowrap; }
+    #list #col div {
+      left: 20px; }
+    #list #col:hover {
+      background-color: #333366; }
+  #list #sdp {
+    width: 169px;
+    background-color: rgba(28, 52, 101, 0.8);
+    font-size: 14.46px;
+    white-space: nowrap; }
+    #list #sdp div {
+      left: 20px; }
+    #list #sdp:hover {
+      background-color: #1c3465; }
+  #list #mil {
+    width: 83px;
+    background-color: rgba(1, 33, 67, 0.8);
+    font-size: 12.74px;
+    white-space: nowrap;
+    text-indent: 92px;
+    color: #444444; }
+    #list #mil div {
+      left: 20px; }
+    #list #mil:hover {
+      background-color: #012143; }
+    #list #mil div {
+      text-indent: 0; }
+  #list #fla {
+    width: 62px;
+    background-color: rgba(0, 165, 177, 0.8);
+    font-size: 12.32px;
+    white-space: nowrap;
+    text-indent: 71px;
+    color: #444444; }
+    #list #fla div {
+      left: 20px; }
+    #list #fla:hover {
+      background-color: #00a5b1; }
+    #list #fla div {
+      text-indent: 0; }
+  #list #pit {
+    width: 51px;
+    background-color: rgba(255, 180, 11, 0.8);
+    font-size: 12.1px;
+    white-space: nowrap;
+    text-indent: 60px;
+    color: #444444; }
+    #list #pit div {
+      left: 20px; }
+    #list #pit:hover {
+      background-color: #ffb40b; }
+    #list #pit div {
+      text-indent: 0; }
+  #list #min {
+    width: 13px;
+    background-color: rgba(4, 36, 98, 0.8);
+    font-size: 11.34px;
+    white-space: nowrap;
+    text-indent: 22px;
+    color: #444444; }
+    #list #min div {
+      left: 20px; }
+    #list #min:hover {
+      background-color: #042462; }
+    #list #min div {
+      text-indent: 0; }
+  #list small {
+    display: block;
+    margin-top: 40px;
+    font-size: 11px;
+    color: #666666; }
+
+li div p {
+  white-space: nowrap;
+  margin: 0;
+  font-size: 12px;
+  font-weight: normal; }
