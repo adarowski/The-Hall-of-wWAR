@@ -141,23 +141,23 @@ header {
     color: white;
     position: relative; }
     #timeline li div, #list li div {
+      position: absolute;
+      top: 150%;
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
       -webkit-box-shadow: #aaaaaa 0px 0px 10px;
       -moz-box-shadow: #aaaaaa 0px 0px 10px;
       box-shadow: #aaaaaa 0px 0px 10px;
       -moz-border-radius: 10px;
       -webkit-border-radius: 10px;
       border-radius: 10px;
-      position: absolute;
-      top: 150%;
-      color: black;
       display: block;
       width: auto;
       border: 2px solid #cccccc;
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.95);
       z-index: 1;
-      padding: 10px;
-      font-size: 18px;
-      font-weight: bold; }
+      padding: 10px; }
       #timeline li div em, #list li div em {
         font-weight: normal;
         font-style: normal;

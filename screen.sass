@@ -1,68 +1,4 @@
-// mixins
-
-=border_radius($radius)
-  -moz-border-radius: $radius
-  -webkit-border-radius: $radius
-  border-radius: $radius
-
-=box_shadow($color, $values)
-  -webkit-box-shadow: $color $values
-  -moz-box-shadow: $color $values
-  box-shadow: $color $values
-
-$default_color: #000064
-
-=level1
-  background-color: $default_color
-=level2
-  background-color: #333383
-  background-color: fade_out($default_color, 0.2)
-=level3
-  background-color: #6666A2
-  background-color: fade_out($default_color, 0.4)
-=level4
-  background-color: #9999C1
-  background-color: fade_out($default_color, 0.6)
-=level5
-  background-color: #CCCCE0
-  background-color: fade_out($default_color, 0.8)
-
-=bar($start,$end,$wwar: 0)
-  $start_value: $start - 1870
-  $length: $end - $start
-  margin-left: ($start_value*8) + px
-  width: ($length*8) - 4px
-  div
-    @if $end > 1970
-      right: 0
-    @else
-      left: 0
-  @if $wwar > 150
-    +level1
-  @else if $wwar > 120
-    +level2
-  @else if $wwar > 90
-    +level3
-  @else if $wwar > 60
-    +level4
-  @else
-    +level5
-
-=toggle_button
-  +border_radius(10px)
-  padding: 2px 12px
-  background-color: #EEE
-  border: 1px solid #DDD
-  margin: 0 0 4px
-  white-space: nowrap
-  cursor: pointer
-  &:hover
-    border-color: #CCC
-  &.yah
-    background-color: #FF9
-  span
-    font-size: 11px
-    color: #666
+@import mixins.sass
 
 body
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif
@@ -187,19 +123,12 @@ header
     color: white
     position: relative
     div
-      +box_shadow(#AAA, 0px 0px 10px)
-      +border_radius(10px)
       position: absolute
       top: 150%
       color: black
-      display: block
-      width: auto
-      border: 2px solid #ccc
-      background-color: #fff
-      z-index: 1
-      padding: 10px
       font-size: 18px
       font-weight: bold
+      +popup
       em
         font-weight: normal
         font-style: normal
