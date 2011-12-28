@@ -1,0 +1,148 @@
+#wrapper dl, #wrapper dt, #wrapper dd {
+  margin: 0;
+  padding: 0; }
+
+#visual {
+  position: relative; }
+
+#venn-diagram {
+  position: relative;
+  min-height: 1000px;
+  list-style: none;
+  margin: 40px 0;
+  padding: 0; }
+  #venn-diagram dl {
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    position: absolute; }
+    #venn-diagram dl dt, #venn-diagram dl dd {
+      display: inline-block; }
+    #venn-diagram dl dt {
+      font-weight: bold;
+      margin-right: 5px;
+      font-size: 30px; }
+    #venn-diagram dl dd {
+      color: white;
+      font-size: 22px; }
+    #venn-diagram dl#wwar {
+      background-color: rgba(0, 0, 255, 0.5);
+      left: 250px; }
+      #venn-diagram dl#wwar dt {
+        margin-top: 200px; }
+    #venn-diagram dl#fame {
+      background-color: rgba(255, 0, 0, 0.5);
+      left: 0px;
+      top: 300px; }
+      #venn-diagram dl#fame dt {
+        margin-top: 400px; }
+    #venn-diagram dl#merit {
+      background-color: rgba(0, 128, 0, 0.5);
+      left: 500px;
+      top: 300px; }
+      #venn-diagram dl#merit dt {
+        margin-top: 400px; }
+
+#overlaps dl dt {
+  display: none; }
+#overlaps dl dd {
+  position: absolute; }
+  #overlaps dl dd.count {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    padding: 4px 8px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer; }
+    #overlaps dl dd.count:hover {
+      background-color: black;
+      -webkit-transition: background-color 0.75s;
+      -moz-transition: background-color 0.75s; }
+  #overlaps dl dd.list {
+    margin-top: 50px;
+    -webkit-box-shadow: #aaaaaa 0px 0px 10px;
+    -moz-box-shadow: #aaaaaa 0px 0px 10px;
+    box-shadow: #aaaaaa 0px 0px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    width: auto;
+    border: 2px solid #cccccc;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+    padding: 10px;
+    line-height: 1.5; }
+    #overlaps dl dd.list, #overlaps dl dd.list ul {
+      width: 300px; }
+    #overlaps dl dd.list ul {
+      -moz-column-count: 2;
+      -webkit-column-count: 2;
+      column-count: 2; }
+    #overlaps dl dd.list h4 {
+      color: #666666;
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #dddddd;
+      font-size: 18px;
+      font-weight: normal; }
+      #overlaps dl dd.list h4 strong {
+        color: black;
+        font-weight: bold; }
+    #overlaps dl dd.list ul {
+      color: #666666;
+      list-style: none;
+      font-size: 12px;
+      margin: 0;
+      padding: 0; }
+      #overlaps dl dd.list ul li {
+        margin: 0;
+        padding: 0; }
+#overlaps dl#all dd {
+  left: 518px;
+  top: 543px; }
+#overlaps dl#all .list {
+  left: 13px; }
+  #overlaps dl#all .list, #overlaps dl#all .list ul {
+    width: 1050px; }
+  #overlaps dl#all .list ul {
+    -moz-column-count: 7;
+    -webkit-column-count: 7;
+    column-count: 7; }
+#overlaps dl#wwar-fame dd {
+  left: 477px;
+  top: 443px; }
+#overlaps dl#wwar-merit dd {
+  left: 591px;
+  top: 443px; }
+#overlaps dl#wwar-merit .list, #overlaps dl#wwar-merit .list ul {
+  width: 450px; }
+#overlaps dl#wwar-merit .list ul {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3; }
+#overlaps dl#fame-merit dd {
+  left: 526px;
+  top: 615px; }
+#overlaps dl#wwar-only dd {
+  left: 526px;
+  top: 353px; }
+#overlaps dl#fame-only dd {
+  left: 434px;
+  top: 615px; }
+#overlaps dl#fame-only .list, #overlaps dl#fame-only .list ul {
+  width: 600px; }
+#overlaps dl#fame-only .list ul {
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4; }
+#overlaps dl#merit-only dd {
+  left: 619px;
+  top: 615px; }

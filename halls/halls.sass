@@ -1,0 +1,140 @@
+@import ../mixins.sass
+
+=text_columns($columns)
+  &, & ul
+    width: $columns * 150px
+  ul
+    -moz-column-count: $columns
+    -webkit-column-count: $columns
+    column-count: $columns
+
+
+#wrapper
+  dl, dt, dd
+    margin: 0
+    padding: 0
+
+#visual
+  position: relative
+
+#venn-diagram
+  position: relative
+  min-height: 1000px
+  list-style: none
+  margin: 40px 0
+  padding: 0
+  dl
+    text-align: center
+    height: 600px
+    width: 600px
+    +border_radius(300px)
+    position: absolute
+    dt, dd
+      display: inline-block
+    dt
+      font-weight: bold
+      margin-right: 5px
+      font-size: 30px
+    dd
+      color: white
+      font-size: 22px
+    &#wwar
+      background-color: fade_out(blue, 0.5)
+      left: 250px
+      dt
+        margin-top: 200px
+    &#fame
+      background-color: fade_out(red, 0.5)
+      left: 0px
+      top: 300px
+      dt
+        margin-top: 400px
+    &#merit
+      background-color: fade_out(green, 0.5)
+      left: 500px
+      top: 300px
+      dt
+        margin-top: 400px
+
+#overlaps
+  dl
+    dt
+      display: none
+    dd
+      position: absolute
+      &.count
+        background-color: fade_out(black, 0.75)
+        color: white
+        display: inline-block
+        font-size: 24px
+        padding: 4px 8px
+        +border_radius(10px)
+        cursor: pointer
+        &:hover
+          background-color: black
+          -webkit-transition: background-color .75s
+          -moz-transition: background-color .75s
+      &.list
+        margin-top: 50px
+        +popup
+        line-height: 1.5
+        +text_columns(2)
+        h4
+          color: #666
+          margin:
+            top: 0
+            bottom: 10px
+          padding-bottom: 10px
+          border-bottom: 1px solid #DDD
+          font-size: 18px
+          font-weight: normal
+          strong
+            color: #000
+            font-weight: bold
+        ul
+          color: #666
+          list-style: none
+          font-size: 12px
+          margin: 0
+          padding: 0
+          li
+            margin: 0
+            padding: 0
+
+    &#all
+      dd
+        left: 518px
+        top: 543px
+      .list
+        +text_columns(7)
+        left: 13px
+    &#wwar-fame
+      dd
+        left: 477px
+        top: 443px
+    &#wwar-merit
+      dd
+        left: 591px
+        top: 443px
+      .list
+        +text_columns(3)
+    &#fame-merit
+      dd
+        left: 526px
+        top: 615px
+    &#wwar-only
+      dd
+        left: 526px
+        top: 353px
+    &#fame-only
+      dd
+        left: 434px
+        top: 615px
+      .list
+        +text_columns(4)
+    &#merit-only
+      dd
+        left: 619px
+        top: 615px
+
+

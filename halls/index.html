@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of wWAR: Hall of wWAR vs. Hall of Fame vs. Hall of Merit</title>
+  <link rel="stylesheet" href="../screen.css" media="screen">
+  <link rel="stylesheet" href="halls.css" media="screen">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="../hall-of-wwar.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script>
+    $(document).ready(function(){
+      $(".list").css("display","none");
+      $("#overlaps dl").hover(function(){
+        $(this).find('.list').toggle();
+      });
+    });
+  </script>
+</head>
+<body>
+
+<header>
+  <h1><a href="../">Hall of wWAR</a></h1>
+  <h2>The Hall of Fame Re-Populated by Weighted WAR</h2>
+  <h3>By <a href="http://darowski.com">Adam Darowski</a></h3>
+</header>
+
+<div id="wrapper">
+
+  <section id="about">
+    <h1>Hall of wWAR vs. Hall of Fame vs. Hall of Merit</h1>
+  </section>
+
+  <section id="visual">
+
+    <section id="venn-diagram">
+      <dl id="wwar">
+        <dt>Hall of wWAR</dt>
+        <dd>207 players</dd>
+      </dl>
+      <dl id="fame">
+        <dt>Hall of Fame</dt>
+        <dd>209 players</dd>
+      </dl>
+      <dl id="merit">
+        <dt>Hall of Merit</dt>
+        <dd>213 players</dd>
+      </dl>
+    </section>
+    
+    <section id="overlaps">
+      <dl id="all">
+        <dt>Inducted into all three Halls</dt>
+        <dd class="count">144</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into all three Halls</strong></h4>
+          <ul>
+            <li>Hank Aaron</li>
+            <li>Pete Alexander</li>
+            <li>Roberto Alomar</li>
+            <li>Cap Anson</li>
+            <li>Luke Appling</li>
+            <li>Richie Ashburn</li>
+            <li>Frank Baker</li>
+            <li>Ernie Banks</li>
+            <li>Jake Beckley</li>
+            <li>Johnny Bench</li>
+            <li>Yogi Berra</li>
+            <li>Bert Blyleven</li>
+            <li>Wade Boggs</li>
+            <li>Lou Boudreau</li>
+            <li>George Brett</li>
+            <li>Dan Brouthers</li>
+            <li>Mordecai Brown</li>
+            <li>Jim Bunning</li>
+            <li>Jesse Burkett</li>
+            <li>Roy Campanella</li>
+            <li>Rod Carew</li>
+            <li>Steve Carlton</li>
+            <li>Gary Carter</li>
+            <li>Fred Clarke</li>
+            <li>John Clarkson</li>
+            <li>Roberto Clemente</li>
+            <li>Ty Cobb</li>
+            <li>Mickey Cochrane</li>
+            <li>Eddie Collins</li>
+            <li>Jimmy Collins</li>
+            <li>Roger Connor</li>
+            <li>Stan Coveleski</li>
+            <li>Sam Crawford</li>
+            <li>Joe Cronin</li>
+            <li>George Davis</li>
+            <li>Andre Dawson</li>
+            <li>Ed Delahanty</li>
+            <li>Bill Dickey</li>
+            <li>Joe DiMaggio</li>
+            <li>Don Drysdale</li>
+            <li>Dennis Eckersley</li>
+            <li>Buck Ewing</li>
+            <li>Red Faber</li>
+            <li>Bob Feller</li>
+            <li>Carlton Fisk</li>
+            <li>Elmer Flick</li>
+            <li>Whitey Ford</li>
+            <li>Jimmie Foxx</li>
+            <li>Frankie Frisch</li>
+            <li>Lou Gehrig</li>
+            <li>Charlie Gehringer</li>
+            <li>Bob Gibson</li>
+            <li>Joe Gordon</li>
+            <li>Goose Goslin</li>
+            <li>Rich Gossage</li>
+            <li>Hank Greenberg</li>
+            <li>Lefty Grove</li>
+            <li>Tony Gwynn</li>
+            <li>Billy Hamilton</li>
+            <li>Gabby Hartnett</li>
+            <li>Harry Heilmann</li>
+            <li>Rickey Henderson</li>
+            <li>Billy Herman</li>
+            <li>Rogers Hornsby</li>
+            <li>Carl Hubbell</li>
+            <li>Reggie Jackson</li>
+            <li>Fergie Jenkins</li>
+            <li>Hughie Jennings</li>
+            <li>Walter Johnson</li>
+            <li>Al Kaline</li>
+            <li>Tim Keefe</li>
+            <li>Willie Keeler</li>
+            <li>Joe Kelley</li>
+            <li>King Kelly</li>
+            <li>Harmon Killebrew</li>
+            <li>Sandy Koufax</li>
+            <li>Nap Lajoie</li>
+            <li>Bob Lemon</li>
+            <li>Ted Lyons</li>
+            <li>Mickey Mantle</li>
+            <li>Juan Marichal</li>
+            <li>Eddie Mathews</li>
+            <li>Christy Mathewson</li>
+            <li>Willie Mays</li>
+            <li>Willie McCovey</li>
+            <li>Joe McGinnity</li>
+            <li>John McGraw</li>
+            <li>Bid McPhee</li>
+            <li>Joe Medwick</li>
+            <li>Johnny Mize</li>
+            <li>Paul Molitor</li>
+            <li>Joe Morgan</li>
+            <li>Eddie Murray</li>
+            <li>Stan Musial</li>
+            <li>Hal Newhouser</li>
+            <li>Kid Nichols</li>
+            <li>Phil Niekro</li>
+            <li>Jim O&rsquo;Rourke</li>
+            <li>Mel Ott</li>
+            <li>Jim Palmer</li>
+            <li>Gaylord Perry</li>
+            <li>Eddie Plank</li>
+            <li>Charley Radbourn</li>
+            <li>Pee Wee Reese</li>
+            <li>Cal Ripken</li>
+            <li>Robin Roberts</li>
+            <li>Brooks Robinson</li>
+            <li>Jackie Robinson</li>
+            <li>Frank Robinson</li>
+            <li>Red Ruffing</li>
+            <li>Amos Rusie</li>
+            <li>Babe Ruth</li>
+            <li>Nolan Ryan</li>
+            <li>Ryne Sandberg</li>
+            <li>Ron Santo</li>
+            <li>Mike Schmidt</li>
+            <li>Tom Seaver</li>
+            <li>Al Simmons</li>
+            <li>George Sisler</li>
+            <li>Ozzie Smith</li>
+            <li>Duke Snider</li>
+            <li>Warren Spahn</li>
+            <li>Al Spalding</li>
+            <li>Tris Speaker</li>
+            <li>Willie Stargell</li>
+            <li>Don Sutton</li>
+            <li>Bill Terry</li>
+            <li>Dazzy Vance</li>
+            <li>Arky Vaughan</li>
+            <li>Rube Waddell</li>
+            <li>Honus Wagner</li>
+            <li>Bobby Wallace</li>
+            <li>Ed Walsh</li>
+            <li>Paul Waner</li>
+            <li>John Ward</li>
+            <li>Zack Wheat</li>
+            <li>Hoyt Wilhelm</li>
+            <li>Billy Williams</li>
+            <li>Ted Williams</li>
+            <li>Dave Winfield</li>
+            <li>Early Wynn</li>
+            <li>Carl Yastrzemski</li>
+            <li>Cy Young</li>
+            <li>Robin Yount</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="wwar-fame">
+        <dt>Inducted into only the Hall of wWAR and Hall of Fame</dt>
+        <dd class="count">1</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of wWAR and Hall of Fame</strong> (not the Hall of Merit)</h4>
+          <ul>
+            <li>Vic Willis</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="wwar-merit">
+        <dt>Inducted into only the Hall of wWAR and Hall of Merit</dt>
+        <dd class="count">42</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of wWAR and Hall of Merit</strong> (not the Hall of Fame)</h4>
+          <ul>
+            <li>Reggie Smith</li>
+            <li>Dick Allen</li>
+            <li>Jeff Bagwell</li>
+            <li>Ross Barnes</li>
+            <li>Charlie Bennett</li>
+            <li>Ken Boyer</li>
+            <li>Kevin Brown</li>
+            <li>Bob Caruthers</li>
+            <li>Cupid Childs</li>
+            <li>Will Clark</li>
+            <li>Bill Dahlen</li>
+            <li>Darrell Evans</li>
+            <li>Dwight Evans</li>
+            <li>Wes Ferrell</li>
+            <li>Bill Freehan</li>
+            <li>Jack Glasscock</li>
+            <li>George Gore</li>
+            <li>Bobby Grich</li>
+            <li>Stan Hack</li>
+            <li>Keith Hernandez</li>
+            <li>Paul Hines</li>
+            <li>Joe Jackson</li>
+            <li>Barry Larkin</li>
+            <li>Sherry Magee</li>
+            <li>Edgar Martinez</li>
+            <li>Mark McGwire</li>
+            <li>Minnie Minoso</li>
+            <li>Graig Nettles</li>
+            <li>Tim Raines</li>
+            <li>Willie Randolph</li>
+            <li>Pete Rose</li>
+            <li>Bret Saberhagen</li>
+            <li>Ted Simmons</li>
+            <li>Dave Stieb</li>
+            <li>Harry Stovey</li>
+            <li>Ezra Sutton</li>
+            <li>Joe Torre</li>
+            <li>Alan Trammell</li>
+            <li>Larry Walker</li>
+            <li>Lou Whitaker</li>
+            <li>Deacon White</li>
+            <li>Jimmy Wynn</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="fame-merit">
+        <dt>Inducted into only the Hall of Fame and Hall of Merit</dt>
+        <dd class="count">16</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of Fame and Hall of Merit</strong> (not the Hall of wWAR)</h4>
+          <ul>
+            <li>Earl Averill</li>
+            <li>Roger Bresnahan</li>
+            <li>Max Carey</li>
+            <li>Larry Doby</li>
+            <li>Bobby Doerr</li>
+            <li>Rollie Fingers</li>
+            <li>Nellie Fox</li>
+            <li>Pud Galvin</li>
+            <li>Clark Griffith</li>
+            <li>Ralph Kiner</li>
+            <li>Satchel Paige</li>
+            <li>Eppa Rixey</li>
+            <li>Edd Roush</li>
+            <li>Joe Sewell</li>
+            <li>Enos Slaughter</li>
+            <li>Sam Thompson</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="wwar-only">
+        <dt>Inducted into only the Hall of wWAR</dt>
+        <dd class="count">20</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of wWAR</strong> (not the Hall of Fame or Hall of Merit)</h4>
+          <ul>
+            <li>Kevin Appier</li>
+            <li>Sal Bando</li>
+            <li>Buddy Bell</li>
+            <li>Bobby Bonds</li>
+            <li>Charlie Buffinton</li>
+            <li>Cesar Cedeno</li>
+            <li>Eddie Cicotte</li>
+            <li>David Cone</li>
+            <li>Orel Hershiser</li>
+            <li>Silver King</li>
+            <li>Jim McCormick</li>
+            <li>Tony Mullane</li>
+            <li>Thurman Munson</li>
+            <li>John Olerud</li>
+            <li>Rafael Palmeiro</li>
+            <li>Rick Reuschel</li>
+            <li>Frank Tanana</li>
+            <li>Gene Tenace</li>
+            <li>Luis Tiant</li>
+            <li>Wilbur Wood</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="fame-only">
+        <dt>Inducted into only the Hall of Fame</dt>
+        <dd class="count">48</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of Fame</strong> (not the Hall of wWAR or Hall of Merit)</h4>
+          <ul>
+            <li>Luis Aparicio</li>
+            <li>Dave Bancroft</li>
+            <li>Chief Bender</li>
+            <li>Jim Bottomley</li>
+            <li>Lou Brock</li>
+            <li>Orlando Cepeda</li>
+            <li>Frank Chance</li>
+            <li>Jack Chesbro</li>
+            <li>Earle Combs</li>
+            <li>Kiki Cuyler</li>
+            <li>Dizzy Dean</li>
+            <li>Hugh Duffy</li>
+            <li>Johnny Evers</li>
+            <li>Rick Ferrell</li>
+            <li>Lefty Gomez</li>
+            <li>Burleigh Grimes</li>
+            <li>Chick Hafey</li>
+            <li>Jesse Haines</li>
+            <li>Harry Hooper</li>
+            <li>Waite Hoyt</li>
+            <li>Catfish Hunter</li>
+            <li>Travis Jackson</li>
+            <li>Addie Joss</li>
+            <li>George Kell</li>
+            <li>High Pockets Kelly</li>
+            <li>Chuck Klein</li>
+            <li>Tony Lazzeri</li>
+            <li>Freddie Lindstrom</li>
+            <li>Ernie Lombari</li>
+            <li>Heinie Manush</li>
+            <li>Rabbit Maranville</li>
+            <li>Rube Marquard</li>
+            <li>Bill Mazeroski</li>
+            <li>Tommy McCarthy</li>
+            <li>Herb Pennock</li>
+            <li>Tony Perez</li>
+            <li>Kirby Puckett</li>
+            <li>Jim Rice</li>
+            <li>Sam Rice</li>
+            <li>Phil Rizzuto</li>
+            <li>Red Schoendienst</li>
+            <li>Bruce Sutter</li>
+            <li>Joe Tinker</li>
+            <li>Lloyd Waner</li>
+            <li>Mickey Welch</li>
+            <li>Hack Wilson</li>
+            <li>Ross Youngs</li>
+            <li>Pie Traynor</li>
+          </ul>
+        </dd>
+      </dl>
+      <dl id="merit-only">
+        <dt>Inducted into only the Hall of Merit</dt>
+        <dd class="count">11</dd>
+        <dd class="list">
+          <h4><strong>Players inducted into the Hall of Merit</strong> (not the Hall of wWAR or Hall of Fame)</h4>
+          <ul>
+            <li>Billy Pierce</li>
+            <li>Cal McVey</li>
+            <li>Charley Jones</li>
+            <li>Charlie Keller</li>
+            <li>Dickey Pearce</li>
+            <li>Hardy Richardson</li>
+            <li>Heinie Groh</li>
+            <li>Jimmy Sheckard</li>
+            <li>Joe Start</li>
+            <li>Lip Pike</li>
+            <li>Pete Browning</li>
+          </ul>
+        </dd>
+      </dl>
+    </section>
+
+  </section>
+  
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-379490-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
