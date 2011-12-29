@@ -63,7 +63,8 @@
     #overlaps dl dd.count:hover {
       background-color: black;
       -webkit-transition: background-color 0.75s;
-      -moz-transition: background-color 0.75s; }
+      -moz-transition: background-color 0.75s;
+      transition: background-color 0.75s; }
   #overlaps dl dd.list {
     margin-top: 50px;
     -webkit-box-shadow: #aaaaaa 0px 0px 10px;

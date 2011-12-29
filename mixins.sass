@@ -73,3 +73,8 @@ $default_color: #000064
   background-color: fade_out(white, 0.05)
   z-index: 1
   padding: 10px
+
+=transition($property, $speed)
+  -webkit-transition: $property $speed
+  -moz-transition: $property $speed
+  transition: $property $speed
