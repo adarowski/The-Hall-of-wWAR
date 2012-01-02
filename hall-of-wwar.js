@@ -20,8 +20,8 @@ $(document).ready(function(){
     $("#timeline-in").css("display","block"); // show timeline-in
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li, #list-in tbody tr").css("display","none"); // hide all rows and boxes
-    $("#timeline-in li.p").css("display","block"); // show all p boxes
-    $("#list-in tbody tr.p").css("display","table-row"); // show all p rows
+    $("#timeline-in li.p, #timeline-in li.rp").css("display","block"); // show all p boxes
+    $("#list-in tbody tr.p, #list-in tbody tr.rp").css("display","table-row"); // show all p rows
     $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
