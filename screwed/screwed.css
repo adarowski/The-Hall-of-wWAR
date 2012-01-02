@@ -39,13 +39,13 @@
       background-color: #132448; }
   #list #bos {
     width: 778.5px;
-    background-color: rgba(14, 43, 85, 0.8);
+    background-color: rgba(189, 48, 57, 0.8);
     font-size: 26.65px;
     white-space: nowrap; }
     #list #bos div {
       left: 20px; }
     #list #bos:hover {
-      background-color: #0e2b55; }
+      background-color: #bd3039; }
   #list #oak {
     width: 624.5px;
     background-color: rgba(0, 72, 58, 0.8);
