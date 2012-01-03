@@ -1,6 +1,7 @@
 #list {
   background-image: none;
-  position: relative; }
+  position: relative;
+  padding-bottom: 0; }
   #list #det {
     width: 1020px;
     background-color: rgba(16, 41, 63, 0.8);

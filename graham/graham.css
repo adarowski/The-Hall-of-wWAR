@@ -14,7 +14,8 @@
 
 #list {
   background-image: none;
-  position: relative; }
+  position: relative;
+  padding-bottom: 50px; }
   #list #jeff-bagwell {
     width: 791.6px;
     background-color: rgba(0, 0, 100, 0.8); }
