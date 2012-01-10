@@ -1,0 +1,255 @@
+@import ../mixins.sass
+
+@mixin pct-bar($content)
+  td:first-child:before
+    content: $content + '%'
+    $pct: $content / 100
+    width: 1112 * $pct + px
+    font-weight: bold
+
+#list
+  background-image: none
+  position: relative
+  padding-bottom: 0
+
+  small
+    display: block
+    margin-top: 40px
+    font-size: 11px
+    color: #666
+
+  ul
+    padding: 0
+    li
+      color: black
+      padding-left: 20px
+
+table
+  margin: 20px 0 40px
+  font-size: 12px
+  border:
+    top: none
+    left: none
+  th, td
+    border:
+      right: none
+      bottom: none
+    text-align: center
+    &:first-child
+      text-align: left
+    strong
+      color: red
+  thead
+    margin-bottom: 10px
+    tr
+      th
+        background-color: white
+        vertical-align: bottom
+        &.grouphead
+          font-size: 11px
+          border-bottom: 1px solid #DDD
+          color: #999
+          text-transform: uppercase
+          letter-spacing: 6px
+          text-align: center
+          font-weight: normal
+        &.groupsub
+          font-size: 11px
+          background-color: #EEE
+          text-align: center
+        
+  tbody
+    tr
+      border-top: 4px solid white
+      td
+        &:first-child
+          text-align: left
+          position: relative
+          &:before
+            background-color: fade_out($default_color, 0.8)
+            text-align: right
+            padding: 4px
+            position: absolute
+            top: 0
+            left: 0
+            &:hover
+              background-color: fade_out($default_color, 0.6)            
+        &:last-child
+          text-indent: -9999px  
+
+      &#year-1936
+        +pct-bar(100.0)
+      &#year-1937
+        +pct-bar(100.0)
+      &#year-1938
+        +pct-bar(100.0)
+      &#year-1939
+        +pct-bar(100.0)
+      &#year-1940
+        +pct-bar(100.0)
+      &#year-1941
+        +pct-bar(100.0)
+      &#year-1942
+        +pct-bar(100.0)
+      &#year-1943
+        +pct-bar(100.0)
+      &#year-1944
+        +pct-bar(100.0)
+      &#year-1945
+        +pct-bar(92.3)
+      &#year-1946
+        +pct-bar(81.1)
+      &#year-1947
+        +pct-bar(82.9)
+      &#year-1948
+        +pct-bar(79.1)
+      &#year-1949
+        +pct-bar(80.4)
+      &#year-1950
+        +pct-bar(80.4)
+      &#year-1951
+        +pct-bar(81.3)
+      &#year-1952
+        +pct-bar(82.0)
+      &#year-1953
+        +pct-bar(79.6)
+      &#year-1954
+        +pct-bar(78.9)
+      &#year-1955
+        +pct-bar(79.4)
+      &#year-1956
+        +pct-bar(80.0)
+      &#year-1957
+        +pct-bar(80.3)
+      &#year-1958
+        +pct-bar(80.3)
+      &#year-1959
+        +pct-bar(80.6)
+      &#year-1960
+        +pct-bar(80.6)
+      &#year-1961
+        +pct-bar(79.7)
+      &#year-1962
+        +pct-bar(79.2)
+      &#year-1963
+        +pct-bar(77.6)
+      &#year-1964
+        +pct-bar(76.8)
+      &#year-1965
+        +pct-bar(75.9)
+      &#year-1966
+        +pct-bar(76.2)
+      &#year-1967
+        +pct-bar(75.6)
+      &#year-1968
+        +pct-bar(75.3)
+      &#year-1969
+        +pct-bar(75.3)
+      &#year-1970
+        +pct-bar(74.0)
+      &#year-1971
+        +pct-bar(71.6)
+      &#year-1972
+        +pct-bar(71.0)
+      &#year-1973
+        +pct-bar(70.3)
+      &#year-1974
+        +pct-bar(69.6)
+      &#year-1975
+        +pct-bar(68.6)
+      &#year-1976
+        +pct-bar(68.9)
+      &#year-1977
+        +pct-bar(68.8)
+      &#year-1978
+        +pct-bar(68.5)
+      &#year-1979
+        +pct-bar(68.2)
+      &#year-1980
+        +pct-bar(68.2)
+      &#year-1981
+        +pct-bar(68.7)
+      &#year-1982
+        +pct-bar(68.6)
+      &#year-1983
+        +pct-bar(68.6)
+      &#year-1984
+        +pct-bar(68.3)
+      &#year-1985
+        +pct-bar(67.8)
+      &#year-1986
+        +pct-bar(67.1)
+      &#year-1987
+        +pct-bar(66.9)
+      &#year-1988
+        +pct-bar(67.1)
+      &#year-1989
+        +pct-bar(67.1)
+      &#year-1990
+        +pct-bar(67.5)
+      &#year-1991
+        +pct-bar(67.7)
+      &#year-1992
+        +pct-bar(67.7)
+      &#year-1993
+        +pct-bar(67.9)
+      &#year-1994
+        +pct-bar(67.6)
+      &#year-1995
+        +pct-bar(68.2)
+      &#year-1996
+        +pct-bar(68.4)
+      &#year-1997
+        +pct-bar(68.2)
+      &#year-1998
+        +pct-bar(68.2)
+      &#year-1999
+        +pct-bar(68.3)
+      &#year-2000
+        +pct-bar(68.3)
+      &#year-2001
+        +pct-bar(67.7)
+      &#year-2002
+        +pct-bar(67.9)
+      &#year-2003
+        +pct-bar(68.2)
+      &#year-2004
+        +pct-bar(68.6)
+      &#year-2005
+        +pct-bar(68.9)
+      &#year-2006
+        +pct-bar(68.5)
+      &#year-2007
+        +pct-bar(68.8)
+      &#year-2008
+        +pct-bar(69.0)
+      &#year-2009
+        +pct-bar(69.0)
+      &#year-2010
+        +pct-bar(69.1)
+      &#year-2011
+        +pct-bar(69.4)
+      &#year-2012
+        +pct-bar(69.7)
+
+      &#decade-1930s
+        +pct-bar(100.0)
+      &#decade-1940s
+        +pct-bar(70.0)
+      &#decade-1950s
+        +pct-bar(81.0)
+      &#decade-1960s
+        +pct-bar(61.5)
+      &#decade-1970s
+        +pct-bar(50.0)
+      &#decade-1980s
+        +pct-bar(62.1)
+      &#decade-1990s
+        +pct-bar(76.0)
+      &#decade-2000s
+        +pct-bar(80.0)
+
+  tfoot
+    color: #666
+    td:last-child
+      text-indent: -9999px

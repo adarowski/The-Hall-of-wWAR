@@ -1,0 +1,405 @@
+#list {
+  background-image: none;
+  position: relative;
+  padding-bottom: 0; }
+  #list small {
+    display: block;
+    margin-top: 40px;
+    font-size: 11px;
+    color: #666666; }
+  #list ul {
+    padding: 0; }
+    #list ul li {
+      color: black;
+      padding-left: 20px; }
+
+table {
+  margin: 20px 0 40px;
+  font-size: 12px;
+  border-top: none;
+  border-left: none; }
+  table th, table td {
+    border-right: none;
+    border-bottom: none;
+    text-align: center; }
+    table th:first-child, table td:first-child {
+      text-align: left; }
+    table th strong, table td strong {
+      color: red; }
+  table thead {
+    margin-bottom: 10px; }
+    table thead tr th {
+      background-color: white;
+      vertical-align: bottom; }
+      table thead tr th.grouphead {
+        font-size: 11px;
+        border-bottom: 1px solid #dddddd;
+        color: #999999;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-align: center;
+        font-weight: normal; }
+      table thead tr th.groupsub {
+        font-size: 11px;
+        background-color: #eeeeee;
+        text-align: center; }
+  table tbody tr {
+    border-top: 4px solid white; }
+    table tbody tr td:first-child {
+      text-align: left;
+      position: relative; }
+      table tbody tr td:first-child:before {
+        background-color: rgba(0, 0, 100, 0.2);
+        text-align: right;
+        padding: 4px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        table tbody tr td:first-child:before:hover {
+          background-color: rgba(0, 0, 100, 0.4); }
+    table tbody tr td:last-child {
+      text-indent: -9999px; }
+    table tbody tr#year-1936 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1937 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1938 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1939 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1940 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1941 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1942 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1943 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1944 td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#year-1945 td:first-child:before {
+      content: "92.3%";
+      width: 1026.376px;
+      font-weight: bold; }
+    table tbody tr#year-1946 td:first-child:before {
+      content: "81.1%";
+      width: 901.832px;
+      font-weight: bold; }
+    table tbody tr#year-1947 td:first-child:before {
+      content: "82.9%";
+      width: 921.848px;
+      font-weight: bold; }
+    table tbody tr#year-1948 td:first-child:before {
+      content: "79.1%";
+      width: 879.592px;
+      font-weight: bold; }
+    table tbody tr#year-1949 td:first-child:before {
+      content: "80.4%";
+      width: 894.048px;
+      font-weight: bold; }
+    table tbody tr#year-1950 td:first-child:before {
+      content: "80.4%";
+      width: 894.048px;
+      font-weight: bold; }
+    table tbody tr#year-1951 td:first-child:before {
+      content: "81.3%";
+      width: 904.056px;
+      font-weight: bold; }
+    table tbody tr#year-1952 td:first-child:before {
+      content: "82%";
+      width: 911.84px;
+      font-weight: bold; }
+    table tbody tr#year-1953 td:first-child:before {
+      content: "79.6%";
+      width: 885.152px;
+      font-weight: bold; }
+    table tbody tr#year-1954 td:first-child:before {
+      content: "78.9%";
+      width: 877.368px;
+      font-weight: bold; }
+    table tbody tr#year-1955 td:first-child:before {
+      content: "79.4%";
+      width: 882.928px;
+      font-weight: bold; }
+    table tbody tr#year-1956 td:first-child:before {
+      content: "80%";
+      width: 889.6px;
+      font-weight: bold; }
+    table tbody tr#year-1957 td:first-child:before {
+      content: "80.3%";
+      width: 892.936px;
+      font-weight: bold; }
+    table tbody tr#year-1958 td:first-child:before {
+      content: "80.3%";
+      width: 892.936px;
+      font-weight: bold; }
+    table tbody tr#year-1959 td:first-child:before {
+      content: "80.6%";
+      width: 896.272px;
+      font-weight: bold; }
+    table tbody tr#year-1960 td:first-child:before {
+      content: "80.6%";
+      width: 896.272px;
+      font-weight: bold; }
+    table tbody tr#year-1961 td:first-child:before {
+      content: "79.7%";
+      width: 886.264px;
+      font-weight: bold; }
+    table tbody tr#year-1962 td:first-child:before {
+      content: "79.2%";
+      width: 880.704px;
+      font-weight: bold; }
+    table tbody tr#year-1963 td:first-child:before {
+      content: "77.6%";
+      width: 862.912px;
+      font-weight: bold; }
+    table tbody tr#year-1964 td:first-child:before {
+      content: "76.8%";
+      width: 854.016px;
+      font-weight: bold; }
+    table tbody tr#year-1965 td:first-child:before {
+      content: "75.9%";
+      width: 844.008px;
+      font-weight: bold; }
+    table tbody tr#year-1966 td:first-child:before {
+      content: "76.2%";
+      width: 847.344px;
+      font-weight: bold; }
+    table tbody tr#year-1967 td:first-child:before {
+      content: "75.6%";
+      width: 840.672px;
+      font-weight: bold; }
+    table tbody tr#year-1968 td:first-child:before {
+      content: "75.3%";
+      width: 837.336px;
+      font-weight: bold; }
+    table tbody tr#year-1969 td:first-child:before {
+      content: "75.3%";
+      width: 837.336px;
+      font-weight: bold; }
+    table tbody tr#year-1970 td:first-child:before {
+      content: "74%";
+      width: 822.88px;
+      font-weight: bold; }
+    table tbody tr#year-1971 td:first-child:before {
+      content: "71.6%";
+      width: 796.192px;
+      font-weight: bold; }
+    table tbody tr#year-1972 td:first-child:before {
+      content: "71%";
+      width: 789.52px;
+      font-weight: bold; }
+    table tbody tr#year-1973 td:first-child:before {
+      content: "70.3%";
+      width: 781.736px;
+      font-weight: bold; }
+    table tbody tr#year-1974 td:first-child:before {
+      content: "69.6%";
+      width: 773.952px;
+      font-weight: bold; }
+    table tbody tr#year-1975 td:first-child:before {
+      content: "68.6%";
+      width: 762.832px;
+      font-weight: bold; }
+    table tbody tr#year-1976 td:first-child:before {
+      content: "68.9%";
+      width: 766.168px;
+      font-weight: bold; }
+    table tbody tr#year-1977 td:first-child:before {
+      content: "68.8%";
+      width: 765.056px;
+      font-weight: bold; }
+    table tbody tr#year-1978 td:first-child:before {
+      content: "68.5%";
+      width: 761.72px;
+      font-weight: bold; }
+    table tbody tr#year-1979 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-1980 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-1981 td:first-child:before {
+      content: "68.7%";
+      width: 763.944px;
+      font-weight: bold; }
+    table tbody tr#year-1982 td:first-child:before {
+      content: "68.6%";
+      width: 762.832px;
+      font-weight: bold; }
+    table tbody tr#year-1983 td:first-child:before {
+      content: "68.6%";
+      width: 762.832px;
+      font-weight: bold; }
+    table tbody tr#year-1984 td:first-child:before {
+      content: "68.3%";
+      width: 759.496px;
+      font-weight: bold; }
+    table tbody tr#year-1985 td:first-child:before {
+      content: "67.8%";
+      width: 753.936px;
+      font-weight: bold; }
+    table tbody tr#year-1986 td:first-child:before {
+      content: "67.1%";
+      width: 746.152px;
+      font-weight: bold; }
+    table tbody tr#year-1987 td:first-child:before {
+      content: "66.9%";
+      width: 743.928px;
+      font-weight: bold; }
+    table tbody tr#year-1988 td:first-child:before {
+      content: "67.1%";
+      width: 746.152px;
+      font-weight: bold; }
+    table tbody tr#year-1989 td:first-child:before {
+      content: "67.1%";
+      width: 746.152px;
+      font-weight: bold; }
+    table tbody tr#year-1990 td:first-child:before {
+      content: "67.5%";
+      width: 750.6px;
+      font-weight: bold; }
+    table tbody tr#year-1991 td:first-child:before {
+      content: "67.7%";
+      width: 752.824px;
+      font-weight: bold; }
+    table tbody tr#year-1992 td:first-child:before {
+      content: "67.7%";
+      width: 752.824px;
+      font-weight: bold; }
+    table tbody tr#year-1993 td:first-child:before {
+      content: "67.9%";
+      width: 755.048px;
+      font-weight: bold; }
+    table tbody tr#year-1994 td:first-child:before {
+      content: "67.6%";
+      width: 751.712px;
+      font-weight: bold; }
+    table tbody tr#year-1995 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-1996 td:first-child:before {
+      content: "68.4%";
+      width: 760.608px;
+      font-weight: bold; }
+    table tbody tr#year-1997 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-1998 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-1999 td:first-child:before {
+      content: "68.3%";
+      width: 759.496px;
+      font-weight: bold; }
+    table tbody tr#year-2000 td:first-child:before {
+      content: "68.3%";
+      width: 759.496px;
+      font-weight: bold; }
+    table tbody tr#year-2001 td:first-child:before {
+      content: "67.7%";
+      width: 752.824px;
+      font-weight: bold; }
+    table tbody tr#year-2002 td:first-child:before {
+      content: "67.9%";
+      width: 755.048px;
+      font-weight: bold; }
+    table tbody tr#year-2003 td:first-child:before {
+      content: "68.2%";
+      width: 758.384px;
+      font-weight: bold; }
+    table tbody tr#year-2004 td:first-child:before {
+      content: "68.6%";
+      width: 762.832px;
+      font-weight: bold; }
+    table tbody tr#year-2005 td:first-child:before {
+      content: "68.9%";
+      width: 766.168px;
+      font-weight: bold; }
+    table tbody tr#year-2006 td:first-child:before {
+      content: "68.5%";
+      width: 761.72px;
+      font-weight: bold; }
+    table tbody tr#year-2007 td:first-child:before {
+      content: "68.8%";
+      width: 765.056px;
+      font-weight: bold; }
+    table tbody tr#year-2008 td:first-child:before {
+      content: "69%";
+      width: 767.28px;
+      font-weight: bold; }
+    table tbody tr#year-2009 td:first-child:before {
+      content: "69%";
+      width: 767.28px;
+      font-weight: bold; }
+    table tbody tr#year-2010 td:first-child:before {
+      content: "69.1%";
+      width: 768.392px;
+      font-weight: bold; }
+    table tbody tr#year-2011 td:first-child:before {
+      content: "69.4%";
+      width: 771.728px;
+      font-weight: bold; }
+    table tbody tr#year-2012 td:first-child:before {
+      content: "69.7%";
+      width: 775.064px;
+      font-weight: bold; }
+    table tbody tr#decade-1930s td:first-child:before {
+      content: "100%";
+      width: 1112px;
+      font-weight: bold; }
+    table tbody tr#decade-1940s td:first-child:before {
+      content: "70%";
+      width: 778.4px;
+      font-weight: bold; }
+    table tbody tr#decade-1950s td:first-child:before {
+      content: "81%";
+      width: 900.72px;
+      font-weight: bold; }
+    table tbody tr#decade-1960s td:first-child:before {
+      content: "61.5%";
+      width: 683.88px;
+      font-weight: bold; }
+    table tbody tr#decade-1970s td:first-child:before {
+      content: "50%";
+      width: 556px;
+      font-weight: bold; }
+    table tbody tr#decade-1980s td:first-child:before {
+      content: "62.1%";
+      width: 690.552px;
+      font-weight: bold; }
+    table tbody tr#decade-1990s td:first-child:before {
+      content: "76%";
+      width: 845.12px;
+      font-weight: bold; }
+    table tbody tr#decade-2000s td:first-child:before {
+      content: "80%";
+      width: 889.6px;
+      font-weight: bold; }
+  table tfoot {
+    color: #666666; }
+    table tfoot td:last-child {
+      text-indent: -9999px; }

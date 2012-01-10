@@ -1,0 +1,917 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of wWAR: The Hall of Fame and the Myth of Exclusivity</title>
+  <link rel="stylesheet" href="../screen.css" media="screen">
+  <link rel="stylesheet" href="exclusive.css" media="screen">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="../hall-of-wwar.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<header>
+  <h1><a href="../">Hall of wWAR</a></h1>
+  <h2>The Hall of Fame Re-Populated by Weighted WAR</h2>
+  <nav>
+    By <a href="http://darowski.com">Adam Darowski</a>
+    <a id="show-visuals" href="#">More Hall of wWAR Visuals</a>
+    <ul>
+      <li><a href="../graham/">wWAR Compared to Graham Womack&rsquo;s Hall of Fame Project</a></li>
+      <li><a href="../screwed/">Screwed by the Hall of Fame Voters</a></li>
+      <li><a href="../halls/">Hall of wWAR vs. Hall of Fame vs. Hall of Merit</a></li>
+      <li><a href="../exclusivity/">The Hall of Fame and the Myth of Exclusivity</a></li>
+      <li><a href="../all/">60 wWAR Players</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div id="wrapper">
+
+  <section id="about">
+    <h1>The Hall of Fame and the Myth of Exclusivity</h1>
+    <p>&ldquo;The Hall of Fame is for the immortals of the game&mdash;Ted Williams, Babe Ruth, Walter Johnson&hellip;&rdquo;</p>
+    <p>You hear people say things like this when discussing the Hall of Fame credentials for players like Tim Raines, Alan Trammell, or Larry Walker. Everyone agrees they were good players. But some people simply believe that the Hall of Fame should be reserved for players of a much higher caliber.</p>
+    <p>The only thing is&hellip; it&rsquo;s not. And it hasn't been since the 1930s.</p>
+    <p>Thanks to the <a href="../">Hall of wWAR</a>, we now have a list of which Hall of Famers actually deserve to be there. Currently, 63 of the 208 players in the Hall of Fame (30.3%) didn&rsquo;t deserve to be inducted (and deserve to be replaced by better players). For full analysis, <a href="http://www.beyondtheboxscore.com/2012/1/10/2695995/the-hall-of-fame-and-the-myth-of-exclusivity">see the post at Beyond the Box Score</a>.</p>
+  </section>
+
+  <section id="list">
+    <h2>Deserving Hall of Fame Inductees by Decade</h2>
+    <p>This table shows what percentage of inductees were worthy, by decade.</p>
+    <table>
+      <colgroup>
+        <col style="width: 70px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 450px;"></col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Decade</th>
+          <th rowspan="2">Inductees</th>
+          <th colspan="2" class="grouphead">BBWAA</th>
+          <th colspan="2" class="grouphead">Veterans</th>
+          <th rowspan="2">Percentage of Deserving Hall of Famers <strong>per Decade</strong></th>
+        </tr>
+        <tr>
+          <th class="groupsub">Deserving</th>
+          <th class="groupsub">Undeserving</th>
+          <th class="groupsub">Deserving</th>
+          <th class="groupsub">Undeserving</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <td>Total</td>
+        <td>208</td>
+        <td>98</td>
+        <td>13</td>
+        <td>46</td>
+        <td>50</td>
+        <td>69.2%</td>
+      </tfoot>
+      <tbody>
+        <tr id="decade-1930s">
+          <td>1930s</td>
+          <td>16</td>
+          <td>13</td>
+          <td>0</td>
+          <td>3</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="decade-1940s">
+          <td>1940s</td>
+          <td>30</td>
+          <td>6</td>
+          <td>2</td>
+          <td>15</td>
+          <td>7</td>
+          <td>70.0</td>
+        </tr>
+        <tr id="decade-1950s">
+          <td>1950s</td>
+          <td>21</td>
+          <td>13</td>
+          <td>2</td>
+          <td>4</td>
+          <td>2</td>
+          <td>81.0</td>
+        </tr>
+        <tr id="decade-1960s">
+          <td>1960s</td>
+          <td>26</td>
+          <td>8</td>
+          <td>0</td>
+          <td>8</td>
+          <td>10</td>
+          <td>61.5</td>
+        </tr>
+        <tr id="decade-1970s">
+          <td>1970s</td>
+          <td>36</td>
+          <td>13</td>
+          <td>1</td>
+          <td>5</td>
+          <td>17</td>
+          <td>50.0</td>
+        </tr>
+        <tr id="decade-1980s">
+          <td>1980s</td>
+          <td>29</td>
+          <td>15</td>
+          <td>3</td>
+          <td>3</td>
+          <td>8</td>
+          <td>62.1</td>
+        </tr>
+        <tr id="decade-1990s">
+          <td>1990s</td>
+          <td>25</td>
+          <td>14</td>
+          <td>1</td>
+          <td>5</td>
+          <td>5</td>
+          <td>76.0</td>
+        </tr>
+        <tr id="decade-2000s">
+          <td>2000s</td>
+          <td>25</td>
+          <td>17</td>
+          <td>4</td>
+          <td>3</td>
+          <td>1</td>
+          <td>80.0</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Cumulative Percentage of Deserving Hall of Famers</h2>
+    <p>In this table shows the percentage of deserving Hall of Famers changing over time. Some interesting points:</p>
+    <ul>
+      <li>The Veterans selections from 1945 and 1946 brought the percentage from 100% down to 81.1%.</li>
+      <li>From 1970 to 1975, a particularly poor stretch brought the percentage from 74.0% to 68.6%.</li>
+      <li>1987&rsquo;s induction of Catfish Hunter represented the all-time low point (66.9%).</li>
+      <li>The 1980s didn&rsquo;t do much to help. After 1989, the percentage still sat at 68.2%.</li>
+      <li>It has been slowly rebounding since then, with 39 of the last 50 inductees being worthy choices (78.0%).</li>
+    </ul>
+    <table>
+      <colgroup>
+        <col style="width: 70px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 120px;"></col>
+        <col style="width: 450px;"></col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th rowspan="2">Year</th>
+          <th rowspan="2">Inductees</th>
+          <th colspan="2" class="grouphead">BBWAA</th>
+          <th colspan="2" class="grouphead">Veterans</th>
+          <th rowspan="2"><strong>Cumulative</strong> Percentage of Deserving Hall of Famers</th>
+        </tr>
+        <tr>
+          <th class="groupsub">Deserving</th>
+          <th class="groupsub">Undeserving</th>
+          <th class="groupsub">Deserving</th>
+          <th class="groupsub">Undeserving</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <td>Total</td>
+        <td>208</td>
+        <td>98</td>
+        <td>13</td>
+        <td>46</td>
+        <td>50</td>
+        <td>69.2%</td>
+      </tfoot>
+      <tbody>
+        <tr id="year-1936">
+          <td>1936</td>
+          <td>5</td>
+          <td>5</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1937">
+          <td>1937</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1938">
+          <td>1938</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1939">
+          <td>1939</td>
+          <td>7</td>
+          <td>4</td>
+          <td>0</td>
+          <td>3</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1940">
+          <td>1940</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1941">
+          <td>1941</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1942">
+          <td>1942</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1943">
+          <td>1943</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1944">
+          <td>1944</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>100.0%</td>
+        </tr>
+        <tr id="year-1945">
+          <td>1945</td>
+          <td>9</td>
+          <td>0</td>
+          <td>0</td>
+          <td>7</td>
+          <td>2</td>
+          <td>92.3%</td>
+        </tr>
+        <tr id="year-1946">
+          <td>1946</td>
+          <td>11</td>
+          <td>0</td>
+          <td>0</td>
+          <td>6</td>
+          <td>5</td>
+          <td>81.1%</td>
+        </tr>
+        <tr id="year-1947">
+          <td>1947</td>
+          <td>4</td>
+          <td>4</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>82.9%</td>
+        </tr>
+        <tr id="year-1948">
+          <td>1948</td>
+          <td>2</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>79.1%</td>
+        </tr>
+        <tr id="year-1949">
+          <td>1949</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0</td>
+          <td>80.4%</td>
+        </tr>
+        <tr id="year-1950">
+          <td>1950</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>80.4%</td>
+        </tr>
+        <tr id="year-1951">
+          <td>1951</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>81.3%</td>
+        </tr>
+        <tr id="year-1952">
+          <td>1952</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>82.0%</td>
+        </tr>
+        <tr id="year-1953">
+          <td>1953</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>79.6%</td>
+        </tr>
+        <tr id="year-1954">
+          <td>1954</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>78.9%</td>
+        </tr>
+        <tr id="year-1955">
+          <td>1955</td>
+          <td>6</td>
+          <td>4</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>79.4%</td>
+        </tr>
+        <tr id="year-1956">
+          <td>1956</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>80.0%</td>
+        </tr>
+        <tr id="year-1957">
+          <td>1957</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>80.3%</td>
+        </tr>
+        <tr id="year-1958">
+          <td>1958</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>80.3%</td>
+        </tr>
+        <tr id="year-1959">
+          <td>1959</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>80.6%</td>
+        </tr>
+        <tr id="year-1960">
+          <td>1960</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>80.6%</td>
+        </tr>
+        <tr id="year-1961">
+          <td>1961</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>79.7%</td>
+        </tr>
+        <tr id="year-1962">
+          <td>1962</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>79.2%</td>
+        </tr>
+        <tr id="year-1963">
+          <td>1963</td>
+          <td>4</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>2</td>
+          <td>77.6%</td>
+        </tr>
+        <tr id="year-1964">
+          <td>1964</td>
+          <td>6</td>
+          <td>1</td>
+          <td>0</td>
+          <td>3</td>
+          <td>2</td>
+          <td>76.8%</td>
+        </tr>
+        <tr id="year-1965">
+          <td>1965</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>75.9%</td>
+        </tr>
+        <tr id="year-1966">
+          <td>1966</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>76.2%</td>
+        </tr>
+        <tr id="year-1967">
+          <td>1967</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>75.6%</td>
+        </tr>
+        <tr id="year-1968">
+          <td>1968</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>75.3%</td>
+        </tr>
+        <tr id="year-1969">
+          <td>1969</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>75.3%</td>
+        </tr>
+        <tr id="year-1970">
+          <td>1970</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>74.0%</td>
+        </tr>
+        <tr id="year-1971">
+          <td>1971</td>
+          <td>6</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>4</td>
+          <td>71.6%</td>
+        </tr>
+        <tr id="year-1972">
+          <td>1972</td>
+          <td>5</td>
+          <td>3</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>71.0%</td>
+        </tr>
+        <tr id="year-1973">
+          <td>1973</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>70.3%</td>
+        </tr>
+        <tr id="year-1974">
+          <td>1974</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>69.6%</td>
+        </tr>
+        <tr id="year-1975">
+          <td>1975</td>
+          <td>3</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>68.6%</td>
+        </tr>
+        <tr id="year-1976">
+          <td>1976</td>
+          <td>4</td>
+          <td>2</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>68.9%</td>
+        </tr>
+        <tr id="year-1977">
+          <td>1977</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>68.8%</td>
+        </tr>
+        <tr id="year-1978">
+          <td>1978</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.5%</td>
+        </tr>
+        <tr id="year-1979">
+          <td>1979</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-1980">
+          <td>1980</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-1981">
+          <td>1981</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>68.7%</td>
+        </tr>
+        <tr id="year-1982">
+          <td>1982</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.6%</td>
+        </tr>
+        <tr id="year-1983">
+          <td>1983</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.6%</td>
+        </tr>
+        <tr id="year-1984">
+          <td>1984</td>
+          <td>5</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>68.3%</td>
+        </tr>
+        <tr id="year-1985">
+          <td>1985</td>
+          <td>4</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>67.8%</td>
+        </tr>
+        <tr id="year-1986">
+          <td>1986</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>67.1%</td>
+        </tr>
+        <tr id="year-1987">
+          <td>1987</td>
+          <td>2</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>66.9%</td>
+        </tr>
+        <tr id="year-1988">
+          <td>1988</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>67.1%</td>
+        </tr>
+        <tr id="year-1989">
+          <td>1989</td>
+          <td>3</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>67.1%</td>
+        </tr>
+        <tr id="year-1990">
+          <td>1990</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>67.5%</td>
+        </tr>
+        <tr id="year-1991">
+          <td>1991</td>
+          <td>4</td>
+          <td>3</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>67.7%</td>
+        </tr>
+        <tr id="year-1992">
+          <td>1992</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>67.7%</td>
+        </tr>
+        <tr id="year-1993">
+          <td>1993</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>67.9%</td>
+        </tr>
+        <tr id="year-1994">
+          <td>1994</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>67.6%</td>
+        </tr>
+        <tr id="year-1995">
+          <td>1995</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-1996">
+          <td>1996</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>68.4%</td>
+        </tr>
+        <tr id="year-1997">
+          <td>1997</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-1998">
+          <td>1998</td>
+          <td>3</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>1</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-1999">
+          <td>1999</td>
+          <td>4</td>
+          <td>3</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>68.3%</td>
+        </tr>
+        <tr id="year-2000">
+          <td>2000</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>68.3%</td>
+        </tr>
+        <tr id="year-2001">
+          <td>2001</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>67.7%</td>
+        </tr>
+        <tr id="year-2002">
+          <td>2002</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>67.9%</td>
+        </tr>
+        <tr id="year-2003">
+          <td>2003</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>68.2%</td>
+        </tr>
+        <tr id="year-2004">
+          <td>2004</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>68.6%</td>
+        </tr>
+        <tr id="year-2005">
+          <td>2005</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>68.9%</td>
+        </tr>
+        <tr id="year-2006">
+          <td>2006</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>68.5%</td>
+        </tr>
+        <tr id="year-2007">
+          <td>2007</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>68.8%</td>
+        </tr>
+        <tr id="year-2008">
+          <td>2008</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>69.0%</td>
+        </tr>
+        <tr id="year-2009">
+          <td>2009</td>
+          <td>3</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>69.0%</td>
+        </tr>
+        <tr id="year-2010">
+          <td>2010</td>
+          <td>1</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>69.1%</td>
+        </tr>
+        <tr id="year-2011">
+          <td>2011</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>69.4%</td>
+        </tr>
+        <tr id="year-2012">
+          <td>2012</td>
+          <td>2</td>
+          <td>1</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>69.7%</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+  <footer>
+    <p>Published: January 10, 2012.</p>
+  </footer>
+  
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-379490-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
