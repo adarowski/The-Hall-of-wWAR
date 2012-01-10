@@ -2,9 +2,12 @@
 $(document).ready(function(){
   $("#list-in, #list-out, #list-next, #list-all").tablesorter();
   $("#toggles dd#show-all").addClass("yah");
-  $("#timeline li div, #list-out, #timeline-out, #list-next, #timeline-next").css("display","none");
+  $("#timeline li div, #list-out, #timeline-out, #list-next, #timeline-next, nav ul").css("display","none");
   $("#timeline li").hover(function(){
     $(this).find('div').toggle();
+  });
+  $("#show-visuals").click(function(){
+    $("nav ul").toggle();
   });
   $("#show-all").click(function(){
     $("#timeline ul, #list-view table").css("display","none"); // hide all timelines and tables

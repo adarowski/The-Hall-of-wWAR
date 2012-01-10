@@ -50,13 +50,31 @@ header
     right: 0
     font-size: 18px
     bottom: 15px
-  h3
-    margin: 0
+  nav
     position: absolute
     right: 0
     top: 0
-    font-weight: normal
-    font-size: 15px
+    #show-visuals
+      +toggle_button
+      background-color: fade_out($default_color, 0.2)
+      &:link, &:visited, &:hover, &:active
+        color: white
+      border: none
+      margin-left: 10px
+      &:hover
+        background-color: $default_color
+    ul
+      +popup
+      position: absolute
+      list-style: none
+      li
+        margin-top: 8px
+        padding-top: 8px
+        border-top: 1px solid #EEE
+        &:first-child
+          margin-top: 0
+          padding-top: 0
+          border-top: 0
 
 #key
   border-bottom: 1px solid #eee
@@ -671,11 +689,11 @@ footer
     +bar(1952, 1972, 76.2)
   #frank-tanana
     +bar(1973, 1993, 76.2)
+  #frank-chance
+    +bar(1898, 1914, 76.2)
 
   // Non-Hall of wWAR
 
-  #frank-chance
-    +bar(1898, 1914, 76.2)
   #hugh-duffy
     +bar(1888, 1906, 76.1)
   #roger-bresnahan
