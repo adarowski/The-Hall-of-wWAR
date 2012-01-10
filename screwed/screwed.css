@@ -155,15 +155,6 @@
       left: 20px; }
     #list #tor:hover {
       background-color: #0067a6; }
-  #list #cin {
-    width: 395.5px;
-    background-color: rgba(235, 24, 75, 0.8);
-    font-size: 18.99px;
-    white-space: nowrap; }
-    #list #cin div {
-      left: 20px; }
-    #list #cin:hover {
-      background-color: #eb184b; }
   #list #laa {
     width: 377.5px;
     background-color: rgba(206, 17, 65, 0.8);
@@ -256,6 +247,19 @@
     #list #pit:hover {
       background-color: #ffb40b; }
     #list #pit div {
+      text-indent: 0; }
+  #list #cin {
+    width: 51px;
+    background-color: rgba(235, 24, 75, 0.8);
+    font-size: 12.1px;
+    white-space: nowrap;
+    text-indent: 60px;
+    color: #444444; }
+    #list #cin div {
+      left: 20px; }
+    #list #cin:hover {
+      background-color: #eb184b; }
+    #list #cin div {
       text-indent: 0; }
   #list #min {
     width: 13px;
