@@ -34,8 +34,8 @@ $(document).ready(function(){
     $("#list-in").css("display","table"); // show list-in
     $("#timeline-in li").css("display","block"); // show all timeline-in boxes
     $("#list-in tbody tr").css("display","table-row"); // show all list-in rows
-    $("#timeline-in li.p").css("display","none"); // hide all p boxes
-    $("#list-in tbody tr.p").css("display","none"); // hide all p rows
+    $("#timeline-in li.p, #timeline-in li.rp").css("display","none"); // hide all p boxes
+    $("#list-in tbody tr.p, #list-in tbody tr.rp").css("display","none"); // hide all p rows
     $("#toggles a").removeClass("yah"); // remove all yah classes from toggles
     $(this).addClass("yah"); // add yah class to this toggle
   });
