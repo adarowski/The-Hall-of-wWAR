@@ -156,7 +156,6 @@ $(document).ready(function(){
   });
   if( window.location.hash ) {
     $(window.location.hash).click();
-    $("a#trigger").removeClass("open");
   }
 
 });
