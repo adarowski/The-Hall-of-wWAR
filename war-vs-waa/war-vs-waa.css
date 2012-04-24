@@ -1,0 +1,3358 @@
+#list {
+  background-image: none; }
+  #list dl dt {
+    font-weight: bold;
+    margin-bottom: 2px; }
+  #list dl dd {
+    margin: 0;
+    padding: 0;
+    padding: 2px;
+    color: white;
+    display: inline-block;
+    text-align: right; }
+    #list dl dd.war {
+      background-color: black;
+      display: none; }
+    #list dl dd.waa {
+      background-color: rgba(0, 0, 100, 0.75); }
+    #list dl dd.rep {
+      background-color: rgba(0, 0, 100, 0.25); }
+  #list dl#key dd {
+    width: 200px;
+    text-align: left; }
+
+#ruthb101 dt:after {
+  content: " (172 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ruthb101 dd.war {
+  width: 1032px; }
+#ruthb101 dd.waa {
+  width: 843px; }
+#ruthb101 dd.rep {
+  width: 189px; }
+
+#bondb001 dt:after {
+  content: " (171.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bondb001 dd.war {
+  width: 1030.8px; }
+#bondb001 dd.waa {
+  width: 787.8px; }
+#bondb001 dd.rep {
+  width: 243px; }
+
+#cobbt101 dt:after {
+  content: " (159.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cobbt101 dd.war {
+  width: 956.4px; }
+#cobbt101 dd.waa {
+  width: 688.8px; }
+#cobbt101 dd.rep {
+  width: 267.6px; }
+
+#maysw101 dt:after {
+  content: " (154.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#maysw101 dd.war {
+  width: 928.2px; }
+#maysw101 dd.waa {
+  width: 681px; }
+#maysw101 dd.rep {
+  width: 247.2px; }
+
+#aaroh101 dt:after {
+  content: " (141.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#aaroh101 dd.war {
+  width: 849.6px; }
+#aaroh101 dd.waa {
+  width: 565.2px; }
+#aaroh101 dd.rep {
+  width: 284.4px; }
+
+#wagnh101 dt:after {
+  content: " (134.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#wagnh101 dd.war {
+  width: 807px; }
+#wagnh101 dd.waa {
+  width: 603.6px; }
+#wagnh101 dd.rep {
+  width: 203.4px; }
+
+#speat101 dt:after {
+  content: " (133 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#speat101 dd.war {
+  width: 798px; }
+#speat101 dd.waa {
+  width: 562.8px; }
+#speat101 dd.rep {
+  width: 235.2px; }
+
+#hornr101 dt:after {
+  content: " (127.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hornr101 dd.war {
+  width: 766.8px; }
+#hornr101 dd.waa {
+  width: 595.2px; }
+#hornr101 dd.rep {
+  width: 171.6px; }
+
+#musis101 dt:after {
+  content: " (127.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#musis101 dd.war {
+  width: 766.8px; }
+#musis101 dd.waa {
+  width: 508.2px; }
+#musis101 dd.rep {
+  width: 258.6px; }
+
+#colle101 dt:after {
+  content: " (126.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#colle101 dd.war {
+  width: 760.2px; }
+#colle101 dd.waa {
+  width: 529.2px; }
+#colle101 dd.rep {
+  width: 231px; }
+
+#willt103 dt:after {
+  content: " (125.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#willt103 dd.war {
+  width: 751.8px; }
+#willt103 dd.waa {
+  width: 591px; }
+#willt103 dd.rep {
+  width: 160.8px; }
+
+#mantm101 dt:after {
+  content: " (120.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mantm101 dd.war {
+  width: 721.2px; }
+#mantm101 dd.waa {
+  width: 540px; }
+#mantm101 dd.rep {
+  width: 181.2px; }
+
+#gehrl101 dt:after {
+  content: " (118.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gehrl101 dd.war {
+  width: 710.4px; }
+#gehrl101 dd.waa {
+  width: 545.4px; }
+#gehrl101 dd.rep {
+  width: 165px; }
+
+#hendr001 dt:after {
+  content: " (113.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hendr001 dd.war {
+  width: 678.6px; }
+#hendr001 dd.waa {
+  width: 447.6px; }
+#hendr001 dd.rep {
+  width: 231px; }
+
+#ott-m101 dt:after {
+  content: " (109.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ott-m101 dd.war {
+  width: 655.8px; }
+#ott-m101 dd.waa {
+  width: 429px; }
+#ott-m101 dd.rep {
+  width: 226.8px; }
+
+#schmm001 dt:after {
+  content: " (108.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#schmm001 dd.war {
+  width: 649.8px; }
+#schmm001 dd.waa {
+  width: 459.6px; }
+#schmm001 dd.rep {
+  width: 190.2px; }
+
+#robif103 dt:after {
+  content: " (107.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#robif103 dd.war {
+  width: 644.4px; }
+#robif103 dd.waa {
+  width: 399.6px; }
+#robif103 dd.rep {
+  width: 244.8px; }
+
+#lajon101 dt:after {
+  content: " (104.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#lajon101 dd.war {
+  width: 625.2px; }
+#lajon101 dd.waa {
+  width: 421.8px; }
+#lajon101 dd.rep {
+  width: 203.4px; }
+
+#morgj001 dt:after {
+  content: " (103.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#morgj001 dd.war {
+  width: 621px; }
+#morgj001 dd.waa {
+  width: 413.4px; }
+#morgj001 dd.rep {
+  width: 207.6px; }
+
+#ansoc101 dt:after {
+  content: " (99.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ansoc101 dd.war {
+  width: 597px; }
+#ansoc101 dd.waa {
+  width: 380.4px; }
+#ansoc101 dd.rep {
+  width: 216.6px; }
+
+#rodra001 dt:after {
+  content: " (99 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rodra001 dd.war {
+  width: 594px; }
+#rodra001 dd.waa {
+  width: 412.8px; }
+#rodra001 dd.rep {
+  width: 181.2px; }
+
+#mathe101 dt:after {
+  content: " (98.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mathe101 dd.war {
+  width: 589.8px; }
+#mathe101 dd.waa {
+  width: 388.2px; }
+#mathe101 dd.rep {
+  width: 201.6px; }
+
+#foxxj101 dt:after {
+  content: " (94.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#foxxj101 dd.war {
+  width: 564.6px; }
+#foxxj101 dd.waa {
+  width: 400.2px; }
+#foxxj101 dd.rep {
+  width: 164.4px; }
+
+#kalia101 dt:after {
+  content: " (91 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kalia101 dd.war {
+  width: 546px; }
+#kalia101 dd.waa {
+  width: 339.6px; }
+#kalia101 dd.rep {
+  width: 206.4px; }
+
+#davig102 dt:after {
+  content: " (90.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#davig102 dd.war {
+  width: 544.2px; }
+#davig102 dd.waa {
+  width: 354px; }
+#davig102 dd.rep {
+  width: 190.2px; }
+
+#ripkc001 dt:after {
+  content: " (89.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ripkc001 dd.war {
+  width: 539.4px; }
+#ripkc001 dd.waa {
+  width: 304.8px; }
+#ripkc001 dd.rep {
+  width: 234.6px; }
+
+#boggw001 dt:after {
+  content: " (89 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#boggw001 dd.war {
+  width: 534px; }
+#boggw001 dd.waa {
+  width: 345px; }
+#boggw001 dd.rep {
+  width: 189px; }
+
+#yastc101 dt:after {
+  content: " (88.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#yastc101 dd.war {
+  width: 532.2px; }
+#yastc101 dd.waa {
+  width: 277.8px; }
+#yastc101 dd.rep {
+  width: 254.4px; }
+
+#connr102 dt:after {
+  content: " (87.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#connr102 dd.war {
+  width: 523.2px; }
+#connr102 dd.waa {
+  width: 351px; }
+#connr102 dd.rep {
+  width: 172.2px; }
+
+#bretg001 dt:after {
+  content: " (85 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bretg001 dd.war {
+  width: 510px; }
+#bretg001 dd.waa {
+  width: 297px; }
+#bretg001 dd.rep {
+  width: 213px; }
+
+#clemr101 dt:after {
+  content: " (83.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#clemr101 dd.war {
+  width: 502.8px; }
+#clemr101 dd.waa {
+  width: 303px; }
+#clemr101 dd.rep {
+  width: 199.8px; }
+
+#broud101 dt:after {
+  content: " (83.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#broud101 dd.war {
+  width: 502.2px; }
+#broud101 dd.waa {
+  width: 369px; }
+#broud101 dd.rep {
+  width: 133.2px; }
+
+#dimaj101 dt:after {
+  content: " (83.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dimaj101 dd.war {
+  width: 501.6px; }
+#dimaj101 dd.waa {
+  width: 382.8px; }
+#dimaj101 dd.rep {
+  width: 118.8px; }
+
+#gehrc101 dt:after {
+  content: " (80.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gehrc101 dd.war {
+  width: 485.4px; }
+#gehrc101 dd.waa {
+  width: 306px; }
+#gehrc101 dd.rep {
+  width: 179.4px; }
+
+#bagwj001 dt:after {
+  content: " (79.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bagwj001 dd.war {
+  width: 479.4px; }
+#bagwj001 dd.waa {
+  width: 314.4px; }
+#bagwj001 dd.rep {
+  width: 165px; }
+
+#grifk002 dt:after {
+  content: " (79.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#grifk002 dd.war {
+  width: 475.8px; }
+#grifk002 dd.waa {
+  width: 270px; }
+#grifk002 dd.rep {
+  width: 205.8px; }
+
+#carer001 dt:after {
+  content: " (79.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#carer001 dd.war {
+  width: 474.6px; }
+#carer001 dd.waa {
+  width: 282px; }
+#carer001 dd.rep {
+  width: 192.6px; }
+
+#jonec004 dt:after {
+  content: " (76.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jonec004 dd.war {
+  width: 461.4px; }
+#jonec004 dd.waa {
+  width: 298.8px; }
+#jonec004 dd.rep {
+  width: 162.6px; }
+
+#younr001 dt:after {
+  content: " (76.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#younr001 dd.war {
+  width: 461.4px; }
+#younr001 dd.waa {
+  width: 241.2px; }
+#younr001 dd.rep {
+  width: 220.2px; }
+
+#pujoa001 dt:after {
+  content: " (76.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#pujoa001 dd.war {
+  width: 459.6px; }
+#pujoa001 dd.waa {
+  width: 349.2px; }
+#pujoa001 dd.rep {
+  width: 110.4px; }
+
+#craws101 dt:after {
+  content: " (76.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#craws101 dd.war {
+  width: 459.6px; }
+#craws101 dd.waa {
+  width: 233.4px; }
+#craws101 dd.rep {
+  width: 226.2px; }
+
+#dahlb102 dt:after {
+  content: " (75.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dahlb102 dd.war {
+  width: 455.4px; }
+#dahlb102 dd.waa {
+  width: 269.4px; }
+#dahlb102 dd.rep {
+  width: 186px; }
+
+#thomf001 dt:after {
+  content: " (75.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#thomf001 dd.war {
+  width: 455.4px; }
+#thomf001 dd.waa {
+  width: 266.4px; }
+#thomf001 dd.rep {
+  width: 189px; }
+
+#vauga101 dt:after {
+  content: " (75.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#vauga101 dd.war {
+  width: 453.6px; }
+#vauga101 dd.waa {
+  width: 301.2px; }
+#vauga101 dd.rep {
+  width: 152.4px; }
+
+#rosep001 dt:after {
+  content: " (75.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rosep001 dd.war {
+  width: 451.8px; }
+#rosep001 dd.waa {
+  width: 169.2px; }
+#rosep001 dd.rep {
+  width: 282.6px; }
+
+#frisf101 dt:after {
+  content: " (74.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#frisf101 dd.war {
+  width: 448.8px; }
+#frisf101 dd.waa {
+  width: 273px; }
+#frisf101 dd.rep {
+  width: 175.8px; }
+
+#molip001 dt:after {
+  content: " (74.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#molip001 dd.war {
+  width: 448.8px; }
+#molip001 dd.waa {
+  width: 237px; }
+#molip001 dd.rep {
+  width: 211.8px; }
+
+#delae101 dt:after {
+  content: " (74.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#delae101 dd.war {
+  width: 448.2px; }
+#delae101 dd.waa {
+  width: 301.2px; }
+#delae101 dd.rep {
+  width: 147px; }
+
+#jackr001 dt:after {
+  content: " (74.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jackr001 dd.war {
+  width: 447.6px; }
+#jackr001 dd.waa {
+  width: 221.4px; }
+#jackr001 dd.rep {
+  width: 226.2px; }
+
+#wanep101 dt:after {
+  content: " (73.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#wanep101 dd.war {
+  width: 442.8px; }
+#wanep101 dd.waa {
+  width: 247.8px; }
+#wanep101 dd.rep {
+  width: 195px; }
+
+#clarf101 dt:after {
+  content: " (73.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#clarf101 dd.war {
+  width: 440.4px; }
+#clarf101 dd.waa {
+  width: 268.8px; }
+#clarf101 dd.rep {
+  width: 171.6px; }
+
+#bencj101 dt:after {
+  content: " (71.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bencj101 dd.war {
+  width: 427.8px; }
+#bencj101 dd.waa {
+  width: 277.2px; }
+#bencj101 dd.rep {
+  width: 150.6px; }
+
+#mizej101 dt:after {
+  content: " (70.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mizej101 dd.war {
+  width: 421.2px; }
+#mizej101 dd.waa {
+  width: 264.6px; }
+#mizej101 dd.rep {
+  width: 156.6px; }
+
+#whitl001 dt:after {
+  content: " (69.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#whitl001 dd.war {
+  width: 418.2px; }
+#whitl001 dd.waa {
+  width: 238.2px; }
+#whitl001 dd.rep {
+  width: 180px; }
+
+#hamib101 dt:after {
+  content: " (69.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hamib101 dd.war {
+  width: 417.6px; }
+#hamib101 dd.waa {
+  width: 292.2px; }
+#hamib101 dd.rep {
+  width: 125.4px; }
+
+#heilh101 dt:after {
+  content: " (69.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#heilh101 dd.war {
+  width: 416.4px; }
+#heilh101 dd.waa {
+  width: 241.8px; }
+#heilh101 dd.rep {
+  width: 174.6px; }
+
+#appll101 dt:after {
+  content: " (69.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#appll101 dd.war {
+  width: 415.8px; }
+#appll101 dd.waa {
+  width: 244.8px; }
+#appll101 dd.rep {
+  width: 171px; }
+
+#robib104 dt:after {
+  content: " (69.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#robib104 dd.war {
+  width: 414.6px; }
+#robib104 dd.waa {
+  width: 232.8px; }
+#robib104 dd.rep {
+  width: 181.8px; }
+
+#larkb001 dt:after {
+  content: " (68.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#larkb001 dd.war {
+  width: 413.4px; }
+#larkb001 dd.waa {
+  width: 254.4px; }
+#larkb001 dd.rep {
+  width: 159px; }
+
+#jeted001 dt:after {
+  content: " (68.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jeted001 dd.war {
+  width: 412.8px; }
+#jeted001 dd.waa {
+  width: 233.4px; }
+#jeted001 dd.rep {
+  width: 179.4px; }
+
+#gwynt001 dt:after {
+  content: " (68.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gwynt001 dd.war {
+  width: 410.4px; }
+#gwynt001 dd.waa {
+  width: 225.6px; }
+#gwynt001 dd.rep {
+  width: 184.8px; }
+
+#burkj101 dt:after {
+  content: " (68 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#burkj101 dd.war {
+  width: 408px; }
+#burkj101 dd.waa {
+  width: 240px; }
+#burkj101 dd.rep {
+  width: 168px; }
+
+#gricb001 dt:after {
+  content: " (67.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gricb001 dd.war {
+  width: 405.6px; }
+#gricb001 dd.waa {
+  width: 256.2px; }
+#gricb001 dd.rep {
+  width: 149.4px; }
+
+#snidd101 dt:after {
+  content: " (67.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#snidd101 dd.war {
+  width: 405px; }
+#snidd101 dd.waa {
+  width: 232.8px; }
+#snidd101 dd.rep {
+  width: 172.2px; }
+
+#walkl001 dt:after {
+  content: " (67.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#walkl001 dd.war {
+  width: 403.8px; }
+#walkl001 dd.waa {
+  width: 258px; }
+#walkl001 dd.rep {
+  width: 145.8px; }
+
+#fiskc001 dt:after {
+  content: " (67.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fiskc001 dd.war {
+  width: 403.8px; }
+#fiskc001 dd.waa {
+  width: 217.2px; }
+#fiskc001 dd.rep {
+  width: 186.6px; }
+
+#marte001 dt:after {
+  content: " (67.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#marte001 dd.war {
+  width: 403.2px; }
+#marte001 dd.waa {
+  width: 238.8px; }
+#marte001 dd.rep {
+  width: 164.4px; }
+
+#trama001 dt:after {
+  content: " (66.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#trama001 dd.war {
+  width: 401.4px; }
+#trama001 dd.waa {
+  width: 234.6px; }
+#trama001 dd.rep {
+  width: 166.8px; }
+
+#thomj002 dt:after {
+  content: " (66.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#thomj002 dd.war {
+  width: 400.8px; }
+#thomj002 dd.waa {
+  width: 219px; }
+#thomj002 dd.rep {
+  width: 181.8px; }
+
+#edmoj001 dt:after {
+  content: " (66.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#edmoj001 dd.war {
+  width: 400.2px; }
+#edmoj001 dd.waa {
+  width: 253.8px; }
+#edmoj001 dd.rep {
+  width: 146.4px; }
+
+#reesp101 dt:after {
+  content: " (66.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#reesp101 dd.war {
+  width: 400.2px; }
+#reesp101 dd.waa {
+  width: 220.2px; }
+#reesp101 dd.rep {
+  width: 180px; }
+
+#rodri001 dt:after {
+  content: " (66.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rodri001 dd.war {
+  width: 400.2px; }
+#rodri001 dd.waa {
+  width: 202.8px; }
+#rodri001 dd.rep {
+  width: 197.4px; }
+
+#murre001 dt:after {
+  content: " (66.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#murre001 dd.war {
+  width: 400.2px; }
+#murre001 dd.waa {
+  width: 165.6px; }
+#murre001 dd.rep {
+  width: 234.6px; }
+
+#santr102 dt:after {
+  content: " (66.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#santr102 dd.war {
+  width: 398.4px; }
+#santr102 dd.waa {
+  width: 222px; }
+#santr102 dd.rep {
+  width: 176.4px; }
+
+#cartg001 dt:after {
+  content: " (66.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cartg001 dd.war {
+  width: 397.8px; }
+#cartg001 dd.waa {
+  width: 237.6px; }
+#cartg001 dd.rep {
+  width: 160.2px; }
+
+#biggc001 dt:after {
+  content: " (66.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#biggc001 dd.war {
+  width: 397.2px; }
+#biggc001 dd.waa {
+  width: 189px; }
+#biggc001 dd.rep {
+  width: 208.2px; }
+
+#ramim002 dt:after {
+  content: " (66 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ramim002 dd.war {
+  width: 396px; }
+#ramim002 dd.waa {
+  width: 217.8px; }
+#ramim002 dd.rep {
+  width: 178.2px; }
+
+#palmr001 dt:after {
+  content: " (66 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#palmr001 dd.war {
+  width: 396px; }
+#palmr001 dd.waa {
+  width: 163.2px; }
+#palmr001 dd.rep {
+  width: 232.8px; }
+
+#loftk001 dt:after {
+  content: " (65.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#loftk001 dd.war {
+  width: 391.8px; }
+#loftk001 dd.waa {
+  width: 222.6px; }
+#loftk001 dd.rep {
+  width: 169.2px; }
+
+#mccow101 dt:after {
+  content: " (65.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mccow101 dd.war {
+  width: 390.6px; }
+#mccow101 dd.waa {
+  width: 184.8px; }
+#mccow101 dd.rep {
+  width: 205.8px; }
+
+#smito001 dt:after {
+  content: " (64.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#smito001 dd.war {
+  width: 387.6px; }
+#smito001 dd.waa {
+  width: 213.6px; }
+#smito001 dd.rep {
+  width: 174px; }
+
+#raint001 dt:after {
+  content: " (64.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#raint001 dd.war {
+  width: 387.6px; }
+#raint001 dd.waa {
+  width: 192.6px; }
+#raint001 dd.rep {
+  width: 195px; }
+
+#banke101 dt:after {
+  content: " (64.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#banke101 dd.war {
+  width: 386.4px; }
+#banke101 dd.waa {
+  width: 172.2px; }
+#banke101 dd.rep {
+  width: 214.2px; }
+
+#bakef102 dt:after {
+  content: " (63.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bakef102 dd.war {
+  width: 382.2px; }
+#bakef102 dd.waa {
+  width: 249.6px; }
+#bakef102 dd.rep {
+  width: 132.6px; }
+
+#simma101 dt:after {
+  content: " (63.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#simma101 dd.war {
+  width: 381.6px; }
+#simma101 dd.waa {
+  width: 206.4px; }
+#simma101 dd.rep {
+  width: 175.2px; }
+
+#alomr001 dt:after {
+  content: " (63.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#alomr001 dd.war {
+  width: 381px; }
+#alomr001 dd.waa {
+  width: 190.8px; }
+#alomr001 dd.rep {
+  width: 190.2px; }
+
+#smitr101 dt:after {
+  content: " (63.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#smitr101 dd.war {
+  width: 380.4px; }
+#smitr101 dd.waa {
+  width: 228.6px; }
+#smitr101 dd.rep {
+  width: 151.8px; }
+
+#shefg001 dt:after {
+  content: " (63.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#shefg001 dd.war {
+  width: 379.8px; }
+#shefg001 dd.waa {
+  width: 180px; }
+#shefg001 dd.rep {
+  width: 199.8px; }
+
+#robij103 dt:after {
+  content: " (63.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#robij103 dd.war {
+  width: 379.2px; }
+#robij103 dd.waa {
+  width: 258px; }
+#robij103 dd.rep {
+  width: 121.2px; }
+
+#mcgwm001 dt:after {
+  content: " (63.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mcgwm001 dd.war {
+  width: 378.6px; }
+#mcgwm001 dd.waa {
+  width: 234px; }
+#mcgwm001 dd.rep {
+  width: 144.6px; }
+
+#goslg101 dt:after {
+  content: " (63 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#goslg101 dd.war {
+  width: 378px; }
+#goslg101 dd.waa {
+  width: 199.8px; }
+#goslg101 dd.rep {
+  width: 178.2px; }
+
+#jackj101 dt:after {
+  content: " (62.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jackj101 dd.war {
+  width: 377.4px; }
+#jackj101 dd.waa {
+  width: 258.6px; }
+#jackj101 dd.rep {
+  width: 118.8px; }
+
+#cronj101 dt:after {
+  content: " (62.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cronj101 dd.war {
+  width: 375px; }
+#cronj101 dd.waa {
+  width: 218.4px; }
+#cronj101 dd.rep {
+  width: 156.6px; }
+
+#roles001 dt:after {
+  content: " (62.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#roles001 dd.war {
+  width: 373.2px; }
+#roles001 dd.waa {
+  width: 242.4px; }
+#roles001 dd.rep {
+  width: 130.8px; }
+
+#sandr001 dt:after {
+  content: " (62 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#sandr001 dd.war {
+  width: 372px; }
+#sandr001 dd.waa {
+  width: 208.8px; }
+#sandr001 dd.rep {
+  width: 163.2px; }
+
+#berry101 dt:after {
+  content: " (61.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#berry101 dd.war {
+  width: 371.4px; }
+#berry101 dd.waa {
+  width: 229.8px; }
+#berry101 dd.rep {
+  width: 141.6px; }
+
+#evand002 dt:after {
+  content: " (61.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#evand002 dd.war {
+  width: 370.8px; }
+#evand002 dd.waa {
+  width: 175.2px; }
+#evand002 dd.rep {
+  width: 195.6px; }
+
+#nettg001 dt:after {
+  content: " (61.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#nettg001 dd.war {
+  width: 369.6px; }
+#nettg001 dd.waa {
+  width: 180px; }
+#nettg001 dd.rep {
+  width: 189.6px; }
+
+#beckj103 dt:after {
+  content: " (61.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#beckj103 dd.war {
+  width: 369px; }
+#beckj103 dd.waa {
+  width: 179.4px; }
+#beckj103 dd.rep {
+  width: 189.6px; }
+
+#alled101 dt:after {
+  content: " (61.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#alled101 dd.war {
+  width: 367.2px; }
+#alled101 dd.waa {
+  width: 208.8px; }
+#alled101 dd.rep {
+  width: 158.4px; }
+
+#killh102 dt:after {
+  content: " (61.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#killh102 dd.war {
+  width: 366.6px; }
+#killh102 dd.waa {
+  width: 182.4px; }
+#killh102 dd.rep {
+  width: 184.2px; }
+
+#hernk001 dt:after {
+  content: " (61 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hernk001 dd.war {
+  width: 366px; }
+#hernk001 dd.waa {
+  width: 201.6px; }
+#hernk001 dd.rep {
+  width: 164.4px; }
+
+#bellb001 dt:after {
+  content: " (60.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bellb001 dd.war {
+  width: 364.8px; }
+#bellb001 dd.waa {
+  width: 186.6px; }
+#bellb001 dd.rep {
+  width: 178.2px; }
+
+#keelw101 dt:after {
+  content: " (60.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#keelw101 dd.war {
+  width: 364.8px; }
+#keelw101 dd.waa {
+  width: 183.6px; }
+#keelw101 dd.rep {
+  width: 181.2px; }
+
+#bands101 dt:after {
+  content: " (60.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bands101 dd.war {
+  width: 363.6px; }
+#bands101 dd.waa {
+  width: 208.8px; }
+#bands101 dd.rep {
+  width: 154.8px; }
+
+#randw001 dt:after {
+  content: " (60.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#randw001 dd.war {
+  width: 363px; }
+#randw001 dd.waa {
+  width: 200.4px; }
+#randw001 dd.rep {
+  width: 162.6px; }
+
+#wallb101 dt:after {
+  content: " (60.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#wallb101 dd.war {
+  width: 363px; }
+#wallb101 dd.waa {
+  width: 186.6px; }
+#wallb101 dd.rep {
+  width: 176.4px; }
+
+#wynnj101 dt:after {
+  content: " (59.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#wynnj101 dd.war {
+  width: 358.8px; }
+#wynnj101 dd.waa {
+  width: 202.2px; }
+#wynnj101 dd.rep {
+  width: 156.6px; }
+
+#sosas001 dt:after {
+  content: " (59.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#sosas001 dd.war {
+  width: 358.2px; }
+#sosas001 dd.waa {
+  width: 181.2px; }
+#sosas001 dd.rep {
+  width: 177px; }
+
+#winfd001 dt:after {
+  content: " (59.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#winfd001 dd.war {
+  width: 358.2px; }
+#winfd001 dd.waa {
+  width: 120.6px; }
+#winfd001 dd.rep {
+  width: 237.6px; }
+
+#kentj001 dt:after {
+  content: " (59.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kentj001 dd.war {
+  width: 356.4px; }
+#kentj001 dd.waa {
+  width: 190.8px; }
+#kentj001 dd.rep {
+  width: 165.6px; }
+
+#piazm001 dt:after {
+  content: " (59.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#piazm001 dd.war {
+  width: 354.6px; }
+#piazm001 dd.waa {
+  width: 213px; }
+#piazm001 dd.rep {
+  width: 141.6px; }
+
+#mages101 dt:after {
+  content: " (59.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mages101 dd.war {
+  width: 354.6px; }
+#mages101 dd.waa {
+  width: 198.6px; }
+#mages101 dd.rep {
+  width: 156px; }
+
+#glasj101 dt:after {
+  content: " (58.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#glasj101 dd.war {
+  width: 352.2px; }
+#glasj101 dd.waa {
+  width: 194.4px; }
+#glasj101 dd.rep {
+  width: 157.8px; }
+
+#jonea002 dt:after {
+  content: " (58.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jonea002 dd.war {
+  width: 350.4px; }
+#jonea002 dd.waa {
+  width: 213px; }
+#jonea002 dd.rep {
+  width: 137.4px; }
+
+#boyek101 dt:after {
+  content: " (58.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#boyek101 dd.war {
+  width: 350.4px; }
+#boyek101 dd.waa {
+  width: 184.2px; }
+#boyek101 dd.rep {
+  width: 166.2px; }
+
+#ashbr101 dt:after {
+  content: " (58 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ashbr101 dd.war {
+  width: 348px; }
+#ashbr101 dd.waa {
+  width: 163.8px; }
+#ashbr101 dd.rep {
+  width: 184.2px; }
+
+#mcphb101 dt:after {
+  content: " (57.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mcphb101 dd.war {
+  width: 347.4px; }
+#mcphb101 dd.waa {
+  width: 191.4px; }
+#mcphb101 dd.rep {
+  width: 156px; }
+
+#wheaz101 dt:after {
+  content: " (57.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#wheaz101 dd.war {
+  width: 346.8px; }
+#wheaz101 dd.waa {
+  width: 169.8px; }
+#wheaz101 dd.rep {
+  width: 177px; }
+
+#clarw001 dt:after {
+  content: " (57.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#clarw001 dd.war {
+  width: 345.6px; }
+#clarw001 dd.waa {
+  width: 183px; }
+#clarw001 dd.rep {
+  width: 162.6px; }
+
+#heltt001 dt:after {
+  content: " (57.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#heltt001 dd.war {
+  width: 345px; }
+#heltt001 dd.waa {
+  width: 210.6px; }
+#heltt001 dd.rep {
+  width: 134.4px; }
+
+#starw101 dt:after {
+  content: " (57.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#starw101 dd.war {
+  width: 345px; }
+#starw101 dd.waa {
+  width: 156px; }
+#starw101 dd.rep {
+  width: 189px; }
+
+#evand001 dt:after {
+  content: " (57.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#evand001 dd.war {
+  width: 343.8px; }
+#evand001 dd.waa {
+  width: 145.8px; }
+#evand001 dd.rep {
+  width: 198px; }
+
+#daviw102 dt:after {
+  content: " (57.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#daviw102 dd.war {
+  width: 343.2px; }
+#daviw102 dd.waa {
+  width: 160.2px; }
+#daviw102 dd.rep {
+  width: 183px; }
+
+#willb104 dt:after {
+  content: " (57.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#willb104 dd.war {
+  width: 343.2px; }
+#willb104 dd.waa {
+  width: 131.4px; }
+#willb104 dd.rep {
+  width: 211.8px; }
+
+#guerv001 dt:after {
+  content: " (57.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#guerv001 dd.war {
+  width: 342.6px; }
+#guerv001 dd.waa {
+  width: 198px; }
+#guerv001 dd.rep {
+  width: 144.6px; }
+
+#abreb001 dt:after {
+  content: " (57.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#abreb001 dd.war {
+  width: 342.6px; }
+#abreb001 dd.waa {
+  width: 193.8px; }
+#abreb001 dd.rep {
+  width: 148.8px; }
+
+#bondb101 dt:after {
+  content: " (57 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bondb101 dd.war {
+  width: 342px; }
+#bondb101 dd.waa {
+  width: 196.8px; }
+#bondb101 dd.rep {
+  width: 145.2px; }
+
+#dawsa001 dt:after {
+  content: " (57 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dawsa001 dd.war {
+  width: 342px; }
+#dawsa001 dd.waa {
+  width: 141px; }
+#dawsa001 dd.rep {
+  width: 201px; }
+
+#greeh102 dt:after {
+  content: " (56.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#greeh102 dd.war {
+  width: 340.8px; }
+#greeh102 dd.waa {
+  width: 238.8px; }
+#greeh102 dd.rep {
+  width: 102px; }
+
+#olerj001 dt:after {
+  content: " (56.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#olerj001 dd.war {
+  width: 340.8px; }
+#olerj001 dd.waa {
+  width: 161.4px; }
+#olerj001 dd.rep {
+  width: 179.4px; }
+
+#flice101 dt:after {
+  content: " (56.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#flice101 dd.war {
+  width: 340.2px; }
+#flice101 dd.waa {
+  width: 210px; }
+#flice101 dd.rep {
+  width: 130.2px; }
+
+#boudl101 dt:after {
+  content: " (56 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#boudl101 dd.war {
+  width: 336px; }
+#boudl101 dd.waa {
+  width: 237.6px; }
+#boudl101 dd.rep {
+  width: 98.4px; }
+
+#medwj101 dt:after {
+  content: " (55.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#medwj101 dd.war {
+  width: 334.8px; }
+#medwj101 dd.waa {
+  width: 174.6px; }
+#medwj101 dd.rep {
+  width: 160.2px; }
+
+#hermb101 dt:after {
+  content: " (55.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hermb101 dd.war {
+  width: 333.6px; }
+#hermb101 dd.waa {
+  width: 177.6px; }
+#hermb101 dd.rep {
+  width: 156px; }
+
+#torrj101 dt:after {
+  content: " (55.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#torrj101 dd.war {
+  width: 333.6px; }
+#torrj101 dd.waa {
+  width: 161.4px; }
+#torrj101 dd.rep {
+  width: 172.2px; }
+
+#kellj106 dt:after {
+  content: " (55.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kellj106 dd.war {
+  width: 333px; }
+#kellj106 dd.waa {
+  width: 183.6px; }
+#kellj106 dd.rep {
+  width: 149.4px; }
+
+#ventr001 dt:after {
+  content: " (55.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ventr001 dd.war {
+  width: 333px; }
+#ventr001 dd.waa {
+  width: 172.2px; }
+#ventr001 dd.rep {
+  width: 160.8px; }
+
+#terrb101 dt:after {
+  content: " (55.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#terrb101 dd.war {
+  width: 332.4px; }
+#terrb101 dd.waa {
+  width: 203.4px; }
+#terrb101 dd.rep {
+  width: 129px; }
+
+#clarj001 dt:after {
+  content: " (55 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#clarj001 dd.war {
+  width: 330px; }
+#clarj001 dd.waa {
+  width: 163.8px; }
+#clarj001 dd.rep {
+  width: 166.2px; }
+
+#gordj101 dt:after {
+  content: " (54.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gordj101 dd.war {
+  width: 329.4px; }
+#gordj101 dd.waa {
+  width: 231px; }
+#gordj101 dd.rep {
+  width: 98.4px; }
+
+#hacks101 dt:after {
+  content: " (54.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hacks101 dd.war {
+  width: 328.8px; }
+#hacks101 dd.waa {
+  width: 171.6px; }
+#hacks101 dd.rep {
+  width: 157.2px; }
+
+#beltc001 dt:after {
+  content: " (54.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#beltc001 dd.war {
+  width: 328.2px; }
+#beltc001 dd.waa {
+  width: 202.2px; }
+#beltc001 dd.rep {
+  width: 126px; }
+
+#dickb101 dt:after {
+  content: " (54.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dickb101 dd.war {
+  width: 326.4px; }
+#dickb101 dd.waa {
+  width: 199.2px; }
+#dickb101 dd.rep {
+  width: 127.2px; }
+
+#slaue101 dt:after {
+  content: " (54.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#slaue101 dd.war {
+  width: 324.6px; }
+#slaue101 dd.waa {
+  width: 140.4px; }
+#slaue101 dd.rep {
+  width: 184.2px; }
+
+#orouj103 dt:after {
+  content: " (53.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#orouj103 dd.war {
+  width: 323.4px; }
+#orouj103 dd.waa {
+  width: 174.6px; }
+#orouj103 dd.rep {
+  width: 148.8px; }
+
+#johnb102 dt:after {
+  content: " (53.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#johnb102 dd.war {
+  width: 319.2px; }
+#johnb102 dd.waa {
+  width: 190.8px; }
+#johnb102 dd.rep {
+  width: 128.4px; }
+
+#collj103 dt:after {
+  content: " (53 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#collj103 dd.war {
+  width: 318px; }
+#collj103 dd.waa {
+  width: 174px; }
+#collj103 dd.rep {
+  width: 144px; }
+
+#cashn101 dt:after {
+  content: " (52.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cashn101 dd.war {
+  width: 317.4px; }
+#cashn101 dd.waa {
+  width: 168px; }
+#cashn101 dd.rep {
+  width: 149.4px; }
+
+#minom101 dt:after {
+  content: " (52.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#minom101 dd.war {
+  width: 316.8px; }
+#minom101 dd.waa {
+  width: 187.2px; }
+#minom101 dd.rep {
+  width: 129.6px; }
+
+#giamj001 dt:after {
+  content: " (52.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#giamj001 dd.war {
+  width: 316.2px; }
+#giamj001 dd.waa {
+  width: 157.2px; }
+#giamj001 dd.rep {
+  width: 159px; }
+
+#hooph101 dt:after {
+  content: " (52.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hooph101 dd.war {
+  width: 315px; }
+#hooph101 dd.waa {
+  width: 120.6px; }
+#hooph101 dd.rep {
+  width: 194.4px; }
+
+#ellib103 dt:after {
+  content: " (52.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ellib103 dd.war {
+  width: 313.8px; }
+#ellib103 dd.waa {
+  width: 146.4px; }
+#ellib103 dd.rep {
+  width: 167.4px; }
+
+#cedec001 dt:after {
+  content: " (52.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cedec001 dd.war {
+  width: 313.2px; }
+#cedec001 dd.waa {
+  width: 162.6px; }
+#cedec001 dd.rep {
+  width: 150.6px; }
+
+#cruzj001 dt:after {
+  content: " (52.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cruzj001 dd.war {
+  width: 313.2px; }
+#cruzj001 dd.waa {
+  width: 143.4px; }
+#cruzj001 dd.rep {
+  width: 169.8px; }
+
+#cey-r001 dt:after {
+  content: " (52 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cey-r001 dd.war {
+  width: 312px; }
+#cey-r001 dd.waa {
+  width: 158.4px; }
+#cey-r001 dd.rep {
+  width: 153.6px; }
+
+#ewinb101 dt:after {
+  content: " (51.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ewinb101 dd.war {
+  width: 310.8px; }
+#ewinb101 dd.waa {
+  width: 198.6px; }
+#ewinb101 dd.rep {
+  width: 112.2px; }
+
+#shecj101 dt:after {
+  content: " (51.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#shecj101 dd.war {
+  width: 310.8px; }
+#shecj101 dd.waa {
+  width: 150px; }
+#shecj101 dd.rep {
+  width: 160.8px; }
+
+#cochm101 dt:after {
+  content: " (51.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cochm101 dd.war {
+  width: 307.2px; }
+#cochm101 dd.waa {
+  width: 190.8px; }
+#cochm101 dd.rep {
+  width: 116.4px; }
+
+#rices101 dt:after {
+  content: " (51.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rices101 dd.war {
+  width: 306.6px; }
+#rices101 dd.waa {
+  width: 116.4px; }
+#rices101 dd.rep {
+  width: 190.2px; }
+
+#leact101 dt:after {
+  content: " (50.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#leact101 dd.war {
+  width: 305.4px; }
+#leact101 dd.waa {
+  width: 152.4px; }
+#leact101 dd.rep {
+  width: 153px; }
+
+#suzui001 dt:after {
+  content: " (50.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#suzui001 dd.war {
+  width: 304.2px; }
+#suzui001 dd.waa {
+  width: 183.6px; }
+#suzui001 dd.rep {
+  width: 120.6px; }
+
+#carem101 dt:after {
+  content: " (50.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#carem101 dd.war {
+  width: 303.6px; }
+#carem101 dd.waa {
+  width: 128.4px; }
+#carem101 dd.rep {
+  width: 175.2px; }
+
+#mcgrf001 dt:after {
+  content: " (50.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mcgrf001 dd.war {
+  width: 303px; }
+#mcgrf001 dd.waa {
+  width: 116.4px; }
+#mcgrf001 dd.rep {
+  width: 186.6px; }
+
+#peret001 dt:after {
+  content: " (50.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#peret001 dd.war {
+  width: 303px; }
+#peret001 dd.waa {
+  width: 97.8px; }
+#peret001 dd.rep {
+  width: 205.2px; }
+
+#sislg101 dt:after {
+  content: " (50.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#sislg101 dd.war {
+  width: 302.4px; }
+#sislg101 dd.waa {
+  width: 141.6px; }
+#sislg101 dd.rep {
+  width: 160.8px; }
+
+#simmt001 dt:after {
+  content: " (50.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#simmt001 dd.war {
+  width: 302.4px; }
+#simmt001 dd.waa {
+  width: 129.6px; }
+#simmt001 dd.rep {
+  width: 172.8px; }
+
+#hartg103 dt:after {
+  content: " (50.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hartg103 dd.war {
+  width: 301.8px; }
+#hartg103 dd.waa {
+  width: 160.8px; }
+#hartg103 dd.rep {
+  width: 141px; }
+
+#lemoc001 dt:after {
+  content: " (49.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#lemoc001 dd.war {
+  width: 299.4px; }
+#lemoc001 dd.waa {
+  width: 150.6px; }
+#lemoc001 dd.rep {
+  width: 148.8px; }
+
+#aparl101 dt:after {
+  content: " (49.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#aparl101 dd.war {
+  width: 299.4px; }
+#aparl101 dd.waa {
+  width: 130.2px; }
+#aparl101 dd.rep {
+  width: 169.2px; }
+
+#duffh101 dt:after {
+  content: " (49.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#duffh101 dd.war {
+  width: 297.6px; }
+#duffh101 dd.waa {
+  width: 169.8px; }
+#duffh101 dd.rep {
+  width: 127.8px; }
+
+#cuylk101 dt:after {
+  content: " (49.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cuylk101 dd.war {
+  width: 297.6px; }
+#cuylk101 dd.waa {
+  width: 156.6px; }
+#cuylk101 dd.rep {
+  width: 141px; }
+
+#chanf101 dt:after {
+  content: " (49.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#chanf101 dd.war {
+  width: 297px; }
+#chanf101 dd.waa {
+  width: 205.8px; }
+#chanf101 dd.rep {
+  width: 91.2px; }
+
+#downb001 dt:after {
+  content: " (49.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#downb001 dd.war {
+  width: 296.4px; }
+#downb001 dd.waa {
+  width: 120px; }
+#downb001 dd.rep {
+  width: 176.4px; }
+
+#mcgrj101 dt:after {
+  content: " (49.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mcgrj101 dd.war {
+  width: 295.8px; }
+#mcgrj101 dd.waa {
+  width: 201px; }
+#mcgrj101 dd.rep {
+  width: 94.8px; }
+
+#pinsv101 dt:after {
+  content: " (49.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#pinsv101 dd.war {
+  width: 295.8px; }
+#pinsv101 dd.waa {
+  width: 83.4px; }
+#pinsv101 dd.rep {
+  width: 212.4px; }
+
+#tinkj101 dt:after {
+  content: " (49.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#tinkj101 dd.war {
+  width: 295.2px; }
+#tinkj101 dd.waa {
+  width: 199.8px; }
+#tinkj101 dd.rep {
+  width: 95.4px; }
+
+#tenag101 dt:after {
+  content: " (48.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#tenag101 dd.war {
+  width: 292.2px; }
+#tenag101 dd.waa {
+  width: 180.6px; }
+#tenag101 dd.rep {
+  width: 111.6px; }
+
+#kellk101 dt:after {
+  content: " (48.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kellk101 dd.war {
+  width: 291px; }
+#kellk101 dd.waa {
+  width: 180px; }
+#kellk101 dd.rep {
+  width: 111px; }
+
+#everj102 dt:after {
+  content: " (48.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#everj102 dd.war {
+  width: 290.4px; }
+#everj102 dd.waa {
+  width: 177.6px; }
+#everj102 dd.rep {
+  width: 112.8px; }
+
+#sewej101 dt:after {
+  content: " (48.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#sewej101 dd.war {
+  width: 290.4px; }
+#sewej101 dd.waa {
+  width: 134.4px; }
+#sewej101 dd.rep {
+  width: 156px; }
+
+#lazzt101 dt:after {
+  content: " (48.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#lazzt101 dd.war {
+  width: 289.8px; }
+#lazzt101 dd.waa {
+  width: 148.8px; }
+#lazzt101 dd.rep {
+  width: 141px; }
+
+#philt001 dt:after {
+  content: " (48.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#philt001 dd.war {
+  width: 289.2px; }
+#philt001 dd.waa {
+  width: 123.6px; }
+#philt001 dd.rep {
+  width: 165.6px; }
+
+#jennh101 dt:after {
+  content: " (48 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jennh101 dd.war {
+  width: 288px; }
+#jennh101 dd.waa {
+  width: 172.8px; }
+#jennh101 dd.rep {
+  width: 115.2px; }
+
+#burke001 dt:after {
+  content: " (47.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#burke001 dd.war {
+  width: 287.4px; }
+#burke001 dd.waa {
+  width: 133.8px; }
+#burke001 dd.rep {
+  width: 153.6px; }
+
+#jonef102 dt:after {
+  content: " (47.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jonef102 dd.war {
+  width: 286.8px; }
+#jonef102 dd.waa {
+  width: 148.2px; }
+#jonef102 dd.rep {
+  width: 138.6px; }
+
+#doerb101 dt:after {
+  content: " (47.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#doerb101 dd.war {
+  width: 286.2px; }
+#doerb101 dd.waa {
+  width: 168.6px; }
+#doerb101 dd.rep {
+  width: 117.6px; }
+
+#dobyl101 dt:after {
+  content: " (47.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dobyl101 dd.war {
+  width: 284.4px; }
+#dobyl101 dd.waa {
+  width: 180px; }
+#dobyl101 dd.rep {
+  width: 104.4px; }
+
+#lynnf001 dt:after {
+  content: " (47.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#lynnf001 dd.war {
+  width: 283.8px; }
+#lynnf001 dd.waa {
+  width: 135px; }
+#lynnf001 dd.rep {
+  width: 148.8px; }
+
+#willb002 dt:after {
+  content: " (47.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#willb002 dd.war {
+  width: 283.8px; }
+#willb002 dd.waa {
+  width: 112.2px; }
+#willb002 dd.rep {
+  width: 171.6px; }
+
+#chilc101 dt:after {
+  content: " (47.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#chilc101 dd.war {
+  width: 283.2px; }
+#chilc101 dd.waa {
+  width: 163.2px; }
+#chilc101 dd.rep {
+  width: 120px; }
+
+#doyll101 dt:after {
+  content: " (47.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#doyll101 dd.war {
+  width: 283.2px; }
+#doyll101 dd.waa {
+  width: 154.2px; }
+#doyll101 dd.rep {
+  width: 129px; }
+
+#gracm001 dt:after {
+  content: " (47.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gracm001 dd.war {
+  width: 282.6px; }
+#gracm001 dd.waa {
+  width: 120.6px; }
+#gracm001 dd.rep {
+  width: 162px; }
+
+#harrt001 dt:after {
+  content: " (47.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#harrt001 dd.war {
+  width: 282.6px; }
+#harrt001 dd.waa {
+  width: 117px; }
+#harrt001 dd.rep {
+  width: 165.6px; }
+
+#stovh101 dt:after {
+  content: " (46.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#stovh101 dd.war {
+  width: 280.8px; }
+#stovh101 dd.waa {
+  width: 197.4px; }
+#stovh101 dd.rep {
+  width: 83.4px; }
+
+#cepeo101 dt:after {
+  content: " (46.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cepeo101 dd.war {
+  width: 280.8px; }
+#cepeo101 dd.waa {
+  width: 96.6px; }
+#cepeo101 dd.rep {
+  width: 184.2px; }
+
+#thoms103 dt:after {
+  content: " (46.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#thoms103 dd.war {
+  width: 280.2px; }
+#thoms103 dd.waa {
+  width: 168px; }
+#thoms103 dd.rep {
+  width: 112.2px; }
+
+#damoj001 dt:after {
+  content: " (46.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#damoj001 dd.war {
+  width: 280.2px; }
+#damoj001 dd.waa {
+  width: 101.4px; }
+#damoj001 dd.rep {
+  width: 178.8px; }
+
+#camem001 dt:after {
+  content: " (46.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#camem001 dd.war {
+  width: 279.6px; }
+#camem001 dd.waa {
+  width: 140.4px; }
+#camem001 dd.rep {
+  width: 139.2px; }
+
+#rouse101 dt:after {
+  content: " (46.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rouse101 dd.war {
+  width: 279px; }
+#rouse101 dd.waa {
+  width: 144px; }
+#rouse101 dd.rep {
+  width: 135px; }
+
+#butlb001 dt:after {
+  content: " (46.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#butlb001 dd.war {
+  width: 279px; }
+#butlb001 dd.waa {
+  width: 114px; }
+#butlb001 dd.rep {
+  width: 165px; }
+
+#grohh101 dt:after {
+  content: " (46.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#grohh101 dd.war {
+  width: 278.4px; }
+#grohh101 dd.waa {
+  width: 160.8px; }
+#grohh101 dd.rep {
+  width: 117.6px; }
+
+#bancd101 dt:after {
+  content: " (46.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bancd101 dd.war {
+  width: 278.4px; }
+#bancd101 dd.waa {
+  width: 147px; }
+#bancd101 dd.rep {
+  width: 131.4px; }
+
+#colar101 dt:after {
+  content: " (46.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#colar101 dd.war {
+  width: 278.4px; }
+#colar101 dd.waa {
+  width: 145.2px; }
+#colar101 dd.rep {
+  width: 133.2px; }
+
+#gonzl001 dt:after {
+  content: " (46.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gonzl001 dd.war {
+  width: 277.8px; }
+#gonzl001 dd.waa {
+  width: 100.2px; }
+#gonzl001 dd.rep {
+  width: 177.6px; }
+
+#fregj101 dt:after {
+  content: " (46.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fregj101 dd.war {
+  width: 276.6px; }
+#fregj101 dd.waa {
+  width: 150.6px; }
+#fregj101 dd.rep {
+  width: 126px; }
+
+#goreg101 dt:after {
+  content: " (45.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#goreg101 dd.war {
+  width: 275.4px; }
+#goreg101 dd.waa {
+  width: 174.6px; }
+#goreg101 dd.rep {
+  width: 100.8px; }
+
+#tierm101 dt:after {
+  content: " (45.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#tierm101 dd.war {
+  width: 275.4px; }
+#tierm101 dd.waa {
+  width: 158.4px; }
+#tierm101 dd.rep {
+  width: 117px; }
+
+#kiner101 dt:after {
+  content: " (45.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kiner101 dd.war {
+  width: 275.4px; }
+#kiner101 dd.waa {
+  width: 145.2px; }
+#kiner101 dd.rep {
+  width: 130.2px; }
+
+#campb101 dt:after {
+  content: " (45.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#campb101 dd.war {
+  width: 271.8px; }
+#campb101 dd.waa {
+  width: 114.6px; }
+#campb101 dd.rep {
+  width: 157.2px; }
+
+#grifm101 dt:after {
+  content: " (45.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#grifm101 dd.war {
+  width: 271.2px; }
+#grifm101 dd.waa {
+  width: 166.2px; }
+#grifm101 dd.rep {
+  width: 105px; }
+
+#staur001 dt:after {
+  content: " (45.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#staur001 dd.war {
+  width: 271.2px; }
+#staur001 dd.waa {
+  width: 45.6px; }
+#staur001 dd.rep {
+  width: 225.6px; }
+
+#burng101 dt:after {
+  content: " (45.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#burng101 dd.war {
+  width: 270.6px; }
+#burng101 dd.waa {
+  width: 132px; }
+#burng101 dd.rep {
+  width: 138.6px; }
+
+#vanhg101 dt:after {
+  content: " (45.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#vanhg101 dd.war {
+  width: 270.6px; }
+#vanhg101 dd.waa {
+  width: 128.4px; }
+#vanhg101 dd.rep {
+  width: 142.2px; }
+
+#walkd101 dt:after {
+  content: " (45.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#walkd101 dd.war {
+  width: 270.6px; }
+#walkd101 dd.waa {
+  width: 117.6px; }
+#walkd101 dd.rep {
+  width: 153px; }
+
+#avere101 dt:after {
+  content: " (45 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#avere101 dd.war {
+  width: 270px; }
+#avere101 dd.waa {
+  width: 146.4px; }
+#avere101 dd.rep {
+  width: 123.6px; }
+
+#konee101 dt:after {
+  content: " (44.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#konee101 dd.war {
+  width: 269.4px; }
+#konee101 dd.waa {
+  width: 124.8px; }
+#konee101 dd.rep {
+  width: 144.6px; }
+
+#ryanj105 dt:after {
+  content: " (44.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ryanj105 dd.war {
+  width: 269.4px; }
+#ryanj105 dd.waa {
+  width: 120px; }
+#ryanj105 dd.rep {
+  width: 149.4px; }
+
+#puckk001 dt:after {
+  content: " (44.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#puckk001 dd.war {
+  width: 268.8px; }
+#puckk001 dd.waa {
+  width: 130.2px; }
+#puckk001 dd.rep {
+  width: 138.6px; }
+
+#crosl101 dt:after {
+  content: " (44.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#crosl101 dd.war {
+  width: 268.8px; }
+#crosl101 dd.waa {
+  width: 88.8px; }
+#crosl101 dd.rep {
+  width: 180px; }
+
+#berkl001 dt:after {
+  content: " (44.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#berkl001 dd.war {
+  width: 268.2px; }
+#berkl001 dd.waa {
+  width: 158.4px; }
+#berkl001 dd.rep {
+  width: 109.8px; }
+
+#combe101 dt:after {
+  content: " (44.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#combe101 dd.war {
+  width: 268.2px; }
+#combe101 dd.waa {
+  width: 153px; }
+#combe101 dd.rep {
+  width: 115.2px; }
+
+#longh101 dt:after {
+  content: " (44.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#longh101 dd.war {
+  width: 267.6px; }
+#longh101 dd.waa {
+  width: 117px; }
+#longh101 dd.rep {
+  width: 150.6px; }
+
+#hodgg101 dt:after {
+  content: " (44.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hodgg101 dd.war {
+  width: 267.6px; }
+#hodgg101 dd.waa {
+  width: 100.2px; }
+#hodgg101 dd.rep {
+  width: 167.4px; }
+
+#whitr101 dt:after {
+  content: " (44.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#whitr101 dd.war {
+  width: 267px; }
+#whitr101 dd.waa {
+  width: 117.6px; }
+#whitr101 dd.rep {
+  width: 149.4px; }
+
+#posaj001 dt:after {
+  content: " (44.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#posaj001 dd.war {
+  width: 266.4px; }
+#posaj001 dd.waa {
+  width: 133.8px; }
+#posaj001 dd.rep {
+  width: 132.6px; }
+
+#myerb103 dt:after {
+  content: " (44.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#myerb103 dd.war {
+  width: 266.4px; }
+#myerb103 dd.waa {
+  width: 117px; }
+#myerb103 dd.rep {
+  width: 149.4px; }
+
+#fox-n101 dt:after {
+  content: " (44.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fox-n101 dd.war {
+  width: 266.4px; }
+#fox-n101 dd.waa {
+  width: 109.8px; }
+#fox-n101 dd.rep {
+  width: 156.6px; }
+
+#drewj001 dt:after {
+  content: " (44.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#drewj001 dd.war {
+  width: 265.8px; }
+#drewj001 dd.waa {
+  width: 165px; }
+#drewj001 dd.rep {
+  width: 100.8px; }
+
+#delgc001 dt:after {
+  content: " (44.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#delgc001 dd.war {
+  width: 265.2px; }
+#delgc001 dd.waa {
+  width: 104.4px; }
+#delgc001 dd.rep {
+  width: 160.8px; }
+
+#murpd001 dt:after {
+  content: " (44.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#murpd001 dd.war {
+  width: 265.2px; }
+#murpd001 dd.waa {
+  width: 94.2px; }
+#murpd001 dd.rep {
+  width: 171px; }
+
+#manuh101 dt:after {
+  content: " (44.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#manuh101 dd.war {
+  width: 264.6px; }
+#manuh101 dd.waa {
+  width: 109.8px; }
+#manuh101 dd.rep {
+  width: 154.8px; }
+
+#galaa101 dt:after {
+  content: " (44 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#galaa101 dd.war {
+  width: 264px; }
+#galaa101 dd.waa {
+  width: 136.2px; }
+#galaa101 dd.rep {
+  width: 127.8px; }
+
+#willm003 dt:after {
+  content: " (43.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#willm003 dd.war {
+  width: 263.4px; }
+#willm003 dd.waa {
+  width: 130.8px; }
+#willm003 dd.rep {
+  width: 132.6px; }
+
+#schaw101 dt:after {
+  content: " (43.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#schaw101 dd.war {
+  width: 262.8px; }
+#schaw101 dd.waa {
+  width: 133.2px; }
+#schaw101 dd.rep {
+  width: 129.6px; }
+
+#judgj101 dt:after {
+  content: " (43.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#judgj101 dd.war {
+  width: 262.2px; }
+#judgj101 dd.waa {
+  width: 88.2px; }
+#judgj101 dd.rep {
+  width: 174px; }
+
+#veacb101 dt:after {
+  content: " (43.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#veacb101 dd.war {
+  width: 261.6px; }
+#veacb101 dd.waa {
+  width: 114.6px; }
+#veacb101 dd.rep {
+  width: 147px; }
+
+#stepv101 dt:after {
+  content: " (43.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#stepv101 dd.war {
+  width: 261px; }
+#stepv101 dd.waa {
+  width: 153.6px; }
+#stepv101 dd.rep {
+  width: 107.4px; }
+
+#kellc101 dt:after {
+  content: " (43.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#kellc101 dd.war {
+  width: 260.4px; }
+#kellc101 dd.waa {
+  width: 192px; }
+#kellc101 dd.rep {
+  width: 68.4px; }
+
+#munst101 dt:after {
+  content: " (43.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#munst101 dd.war {
+  width: 260.4px; }
+#munst101 dd.waa {
+  width: 150px; }
+#munst101 dd.rep {
+  width: 110.4px; }
+
+#freeb103 dt:after {
+  content: " (43.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#freeb103 dd.war {
+  width: 259.8px; }
+#freeb103 dd.waa {
+  width: 139.2px; }
+#freeb103 dd.rep {
+  width: 120.6px; }
+
+#jackt101 dt:after {
+  content: " (43.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#jackt101 dd.war {
+  width: 259.8px; }
+#jackt101 dd.waa {
+  width: 138px; }
+#jackt101 dd.rep {
+  width: 121.8px; }
+
+#vizqo001 dt:after {
+  content: " (43.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#vizqo001 dd.war {
+  width: 259.2px; }
+#vizqo001 dd.waa {
+  width: 46.8px; }
+#vizqo001 dd.rep {
+  width: 212.4px; }
+
+#whitd102 dt:after {
+  content: " (43.1 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#whitd102 dd.war {
+  width: 258.6px; }
+#whitd102 dd.waa {
+  width: 133.8px; }
+#whitd102 dd.rep {
+  width: 124.8px; }
+
+#camid102 dt:after {
+  content: " (43 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#camid102 dd.war {
+  width: 258px; }
+#camid102 dd.waa {
+  width: 132.6px; }
+#camid102 dd.rep {
+  width: 125.4px; }
+
+#gardl101 dt:after {
+  content: " (43 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gardl101 dd.war {
+  width: 258px; }
+#gardl101 dd.waa {
+  width: 110.4px; }
+#gardl101 dd.rep {
+  width: 147.6px; }
+
+#strad001 dt:after {
+  content: " (42.9 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#strad001 dd.war {
+  width: 257.4px; }
+#strad001 dd.waa {
+  width: 130.8px; }
+#strad001 dd.rep {
+  width: 126.6px; }
+
+#fleta101 dt:after {
+  content: " (42.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fleta101 dd.war {
+  width: 256.8px; }
+#fleta101 dd.waa {
+  width: 172.2px; }
+#fleta101 dd.rep {
+  width: 84.6px; }
+
+#thomr101 dt:after {
+  content: " (42.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#thomr101 dd.war {
+  width: 256.8px; }
+#thomr101 dd.waa {
+  width: 145.8px; }
+#thomr101 dd.rep {
+  width: 111px; }
+
+#tennf102 dt:after {
+  content: " (42.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#tennf102 dd.war {
+  width: 256.8px; }
+#tennf102 dd.waa {
+  width: 104.4px; }
+#tennf102 dd.rep {
+  width: 152.4px; }
+
+#gileb002 dt:after {
+  content: " (42.7 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#gileb002 dd.war {
+  width: 256.2px; }
+#gileb002 dd.waa {
+  width: 121.8px; }
+#gileb002 dd.rep {
+  width: 134.4px; }
+
+#garcn001 dt:after {
+  content: " (42.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#garcn001 dd.war {
+  width: 255.6px; }
+#garcn001 dd.waa {
+  width: 142.8px; }
+#garcn001 dd.rep {
+  width: 112.8px; }
+
+#fostg001 dt:after {
+  content: " (42.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fostg001 dd.war {
+  width: 255px; }
+#fostg001 dd.waa {
+  width: 106.8px; }
+#fostg001 dd.rep {
+  width: 148.2px; }
+
+#olivt102 dt:after {
+  content: " (42.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#olivt102 dd.war {
+  width: 254.4px; }
+#olivt102 dd.waa {
+  width: 126px; }
+#olivt102 dd.rep {
+  width: 128.4px; }
+
+#rizzp101 dt:after {
+  content: " (41.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#rizzp101 dd.war {
+  width: 250.8px; }
+#rizzp101 dd.waa {
+  width: 152.4px; }
+#rizzp101 dd.rep {
+  width: 98.4px; }
+
+#hinep101 dt:after {
+  content: " (41.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#hinep101 dd.war {
+  width: 250.8px; }
+#hinep101 dd.waa {
+  width: 127.2px; }
+#hinep101 dd.rep {
+  width: 123.6px; }
+
+#cansj001 dt:after {
+  content: " (41.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#cansj001 dd.war {
+  width: 250.8px; }
+#cansj001 dd.waa {
+  width: 100.2px; }
+#cansj001 dd.rep {
+  width: 150.6px; }
+
+#bresr102 dt:after {
+  content: " (41.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bresr102 dd.war {
+  width: 249.6px; }
+#bresr102 dd.waa {
+  width: 156.6px; }
+#bresr102 dd.rep {
+  width: 93px; }
+
+#vansa001 dt:after {
+  content: " (41.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#vansa001 dd.war {
+  width: 249.6px; }
+#vansa001 dd.waa {
+  width: 127.2px; }
+#vansa001 dd.rep {
+  width: 122.4px; }
+
+#dyksl001 dt:after {
+  content: " (41.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#dyksl001 dd.war {
+  width: 249px; }
+#dyksl001 dd.waa {
+  width: 156px; }
+#dyksl001 dd.rep {
+  width: 93px; }
+
+#ricej001 dt:after {
+  content: " (41.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#ricej001 dd.war {
+  width: 249px; }
+#ricej001 dd.waa {
+  width: 83.4px; }
+#ricej001 dd.rep {
+  width: 165.6px; }
+
+#whitd001 dt:after {
+  content: " (41.3 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#whitd001 dd.war {
+  width: 247.8px; }
+#whitd001 dd.waa {
+  width: 106.8px; }
+#whitd001 dd.rep {
+  width: 141px; }
+
+#chapb102 dt:after {
+  content: " (41.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#chapb102 dd.war {
+  width: 247.2px; }
+#chapb102 dd.waa {
+  width: 117.6px; }
+#chapb102 dd.rep {
+  width: 129.6px; }
+
+#knobc001 dt:after {
+  content: " (41.2 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#knobc001 dd.war {
+  width: 247.2px; }
+#knobc001 dd.waa {
+  width: 111.6px; }
+#knobc001 dd.rep {
+  width: 135.6px; }
+
+#pratd101 dt:after {
+  content: " (40.8 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#pratd101 dd.war {
+  width: 244.8px; }
+#pratd101 dd.waa {
+  width: 96px; }
+#pratd101 dd.rep {
+  width: 148.8px; }
+
+#richh101 dt:after {
+  content: " (40.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#richh101 dd.war {
+  width: 243.6px; }
+#richh101 dd.waa {
+  width: 138px; }
+#richh101 dd.rep {
+  width: 105.6px; }
+
+#portd001 dt:after {
+  content: " (40.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#portd001 dd.war {
+  width: 243.6px; }
+#portd001 dd.waa {
+  width: 121.2px; }
+#portd001 dd.rep {
+  width: 122.4px; }
+
+#tejam001 dt:after {
+  content: " (40.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#tejam001 dd.war {
+  width: 243.6px; }
+#tejam001 dd.waa {
+  width: 89.4px; }
+#tejam001 dd.rep {
+  width: 154.2px; }
+
+#singk001 dt:after {
+  content: " (40.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#singk001 dd.war {
+  width: 243.6px; }
+#singk001 dd.waa {
+  width: 78.6px; }
+#singk001 dd.rep {
+  width: 165px; }
+
+#franj002 dt:after {
+  content: " (40.6 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#franj002 dd.war {
+  width: 243.6px; }
+#franj002 dd.waa {
+  width: 67.2px; }
+#franj002 dd.rep {
+  width: 176.4px; }
+
+#fourj101 dt:after {
+  content: " (40.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#fourj101 dd.war {
+  width: 243px; }
+#fourj101 dd.waa {
+  width: 129px; }
+#fourj101 dd.rep {
+  width: 114px; }
+
+#finls001 dt:after {
+  content: " (40.5 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#finls001 dd.war {
+  width: 243px; }
+#finls001 dd.waa {
+  width: 63px; }
+#finls001 dd.rep {
+  width: 180px; }
+
+#peckr101 dt:after {
+  content: " (40.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#peckr101 dd.war {
+  width: 242.4px; }
+#peckr101 dd.waa {
+  width: 93px; }
+#peckr101 dd.rep {
+  width: 149.4px; }
+
+#otisa001 dt:after {
+  content: " (40.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#otisa001 dd.war {
+  width: 242.4px; }
+#otisa001 dd.waa {
+  width: 81px; }
+#otisa001 dd.rep {
+  width: 161.4px; }
+
+#schor101 dt:after {
+  content: " (40.4 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#schor101 dd.war {
+  width: 242.4px; }
+#schor101 dd.waa {
+  width: 68.4px; }
+#schor101 dd.rep {
+  width: 174px; }
+
+#mcdog101 dt:after {
+  content: " (40 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mcdog101 dd.war {
+  width: 240px; }
+#mcdog101 dd.waa {
+  width: 153.6px; }
+#mcdog101 dd.rep {
+  width: 86.4px; }
+
+#bergw101 dt:after {
+  content: " (40 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#bergw101 dd.war {
+  width: 240px; }
+#bergw101 dd.waa {
+  width: 133.2px; }
+#bergw101 dd.rep {
+  width: 106.8px; }
+
+#mckee101 dt:after {
+  content: " (40 WAR)";
+  font-weight: normal;
+  color: #999999;
+  font-size: 12px; }
+#mckee101 dd.war {
+  width: 240px; }
+#mckee101 dd.waa {
+  width: 111.6px; }
+#mckee101 dd.rep {
+  width: 128.4px; }
