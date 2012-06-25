@@ -77,7 +77,7 @@ header {
         color: white; }
       header nav #show-visuals:hover {
         background-color: #000064; }
-    header nav ul {
+    header nav #visuals {
       -webkit-box-shadow: #aaaaaa 0px 0px 10px;
       -moz-box-shadow: #aaaaaa 0px 0px 10px;
       box-shadow: #aaaaaa 0px 0px 10px;
@@ -91,15 +91,30 @@ header {
       z-index: 1;
       padding: 10px;
       position: absolute;
-      list-style: none; }
-      header nav ul li {
+      right: 0;
+      top: 2em; }
+      header nav #visuals dl {
+        margin: 0; }
+      header nav #visuals dt {
         margin-top: 8px;
         padding-top: 8px;
         border-top: 1px solid #eeeeee; }
-        header nav ul li:first-child {
+        header nav #visuals dt:first-child {
           margin-top: 0;
           padding-top: 0;
           border-top: 0; }
+      header nav #visuals dd {
+        margin: 2px 0 0 0;
+        display: block;
+        color: #999999;
+        font-size: 12px; }
+      header nav #visuals p {
+        background-color: #ffffcc;
+        border: 1px solid #eeeeee;
+        color: #666666;
+        font-size: 12px;
+        padding: 5px;
+        margin-top: 0; }
 
 #key {
   border-bottom: 1px solid #eeeeee;
@@ -178,7 +193,7 @@ header {
     margin: 0; }
   #timeline li, #list li {
     cursor: pointer;
-    margin: 0 0 5px;
+    margin-bottom: 5px;
     padding: 0;
     display: block;
     padding: 2px;
@@ -190,6 +205,7 @@ header {
       color: black;
       font-size: 18px;
       font-weight: bold;
+      min-width: 300px;
       -webkit-box-shadow: #aaaaaa 0px 0px 10px;
       -moz-box-shadow: #aaaaaa 0px 0px 10px;
       box-shadow: #aaaaaa 0px 0px 10px;
@@ -340,2128 +356,2454 @@ footer {
     #notification p a {
       font-weight: bold; }
 
-#timeline #babe-ruth {
+#ruthba01 {
   margin-left: 352px;
   width: 164px;
   background-color: #000064; }
-  #timeline #babe-ruth div {
+  #ruthba01 div {
     left: 0; }
-#timeline #ty-cobb {
+
+#johnswa01 {
+  margin-left: 296px;
+  width: 156px;
+  background-color: #000064; }
+  #johnswa01 div {
+    left: 0; }
+
+#mayswi01 {
+  margin-left: 648px;
+  width: 172px;
+  background-color: #000064; }
+  #mayswi01 div {
+    right: 0; }
+
+#youngcy01 {
+  margin-left: 160px;
+  width: 164px;
+  background-color: #000064; }
+  #youngcy01 div {
+    left: 0; }
+
+#cobbty01 {
   margin-left: 280px;
   width: 180px;
   background-color: #000064; }
-  #timeline #ty-cobb div {
+  #cobbty01 div {
     left: 0; }
-#timeline #willie-mays {
-  margin-left: 648px;
-  width: 172px;
-  background-color: #000064; }
-  #timeline #willie-mays div {
-    right: 0; }
-#timeline #walter-johnson {
-  margin-left: 296px;
-  width: 156px;
-  background-color: #000064; }
-  #timeline #walter-johnson div {
-    left: 0; }
-#timeline #honus-wagner {
-  margin-left: 216px;
-  width: 156px;
-  background-color: #000064; }
-  #timeline #honus-wagner div {
-    left: 0; }
-#timeline #rogers-hornsby {
+
+#hornsro01 {
   margin-left: 360px;
   width: 172px;
   background-color: #000064; }
-  #timeline #rogers-hornsby div {
+  #hornsro01 div {
     left: 0; }
-#timeline #hank-aaron {
+
+#aaronha01 {
   margin-left: 672px;
   width: 172px;
   background-color: #000064; }
-  #timeline #hank-aaron div {
+  #aaronha01 div {
     right: 0; }
-#timeline #tris-speaker {
+
+#wagneho01 {
+  margin-left: 216px;
+  width: 156px;
+  background-color: #000064; }
+  #wagneho01 div {
+    left: 0; }
+
+#speaktr01 {
   margin-left: 296px;
   width: 164px;
   background-color: #000064; }
-  #timeline #tris-speaker div {
+  #speaktr01 div {
     left: 0; }
-#timeline #lou-gehrig {
-  margin-left: 424px;
-  width: 124px;
-  background-color: #000064; }
-  #timeline #lou-gehrig div {
-    left: 0; }
-#timeline #ted-williams {
+
+#willite01 {
   margin-left: 552px;
   width: 164px;
   background-color: #000064; }
-  #timeline #ted-williams div {
+  #willite01 div {
     left: 0; }
-#timeline #eddie-collins {
-  margin-left: 288px;
-  width: 188px;
-  background-color: #000064; }
-  #timeline #eddie-collins div {
-    left: 0; }
-#timeline #stan-musial {
+
+#musiast01 {
   margin-left: 568px;
   width: 172px;
   background-color: #000064; }
-  #timeline #stan-musial div {
+  #musiast01 div {
     left: 0; }
-#timeline #cy-young {
-  margin-left: 160px;
-  width: 164px;
+
+#gehrilo01 {
+  margin-left: 424px;
+  width: 124px;
   background-color: #000064; }
-  #timeline #cy-young div {
+  #gehrilo01 div {
     left: 0; }
-#timeline #mickey-mantle {
-  margin-left: 648px;
-  width: 132px;
-  background-color: #000064; }
-  #timeline #mickey-mantle div {
-    left: 0; }
-#timeline #mike-schmidt {
-  margin-left: 816px;
-  width: 132px;
-  background-color: #000064; }
-  #timeline #mike-schmidt div {
-    right: 0; }
-#timeline #rickey-henderson {
-  margin-left: 872px;
-  width: 188px;
-  background-color: #000064; }
-  #timeline #rickey-henderson div {
-    right: 0; }
-#timeline #pete-alexander {
+
+#alexape01 {
   margin-left: 328px;
   width: 148px;
   background-color: #000064; }
-  #timeline #pete-alexander div {
+  #alexape01 div {
     left: 0; }
-#timeline #cap-anson {
-  margin-left: 8px;
-  width: 204px;
+
+#collied01 {
+  margin-left: 288px;
+  width: 188px;
   background-color: #000064; }
-  #timeline #cap-anson div {
+  #collied01 div {
     left: 0; }
-#timeline #mel-ott {
-  margin-left: 448px;
-  width: 164px;
-  background-color: #000064; }
-  #timeline #mel-ott div {
-    left: 0; }
-#timeline #nap-lajoie {
-  margin-left: 208px;
-  width: 156px;
-  background-color: #000064; }
-  #timeline #nap-lajoie div {
-    left: 0; }
-#timeline #christy-mathewson {
+
+#mathech01 {
   margin-left: 240px;
   width: 124px;
   background-color: #000064; }
-  #timeline #christy-mathewson div {
+  #mathech01 div {
     left: 0; }
-#timeline #tom-seaver {
+
+#grovele01 {
+  margin-left: 440px;
+  width: 124px;
+  background-color: #000064; }
+  #grovele01 div {
+    left: 0; }
+
+#mantlmi01 {
+  margin-left: 648px;
+  width: 132px;
+  background-color: #000064; }
+  #mantlmi01 div {
+    left: 0; }
+
+#nichoki01 {
+  margin-left: 160px;
+  width: 124px;
+  background-color: #000064; }
+  #nichoki01 div {
+    left: 0; }
+
+#schmimi01 {
+  margin-left: 816px;
+  width: 132px;
+  background-color: #000064; }
+  #schmimi01 div {
+    right: 0; }
+
+#lajoina01 {
+  margin-left: 208px;
+  width: 156px;
+  background-color: #000064; }
+  #lajoina01 div {
+    left: 0; }
+
+#henderi01 {
+  margin-left: 872px;
+  width: 188px;
+  background-color: #000064; }
+  #henderi01 div {
+    right: 0; }
+
+#seaveto01 {
   margin-left: 776px;
   width: 148px;
   background-color: #000064; }
-  #timeline #tom-seaver div {
+  #seaveto01 div {
     right: 0; }
-#timeline #joe-morgan {
+
+#foxxji01 {
+  margin-left: 440px;
+  width: 156px;
+  background-color: #000064; }
+  #foxxji01 div {
+    left: 0; }
+
+#ottme01 {
+  margin-left: 448px;
+  width: 164px;
+  background-color: #000064; }
+  #ottme01 div {
+    left: 0; }
+
+#ansonca01 {
+  margin-left: 8px;
+  width: 204px;
+  background-color: #000064; }
+  #ansonca01 div {
+    left: 0; }
+
+#benchjo01 {
+  margin-left: 776px;
+  width: 124px;
+  background-color: #000064; }
+  #benchjo01 div {
+    right: 0; }
+
+#morgajo02 {
   margin-left: 744px;
   width: 164px;
   background-color: #000064; }
-  #timeline #joe-morgan div {
+  #morgajo02 div {
     right: 0; }
-#timeline #lefty-grove {
-  margin-left: 440px;
-  width: 124px;
-  background-color: #000064; }
-  #timeline #lefty-grove div {
-    left: 0; }
-#timeline #jimmie-foxx {
-  margin-left: 440px;
-  width: 156px;
-  background-color: #000064; }
-  #timeline #jimmie-foxx div {
-    left: 0; }
-#timeline #frank-robinson {
+
+#robinfr02 {
   margin-left: 688px;
   width: 156px;
   background-color: #000064; }
-  #timeline #frank-robinson div {
+  #robinfr02 div {
     right: 0; }
-#timeline #eddie-mathews {
+
+#matheed01 {
   margin-left: 656px;
   width: 124px;
   background-color: #000064; }
-  #timeline #eddie-mathews div {
+  #matheed01 div {
     left: 0; }
-#timeline #bob-gibson {
+
+#gibsobo01 {
   margin-left: 712px;
   width: 124px;
   background-color: #000064; }
-  #timeline #bob-gibson div {
+  #gibsobo01 div {
     right: 0; }
-#timeline #roger-connor {
-  margin-left: 80px;
-  width: 132px;
-  background-color: #000064; }
-  #timeline #roger-connor div {
-    left: 0; }
-#timeline #kid-nichols {
-  margin-left: 160px;
-  width: 124px;
-  background-color: #000064; }
-  #timeline #kid-nichols div {
-    left: 0; }
-#timeline #dan-brouthers {
-  margin-left: 72px;
-  width: 196px;
-  background-color: #000064; }
-  #timeline #dan-brouthers div {
-    left: 0; }
-#timeline #johnny-bench {
-  margin-left: 776px;
-  width: 124px;
-  background-color: #000064; }
-  #timeline #johnny-bench div {
-    right: 0; }
-#timeline #george-davis {
-  margin-left: 160px;
-  width: 148px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #george-davis div {
-    left: 0; }
-#timeline #gaylord-perry {
-  margin-left: 736px;
-  width: 164px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #gaylord-perry div {
-    right: 0; }
-#timeline #wade-boggs {
-  margin-left: 896px;
-  width: 132px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #wade-boggs div {
-    right: 0; }
-#timeline #phil-niekro {
-  margin-left: 752px;
-  width: 180px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #phil-niekro div {
-    right: 0; }
-#timeline #warren-spahn {
+
+#spahnwa01 {
   margin-left: 576px;
   width: 180px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #warren-spahn div {
+  #spahnwa01 div {
     left: 0; }
-#timeline #gary-carter {
+
+#cartega01 {
   margin-left: 832px;
   width: 140px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #gary-carter div {
+  #cartega01 div {
     right: 0; }
-#timeline #joe-dimaggio {
-  margin-left: 528px;
-  width: 116px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #joe-dimaggio div {
-    left: 0; }
-#timeline #cal-ripken {
-  margin-left: 888px;
-  width: 156px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #cal-ripken div {
-    right: 0; }
-#timeline #ed-delahanty {
-  margin-left: 144px;
-  width: 116px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #ed-delahanty div {
-    left: 0; }
-#timeline #george-brett {
-  margin-left: 824px;
-  width: 156px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #george-brett div {
-    right: 0; }
-#timeline #steve-carlton {
-  margin-left: 760px;
-  width: 180px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #steve-carlton div {
-    right: 0; }
-#timeline #carl-yastrzemski {
-  margin-left: 728px;
-  width: 172px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #carl-yastrzemski div {
-    right: 0; }
-#timeline #al-kaline {
-  margin-left: 664px;
-  width: 164px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #al-kaline div {
-    right: 0; }
-#timeline #charlie-gehringer {
-  margin-left: 432px;
-  width: 140px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #charlie-gehringer div {
-    left: 0; }
-#timeline #bert-blyleven {
-  margin-left: 800px;
-  width: 172px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #bert-blyleven div {
-    right: 0; }
-#timeline #robin-roberts {
-  margin-left: 624px;
-  width: 140px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #robin-roberts div {
-    left: 0; }
-#timeline #al-spalding {
-  margin-left: 8px;
-  width: 52px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #al-spalding div {
-    left: 0; }
-#timeline #jeff-bagwell {
-  margin-left: 968px;
-  width: 108px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #jeff-bagwell div {
-    right: 0; }
-#timeline #roberto-clemente {
+
+#clemero01 {
   margin-left: 680px;
   width: 132px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #roberto-clemente div {
+  #clemero01 div {
     right: 0; }
-#timeline #carlton-fisk {
-  margin-left: 792px;
-  width: 188px;
+
+#broutda01 {
+  margin-left: 72px;
+  width: 196px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #carlton-fisk div {
+  #broutda01 div {
+    left: 0; }
+
+#ripkeca01 {
+  margin-left: 888px;
+  width: 156px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #ripkeca01 div {
     right: 0; }
-#timeline #fergie-jenkins {
+
+#boggswa01 {
+  margin-left: 896px;
+  width: 132px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #boggswa01 div {
+    right: 0; }
+
+#connoro01 {
+  margin-left: 80px;
+  width: 132px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #connoro01 div {
+    left: 0; }
+
+#yastrca01 {
+  margin-left: 728px;
+  width: 172px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #yastrca01 div {
+    right: 0; }
+
+#niekrph01 {
+  margin-left: 752px;
+  width: 180px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #niekrph01 div {
+    right: 0; }
+
+#planked01 {
+  margin-left: 248px;
+  width: 124px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #planked01 div {
+    left: 0; }
+
+#blylebe01 {
+  margin-left: 800px;
+  width: 172px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #blylebe01 div {
+    right: 0; }
+
+#brettge01 {
+  margin-left: 824px;
+  width: 156px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #brettge01 div {
+    right: 0; }
+
+#perryga01 {
+  margin-left: 736px;
+  width: 164px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #perryga01 div {
+    right: 0; }
+
+#carltst01 {
+  margin-left: 760px;
+  width: 180px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #carltst01 div {
+    right: 0; }
+
+#kalinal01 {
+  margin-left: 664px;
+  width: 164px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #kalinal01 div {
+    right: 0; }
+
+#roberro01 {
+  margin-left: 624px;
+  width: 140px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #roberro01 div {
+    left: 0; }
+
+#gehrich01 {
+  margin-left: 432px;
+  width: 140px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #gehrich01 div {
+    left: 0; }
+
+#davisge01 {
+  margin-left: 160px;
+  width: 148px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #davisge01 div {
+    left: 0; }
+
+#dimagjo01 {
+  margin-left: 528px;
+  width: 116px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #dimagjo01 div {
+    left: 0; }
+
+#jenkife01 {
   margin-left: 760px;
   width: 140px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #fergie-jenkins div {
+  #jenkife01 div {
     right: 0; }
-#timeline #arky-vaughan {
+
+#fiskca01 {
+  margin-left: 792px;
+  width: 188px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #fiskca01 div {
+    right: 0; }
+
+#rosepe01 {
+  margin-left: 744px;
+  width: 180px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #rosepe01 div {
+    right: 0; }
+
+#bagweje01 {
+  margin-left: 968px;
+  width: 108px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #bagweje01 div {
+    right: 0; }
+
+#glassja01 {
+  margin-left: 72px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #glassja01 div {
+    left: 0; }
+
+#vaughar01 {
   margin-left: 496px;
   width: 124px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #arky-vaughan div {
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #vaughar01 div {
     left: 0; }
-#timeline #yogi-berra {
-  margin-left: 608px;
-  width: 148px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #yogi-berra div {
+
+#delahed01 {
+  margin-left: 144px;
+  width: 116px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #delahed01 div {
     left: 0; }
-#timeline #rod-carew {
+
+#walshed01 {
+  margin-left: 272px;
+  width: 100px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #walshed01 div {
+    left: 0; }
+
+#carewro01 {
   margin-left: 776px;
   width: 140px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #rod-carew div {
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #carewro01 div {
     right: 0; }
-#timeline #bob-caruthers {
-  margin-left: 112px;
-  width: 68px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #bob-caruthers div {
+
+#santoro01 {
+  margin-left: 720px;
+  width: 108px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #santoro01 div {
+    right: 0; }
+
+#mizejo01 {
+  margin-left: 528px;
+  width: 132px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #mizejo01 div {
     left: 0; }
-#timeline #reggie-jackson {
+
+#snidedu01 {
+  margin-left: 616px;
+  width: 132px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #snidedu01 div {
+    left: 0; }
+
+#keefeti01 {
+  margin-left: 80px;
+  width: 100px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #keefeti01 div {
+    left: 0; }
+
+#hubbeca01 {
+  margin-left: 464px;
+  width: 116px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #hubbeca01 div {
+    left: 0; }
+
+#berrayo01 {
+  margin-left: 608px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #berrayo01 div {
+    left: 0; }
+
+#jacksjo01 {
+  margin-left: 304px;
+  width: 92px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #jacksjo01 div {
+    left: 0; }
+
+#yountro01 {
+  margin-left: 832px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #yountro01 div {
+    right: 0; }
+
+#robinbr01 {
+  margin-left: 680px;
+  width: 172px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #robinbr01 div {
+    right: 0; }
+
+#clarkjo01 {
+  margin-left: 96px;
+  width: 92px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #clarkjo01 div {
+    left: 0; }
+
+#jacksre01 {
   margin-left: 776px;
   width: 156px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #reggie-jackson div {
+  #jacksre01 div {
     right: 0; }
-#timeline #eddie-plank {
-  margin-left: 248px;
-  width: 124px;
+
+#wallabo01 {
+  margin-left: 192px;
+  width: 188px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #eddie-plank div {
+  #wallabo01 div {
     left: 0; }
-#timeline #billy-hamilton {
-  margin-left: 144px;
+
+#bankser01 {
+  margin-left: 664px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #bankser01 div {
+    right: 0; }
+
+#ferrewe01 {
+  margin-left: 456px;
+  width: 108px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #ferrewe01 div {
+    left: 0; }
+
+#wadderu01 {
+  margin-left: 216px;
   width: 100px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #billy-hamilton div {
+  #wadderu01 div {
     left: 0; }
-#timeline #frankie-frisch {
+
+#heilmha01 {
+  margin-left: 352px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #heilmha01 div {
+    left: 0; }
+
+#friscfr01 {
   margin-left: 392px;
   width: 140px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #frankie-frisch div {
+  #friscfr01 div {
     left: 0; }
-#timeline #robin-yount {
-  margin-left: 832px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #robin-yount div {
-    right: 0; }
-#timeline #pete-rose {
-  margin-left: 744px;
-  width: 180px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #pete-rose div {
-    right: 0; }
-#timeline #johnny-mize {
-  margin-left: 528px;
-  width: 132px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #johnny-mize div {
-    left: 0; }
-#timeline #sam-crawford {
-  margin-left: 232px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #sam-crawford div {
-    left: 0; }
-#timeline #shoeless-joe-jackson {
-  margin-left: 304px;
-  width: 92px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #shoeless-joe-jackson div {
-    left: 0; }
-#timeline #duke-snider {
-  margin-left: 616px;
-  width: 132px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #duke-snider div {
-    left: 0; }
-#timeline #home-run-baker {
-  margin-left: 304px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #home-run-baker div {
-    left: 0; }
-#timeline #nolan-ryan {
-  margin-left: 768px;
-  width: 212px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #nolan-ryan div {
-    right: 0; }
-#timeline #bill-dahlen {
-  margin-left: 168px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #bill-dahlen div {
-    left: 0; }
-#timeline #jackie-robinson {
-  margin-left: 616px;
-  width: 68px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jackie-robinson div {
-    left: 0; }
-#timeline #paul-waner {
-  margin-left: 448px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #paul-waner div {
-    left: 0; }
-#timeline #ernie-banks {
-  margin-left: 664px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ernie-banks div {
-    right: 0; }
-#timeline #bob-feller {
-  margin-left: 528px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #bob-feller div {
-    left: 0; }
-#timeline #ron-santo {
-  margin-left: 720px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ron-santo div {
-    right: 0; }
-#timeline #fred-clarke {
-  margin-left: 192px;
-  width: 164px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #fred-clarke div {
-    left: 0; }
-#timeline #don-drysdale {
-  margin-left: 688px;
-  width: 100px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #don-drysdale div {
-    left: 0; }
-#timeline #harry-heilmann {
-  margin-left: 352px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #harry-heilmann div {
-    left: 0; }
-#timeline #juan-marichal {
-  margin-left: 720px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #juan-marichal div {
-    right: 0; }
-#timeline #paul-molitor {
-  margin-left: 864px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #paul-molitor div {
-    right: 0; }
-#timeline #bill-dickey {
-  margin-left: 464px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #bill-dickey div {
-    left: 0; }
-#timeline #carl-hubbell {
-  margin-left: 464px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #carl-hubbell div {
-    left: 0; }
-#timeline #mickey-cochrane {
-  margin-left: 440px;
-  width: 92px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #mickey-cochrane div {
-    left: 0; }
-#timeline #john-clarkson {
-  margin-left: 96px;
-  width: 92px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #john-clarkson div {
-    left: 0; }
-#timeline #buck-ewing {
-  margin-left: 80px;
-  width: 132px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #buck-ewing div {
-    left: 0; }
-#timeline #jack-glasscock {
-  margin-left: 72px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jack-glasscock div {
-    left: 0; }
-#timeline #luke-appling {
-  margin-left: 480px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #luke-appling div {
-    left: 0; }
-#timeline #tim-keefe {
-  margin-left: 80px;
-  width: 100px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #tim-keefe div {
-    left: 0; }
-#timeline #jesse-burkett {
-  margin-left: 160px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jesse-burkett div {
-    left: 0; }
-#timeline #ed-walsh {
-  margin-left: 272px;
-  width: 100px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ed-walsh div {
-    left: 0; }
-#timeline #red-ruffing {
-  margin-left: 432px;
-  width: 180px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #red-ruffing div {
-    left: 0; }
-#timeline #edgar-martinez {
-  margin-left: 936px;
-  width: 132px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #edgar-martinez div {
-    right: 0; }
-#timeline #brooks-robinson {
-  margin-left: 680px;
-  width: 172px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #brooks-robinson div {
-    right: 0; }
-#timeline #jim-palmer {
-  margin-left: 760px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-palmer div {
-    right: 0; }
-#timeline #barry-larkin {
-  margin-left: 928px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #barry-larkin div {
-    right: 0; }
-#timeline #bobby-grich {
-  margin-left: 800px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #bobby-grich div {
-    right: 0; }
-#timeline #old-hoss-radbourn {
-  margin-left: 88px;
-  width: 76px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #old-hoss-radbourn div {
-    left: 0; }
-#timeline #alan-trammell {
-  margin-left: 856px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #alan-trammell div {
-    right: 0; }
-#timeline #larry-walker {
+
+#walkela01 {
   margin-left: 952px;
   width: 124px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #larry-walker div {
+  #walkela01 div {
     right: 0; }
-#timeline #pee-wee-reese {
-  margin-left: 560px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #pee-wee-reese div {
-    left: 0; }
-#timeline #ted-simmons {
-  margin-left: 784px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ted-simmons div {
-    right: 0; }
-#timeline #dick-allen {
-  margin-left: 744px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #dick-allen div {
-    right: 0; }
-#timeline #al-simmons {
-  margin-left: 432px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #al-simmons div {
-    left: 0; }
-#timeline #king-kelly {
-  margin-left: 64px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #king-kelly div {
-    left: 0; }
-#timeline #sandy-koufax {
-  margin-left: 680px;
-  width: 84px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #sandy-koufax div {
-    left: 0; }
-#timeline #willie-mccovey {
-  margin-left: 712px;
-  width: 164px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #willie-mccovey div {
-    right: 0; }
-#timeline #jim-orourke {
-  margin-left: 16px;
-  width: 252px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-orourke div {
-    left: 0; }
-#timeline #bobby-wallace {
-  margin-left: 192px;
-  width: 188px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #bobby-wallace div {
-    left: 0; }
-#timeline #hal-newhouser {
-  margin-left: 552px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #hal-newhouser div {
-    left: 0; }
-#timeline #jim-bunning {
-  margin-left: 680px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-bunning div {
-    right: 0; }
-#timeline #kevin-brown {
-  margin-left: 928px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #kevin-brown div {
-    right: 0; }
-#timeline #hank-greenberg {
+
+#applilu01 {
   margin-left: 480px;
-  width: 132px;
+  width: 156px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #hank-greenberg div {
+  #applilu01 div {
     left: 0; }
-#timeline #tony-gwynn {
-  margin-left: 896px;
-  width: 148px;
+
+#dahlebi01 {
+  margin-left: 168px;
+  width: 156px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #tony-gwynn div {
-    right: 0; }
-#timeline #jim-wynn {
-  margin-left: 744px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-wynn div {
-    right: 0; }
-#timeline #monte-ward {
-  margin-left: 64px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #monte-ward div {
+  #dahlebi01 div {
     left: 0; }
-#timeline #joe-cronin {
+
+#wanerpa01 {
   margin-left: 448px;
   width: 148px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #joe-cronin div {
+  #wanerpa01 div {
     left: 0; }
-#timeline #willie-keeler {
-  margin-left: 176px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #willie-keeler div {
-    left: 0; }
-#timeline #roberto-alomar {
-  margin-left: 944px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #roberto-alomar div {
-    right: 0; }
-#timeline #lou-whitaker {
-  margin-left: 856px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #lou-whitaker div {
-    right: 0; }
-#timeline #wes-ferrell {
-  margin-left: 456px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #wes-ferrell div {
-    left: 0; }
-#timeline #sal-bando {
-  margin-left: 768px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #sal-bando div {
-    right: 0; }
-#timeline #goose-goslin {
-  margin-left: 408px;
-  width: 132px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #goose-goslin div {
-    left: 0; }
-#timeline #deacon-white {
-  margin-left: 8px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #deacon-white div {
-    left: 0; }
-#timeline #hughie-jennings {
-  margin-left: 168px;
-  width: 212px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #hughie-jennings div {
-    left: 0; }
-#timeline #ryne-sandberg {
-  margin-left: 888px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ryne-sandberg div {
-    right: 0; }
-#timeline #eddie-murray {
-  margin-left: 856px;
+
+#vanceda01 {
+  margin-left: 360px;
   width: 156px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #eddie-murray div {
+  #vanceda01 div {
+    left: 0; }
+
+#ryanno01 {
+  margin-left: 768px;
+  width: 212px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #ryanno01 div {
     right: 0; }
-#timeline #elmer-flick {
+
+#crawfsa01 {
+  margin-left: 232px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #crawfsa01 div {
+    left: 0; }
+
+#bakerfr01 {
+  margin-left: 304px;
+  width: 108px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #bakerfr01 div {
+    left: 0; }
+
+#robinja02 {
+  margin-left: 616px;
+  width: 68px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #robinja02 div {
+    left: 0; }
+
+#newhoha01 {
+  margin-left: 552px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #newhoha01 div {
+    left: 0; }
+
+#smithoz01 {
+  margin-left: 864px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #smithoz01 div {
+    right: 0; }
+
+#willivi01 {
   margin-left: 224px;
   width: 92px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #elmer-flick div {
+  #willivi01 div {
     left: 0; }
-#timeline #joe-torre {
+
+#maricju01 {
   margin-left: 720px;
-  width: 132px;
+  width: 116px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #joe-torre div {
+  #maricju01 div {
     right: 0; }
-#timeline #rick-reuschel {
-  margin-left: 816px;
+
+#fellebo01 {
+  margin-left: 528px;
+  width: 156px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #fellebo01 div {
+    left: 0; }
+
+#mcginjo01 {
+  margin-left: 232px;
+  width: 68px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #mcginjo01 div {
+    left: 0; }
+
+#palmeji01 {
+  margin-left: 760px;
   width: 148px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #rick-reuschel div {
+  #palmeji01 div {
     right: 0; }
-#timeline #amos-rusie {
+
+#dickebi01 {
+  margin-left: 464px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #dickebi01 div {
+    left: 0; }
+
+#molitpa01 {
+  margin-left: 864px;
+  width: 156px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #molitpa01 div {
+    right: 0; }
+
+#hamilbi01 {
+  margin-left: 144px;
+  width: 100px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #hamilbi01 div {
+    left: 0; }
+
+#simmoal01 {
+  margin-left: 432px;
+  width: 156px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #simmoal01 div {
+    left: 0; }
+
+#rusieam01 {
   margin-left: 152px;
   width: 92px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #amos-rusie div {
+  #rusieam01 div {
     left: 0; }
-#timeline #mark-mcgwire {
-  margin-left: 928px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #mark-mcgwire div {
-    right: 0; }
-#timeline #keith-hernandez {
-  margin-left: 832px;
+
+#grichbo01 {
+  margin-left: 800px;
   width: 124px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #keith-hernandez div {
+  #grichbo01 div {
     right: 0; }
-#timeline #dazzy-vance {
-  margin-left: 360px;
-  width: 156px;
+
+#boudrlo01 {
+  margin-left: 544px;
+  width: 108px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #dazzy-vance div {
+  #boudrlo01 div {
     left: 0; }
-#timeline #thurman-munson {
-  margin-left: 792px;
+
+#cochrmi01 {
+  margin-left: 440px;
+  width: 92px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #cochrmi01 div {
+    left: 0; }
+
+#trammal01 {
+  margin-left: 856px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #trammal01 div {
+    right: 0; }
+
+#sandbry01 {
+  margin-left: 888px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #sandbry01 div {
+    right: 0; }
+
+#spaldal01 {
+  margin-left: 8px;
+  width: 52px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #spaldal01 div {
+    left: 0; }
+
+#brownke01 {
+  margin-left: 928px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #brownke01 div {
+    right: 0; }
+
+#larkiba01 {
+  margin-left: 928px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #larkiba01 div {
+    right: 0; }
+
+#covelst01 {
+  margin-left: 336px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #covelst01 div {
+    left: 0; }
+
+#whitalo01 {
+  margin-left: 856px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #whitalo01 div {
+    right: 0; }
+
+#drysddo01 {
+  margin-left: 688px;
+  width: 100px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #drysddo01 div {
+    left: 0; }
+
+#reuscri01 {
+  margin-left: 816px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #reuscri01 div {
+    right: 0; }
+
+#tiantlu01 {
+  margin-left: 752px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #tiantlu01 div {
+    right: 0; }
+
+#sislege01 {
+  margin-left: 360px;
+  width: 116px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #sislege01 div {
+    left: 0; }
+
+#bunniji01 {
+  margin-left: 680px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #bunniji01 div {
+    right: 0; }
+
+#martied01 {
+  margin-left: 936px;
+  width: 132px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #martied01 div {
+    right: 0; }
+
+#lyonste01 {
+  margin-left: 424px;
+  width: 180px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #lyonste01 div {
+    left: 0; }
+
+#ruffire01 {
+  margin-left: 432px;
+  width: 180px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #ruffire01 div {
+    left: 0; }
+
+#reesepe01 {
+  margin-left: 560px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #reesepe01 div {
+    left: 0; }
+
+#bondto01 {
+  margin-left: 32px;
   width: 76px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #thurman-munson div {
-    right: 0; }
-#timeline #lou-boudreau {
-  margin-left: 544px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #lou-boudreau div {
+  #bondto01 div {
     left: 0; }
-#timeline #tim-raines {
-  margin-left: 872px;
-  width: 180px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #tim-raines div {
-    right: 0; }
-#timeline #rafael-palmeiro {
-  margin-left: 928px;
+
+#cronijo01 {
+  margin-left: 448px;
   width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #cronijo01 div {
+    left: 0; }
+
+#orouji01 {
+  margin-left: 16px;
+  width: 252px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #orouji01 div {
+    left: 0; }
+
+#mccorji01 {
+  margin-left: 64px;
+  width: 68px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #mccorji01 div {
+    left: 0; }
+
+#whitede01 {
+  margin-left: 8px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #whitede01 div {
+    left: 0; }
+
+#radboch01 {
+  margin-left: 88px;
+  width: 76px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #radboch01 div {
+    left: 0; }
+
+#ashburi01 {
+  margin-left: 624px;
+  width: 108px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #ashburi01 div {
+    left: 0; }
+
+#gwynnto01 {
+  margin-left: 896px;
+  width: 148px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #gwynnto01 div {
+    right: 0; }
+
+#munsoth01 {
+  margin-left: 792px;
+  width: 76px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #rafael-palmeiro div {
+  #munsoth01 div {
     right: 0; }
-#timeline #joe-kelley {
-  margin-left: 168px;
+
+#clarkfr01 {
+  margin-left: 192px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #clarkfr01 div {
+    left: 0; }
+
+#greenha01 {
+  margin-left: 480px;
   width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-kelley div {
+  #greenha01 div {
     left: 0; }
-#timeline #george-sisler {
-  margin-left: 360px;
-  width: 116px;
+
+#alomaro01 {
+  margin-left: 944px;
+  width: 124px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #george-sisler div {
-    left: 0; }
-#timeline #mordecai-brown {
-  margin-left: 264px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #mordecai-brown div {
-    left: 0; }
-#timeline #charlie-buffinton {
-  margin-left: 96px;
-  width: 76px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #charlie-buffinton div {
-    left: 0; }
-#timeline #tony-mullane {
-  margin-left: 88px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #tony-mullane div {
-    left: 0; }
-#timeline #joe-gordon {
-  margin-left: 544px;
-  width: 92px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-gordon div {
-    left: 0; }
-#timeline #ozzie-smith {
-  margin-left: 864px;
-  width: 140px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ozzie-smith div {
+  #alomaro01 div {
     right: 0; }
-#timeline #ken-boyer {
+
+#boyerke01 {
   margin-left: 680px;
   width: 108px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ken-boyer div {
+  #boyerke01 div {
     left: 0; }
-#timeline #bill-terry {
-  margin-left: 424px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bill-terry div {
-    left: 0; }
-#timeline #ted-lyons {
-  margin-left: 424px;
-  width: 180px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ted-lyons div {
-    left: 0; }
-#timeline #joe-mcginnity {
-  margin-left: 232px;
-  width: 68px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-mcginnity div {
-    left: 0; }
-#timeline #david-cone {
-  margin-left: 928px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #david-cone div {
-    right: 0; }
-#timeline #luis-tiant {
-  margin-left: 752px;
-  width: 140px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #luis-tiant div {
-    right: 0; }
-#timeline #stan-coveleski {
-  margin-left: 336px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #stan-coveleski div {
-    left: 0; }
-#timeline #don-sutton {
-  margin-left: 768px;
-  width: 172px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #don-sutton div {
-    right: 0; }
-#timeline #vic-willis {
-  margin-left: 224px;
-  width: 92px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #vic-willis div {
-    left: 0; }
-#timeline #gabby-hartnett {
-  margin-left: 416px;
-  width: 148px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #gabby-hartnett div {
-    left: 0; }
-#timeline #harmon-killebrew {
-  margin-left: 672px;
-  width: 164px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #harmon-killebrew div {
-    right: 0; }
-#timeline #rich-gossage {
-  margin-left: 816px;
-  width: 172px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #rich-gossage div {
-    right: 0; }
-#timeline #gene-tenace {
-  margin-left: 792px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #gene-tenace div {
-    right: 0; }
-#timeline #jake-beckley {
-  margin-left: 144px;
-  width: 148px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jake-beckley div {
-    left: 0; }
-#timeline #reggie-smith {
-  margin-left: 768px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #reggie-smith div {
-    right: 0; }
-#timeline #sherry-magee {
-  margin-left: 272px;
+
+#burkeje01 {
+  margin-left: 160px;
   width: 116px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #sherry-magee div {
+  #burkeje01 div {
     left: 0; }
-#timeline #richie-ashburn {
-  margin-left: 624px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #richie-ashburn div {
-    left: 0; }
-#timeline #dwight-evans {
-  margin-left: 816px;
-  width: 148px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dwight-evans div {
-    right: 0; }
-#timeline #john-mcgraw {
-  margin-left: 168px;
-  width: 116px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #john-mcgraw div {
-    left: 0; }
-#timeline #joe-medwick {
-  margin-left: 496px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-medwick div {
-    left: 0; }
-#timeline #buddy-bell {
-  margin-left: 816px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #buddy-bell div {
-    right: 0; }
-#timeline #john-olerud {
-  margin-left: 952px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #john-olerud div {
-    right: 0; }
-#timeline #will-clark {
-  margin-left: 928px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #will-clark div {
-    right: 0; }
-#timeline #bid-mcphee {
-  margin-left: 96px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bid-mcphee div {
-    left: 0; }
-#timeline #silver-king {
-  margin-left: 128px;
-  width: 84px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #silver-king div {
-    left: 0; }
-#timeline #george-gore {
-  margin-left: 72px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #george-gore div {
-    left: 0; }
-#timeline #jimmy-collins {
-  margin-left: 200px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jimmy-collins div {
-    left: 0; }
-#timeline #early-wynn {
-  margin-left: 552px;
-  width: 188px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #early-wynn div {
-    left: 0; }
-#timeline #rube-waddell {
-  margin-left: 216px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #rube-waddell div {
-    left: 0; }
-#timeline #graig-nettles {
-  margin-left: 776px;
-  width: 164px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #graig-nettles div {
-    right: 0; }
-#timeline #charlie-bennett {
-  margin-left: 64px;
-  width: 116px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #charlie-bennett div {
-    left: 0; }
-#timeline #orel-hershiser {
-  margin-left: 904px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #orel-hershiser div {
-    right: 0; }
-#timeline #dennis-eckersley {
-  margin-left: 840px;
-  width: 180px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dennis-eckersley div {
-    right: 0; }
-#timeline #willie-stargell {
-  margin-left: 736px;
-  width: 156px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #willie-stargell div {
-    right: 0; }
-#timeline #minnie-minoso {
-  margin-left: 632px;
-  width: 244px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #minnie-minoso div {
-    right: 0; }
-#timeline #dave-winfield {
-  margin-left: 824px;
-  width: 172px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dave-winfield div {
-    right: 0; }
-#timeline #bobby-bonds {
-  margin-left: 784px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bobby-bonds div {
-    right: 0; }
-#timeline #bill-freehan {
-  margin-left: 728px;
-  width: 116px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bill-freehan div {
-    right: 0; }
-#timeline #andre-dawson {
-  margin-left: 848px;
-  width: 156px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #andre-dawson div {
-    right: 0; }
-#timeline #dave-stieb {
+
+#raineti01 {
   margin-left: 872px;
-  width: 148px;
+  width: 180px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dave-stieb div {
+  #raineti01 div {
     right: 0; }
-#timeline #ross-barnes {
-  margin-left: 8px;
-  width: 76px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ross-barnes div {
-    left: 0; }
-#timeline #bret-saberhagen {
-  margin-left: 912px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bret-saberhagen div {
-    right: 0; }
-#timeline #eddie-cicotte {
-  margin-left: 280px;
-  width: 116px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #eddie-cicotte div {
-    left: 0; }
-#timeline #jim-mccormick {
-  margin-left: 64px;
-  width: 68px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jim-mccormick div {
-    left: 0; }
-#timeline #bob-lemon {
-  margin-left: 568px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bob-lemon div {
-    left: 0; }
-#timeline #darrell-evans {
-  margin-left: 792px;
-  width: 156px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #darrell-evans div {
-    right: 0; }
-#timeline #willie-randolph {
-  margin-left: 840px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #willie-randolph div {
-    right: 0; }
-#timeline #cupid-childs {
-  margin-left: 144px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #cupid-childs div {
-    left: 0; }
-#timeline #frank-chance {
-  margin-left: 224px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #frank-chance div {
-    left: 0; }
-#timeline #paul-hines {
-  margin-left: 16px;
-  width: 148px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #paul-hines div {
-    left: 0; }
-#timeline #roy-campanella {
-  margin-left: 624px;
-  width: 68px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #roy-campanella div {
-    left: 0; }
-#timeline #whitey-ford {
-  margin-left: 640px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #whitey-ford div {
-    left: 0; }
-#timeline #billy-williams {
-  margin-left: 712px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #billy-williams div {
-    right: 0; }
-#timeline #kevin-appier {
-  margin-left: 952px;
-  width: 116px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #kevin-appier div {
-    right: 0; }
-#timeline #billy-herman {
-  margin-left: 488px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #billy-herman div {
-    left: 0; }
-#timeline #wilbur-wood {
-  margin-left: 728px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #wilbur-wood div {
-    right: 0; }
-#timeline #harry-stovey {
-  margin-left: 80px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #harry-stovey div {
-    left: 0; }
-#timeline #cesar-cedeno {
-  margin-left: 800px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #cesar-cedeno div {
-    right: 0; }
-#timeline #zack-wheat {
-  margin-left: 312px;
-  width: 140px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #zack-wheat div {
-    left: 0; }
-#timeline #red-faber {
+
+#faberre01 {
   margin-left: 352px;
   width: 148px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #red-faber div {
+  #faberre01 div {
     left: 0; }
-#timeline #stan-hack {
-  margin-left: 496px;
-  width: 116px;
+
+#koufasa01 {
+  margin-left: 680px;
+  width: 84px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #stan-hack div {
+  #koufasa01 div {
     left: 0; }
-#timeline #frank-tanana {
-  margin-left: 824px;
-  width: 156px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #frank-tanana div {
-    right: 0; }
-#timeline #billy-pierce {
-  margin-left: 600px;
-  width: 148px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #billy-pierce div {
-    left: 0; }
-#timeline #hugh-duffy {
-  margin-left: 144px;
-  width: 140px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #hugh-duffy div {
-    left: 0; }
-#timeline #ralph-kiner {
-  margin-left: 608px;
-  width: 68px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ralph-kiner div {
-    left: 0; }
-#timeline #clark-griffith {
-  margin-left: 168px;
-  width: 180px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #clark-griffith div {
-    left: 0; }
-#timeline #enos-slaughter {
-  margin-left: 544px;
-  width: 132px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #enos-slaughter div {
-    left: 0; }
-#timeline #kiki-cuyler {
+
+#gosligo01 {
   margin-left: 408px;
   width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #kiki-cuyler div {
+  #gosligo01 div {
     left: 0; }
-#timeline #roger-bresnahan {
-  margin-left: 216px;
-  width: 140px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #roger-bresnahan div {
-    left: 0; }
-#timeline #sam-thompson {
-  margin-left: 120px;
-  width: 164px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #sam-thompson div {
-    left: 0; }
-#timeline #harry-hooper {
-  margin-left: 312px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #harry-hooper div {
-    left: 0; }
-#timeline #mickey-welch {
+
+#ewingbu01 {
   margin-left: 80px;
-  width: 92px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #mickey-welch div {
-    left: 0; }
-#timeline #dizzy-dean {
-  margin-left: 480px;
   width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dizzy-dean div {
+  #ewingbu01 div {
     left: 0; }
-#timeline #larry-doby {
-  margin-left: 616px;
-  width: 92px;
+
+#woodwi01 {
+  margin-left: 728px;
+  width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #larry-doby div {
-    left: 0; }
-#timeline #johnny-evers {
-  margin-left: 256px;
-  width: 212px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #johnny-evers div {
-    left: 0; }
-#timeline #tony-perez {
-  margin-left: 752px;
-  width: 172px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #tony-perez div {
+  #woodwi01 div {
     right: 0; }
-#timeline #max-carey {
-  margin-left: 320px;
+
+#carutbo01 {
+  margin-left: 112px;
+  width: 68px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #carutbo01 div {
+    left: 0; }
+
+#torrejo01 {
+  margin-left: 720px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #torrejo01 div {
+    right: 0; }
+
+#buffich01 {
+  margin-left: 96px;
+  width: 76px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #buffich01 div {
+    left: 0; }
+
+#coneda01 {
+  margin-left: 928px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #coneda01 div {
+    right: 0; }
+
+#simmote01 {
+  margin-left: 784px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #simmote01 div {
+    right: 0; }
+
+#mccovwi01 {
+  margin-left: 712px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #mccovwi01 div {
+    right: 0; }
+
+#wardjo01 {
+  margin-left: 64px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #wardjo01 div {
+    left: 0; }
+
+#griffcl01 {
+  margin-left: 168px;
+  width: 180px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #griffcl01 div {
+    left: 0; }
+
+#kellyki01 {
+  margin-left: 64px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #kellyki01 div {
+    left: 0; }
+
+#nettlgr01 {
+  margin-left: 776px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #nettlgr01 div {
+    right: 0; }
+
+#palmera01 {
+  margin-left: 928px;
   width: 148px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #max-carey div {
+  #palmera01 div {
+    right: 0; }
+
+#hartnga01 {
+  margin-left: 416px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hartnga01 div {
     left: 0; }
-#timeline #pud-galvin {
+
+#gossari01 {
+  margin-left: 816px;
+  width: 172px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #gossari01 div {
+    right: 0; }
+
+#allendi01 {
+  margin-left: 744px;
+  width: 108px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #allendi01 div {
+    right: 0; }
+
+#dawsoan01 {
+  margin-left: 848px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #dawsoan01 div {
+    right: 0; }
+
+#gordojo01 {
+  margin-left: 544px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #gordojo01 div {
+    left: 0; }
+
+#cicoted01 {
+  margin-left: 280px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #cicoted01 div {
+    left: 0; }
+
+#eckerde01 {
+  margin-left: 840px;
+  width: 180px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #eckerde01 div {
+    right: 0; }
+
+#murraed02 {
+  margin-left: 856px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #murraed02 div {
+    right: 0; }
+
+#bennech01 {
+  margin-left: 64px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bennech01 div {
+    left: 0; }
+
+#bandosa01 {
+  margin-left: 768px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bandosa01 div {
+    right: 0; }
+
+#willibi01 {
+  margin-left: 712px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #willibi01 div {
+    right: 0; }
+
+#evansdw01 {
+  margin-left: 816px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #evansdw01 div {
+    right: 0; }
+
+#bellbu01 {
+  margin-left: 816px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bellbu01 div {
+    right: 0; }
+
+#saberbr01 {
+  margin-left: 912px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #saberbr01 div {
+    right: 0; }
+
+#brownmo01 {
+  margin-left: 264px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #brownmo01 div {
+    left: 0; }
+
+#hahnno01 {
+  margin-left: 232px;
+  width: 52px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hahnno01 div {
+    left: 0; }
+
+#mcgwima01 {
+  margin-left: 928px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #mcgwima01 div {
+    right: 0; }
+
+#hinespa01 {
+  margin-left: 16px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hinespa01 div {
+    left: 0; }
+
+#hernake01 {
+  margin-left: 832px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hernake01 div {
+    right: 0; }
+
+#waltebu01 {
+  margin-left: 488px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #waltebu01 div {
+    left: 0; }
+
+#randowi01 {
+  margin-left: 840px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #randowi01 div {
+    right: 0; }
+
+#smithre06 {
+  margin-left: 768px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #smithre06 div {
+    right: 0; }
+
+#galvipu01 {
   margin-left: 40px;
   width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #pud-galvin div {
+  #galvipu01 div {
     left: 0; }
-#timeline #dave-bancroft {
-  margin-left: 360px;
-  width: 116px;
+
+#stiebda01 {
+  margin-left: 872px;
+  width: 148px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #dave-bancroft div {
-    left: 0; }
-#timeline #tony-lazzeri {
-  margin-left: 448px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #tony-lazzeri div {
-    left: 0; }
-#timeline #joe-tinker {
-  margin-left: 256px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-tinker div {
-    left: 0; }
-#timeline #earle-combs {
-  margin-left: 432px;
-  width: 84px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #earle-combs div {
-    left: 0; }
-#timeline #joe-sewell {
-  margin-left: 400px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-sewell div {
-    left: 0; }
-#timeline #bobby-doerr {
-  margin-left: 536px;
-  width: 108px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bobby-doerr div {
-    left: 0; }
-#timeline #lefty-gomez {
-  margin-left: 480px;
-  width: 100px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #lefty-gomez div {
-    left: 0; }
-#timeline #kirby-puckett {
-  margin-left: 912px;
-  width: 84px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #kirby-puckett div {
+  #stiebda01 div {
     right: 0; }
-#timeline #hoyt-wilhelm {
+
+#shockur01 {
+  margin-left: 368px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #shockur01 div {
+    left: 0; }
+
+#wynnji01 {
+  margin-left: 744px;
+  width: 108px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #wynnji01 div {
+    right: 0; }
+
+#bondsbo01 {
+  margin-left: 784px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bondsbo01 div {
+    right: 0; }
+
+#wilheho01 {
   margin-left: 656px;
   width: 156px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #hoyt-wilhelm div {
+  #wilheho01 div {
     right: 0; }
-#timeline #burleigh-grimes {
+
+#winfida01 {
+  margin-left: 824px;
+  width: 172px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #winfida01 div {
+    right: 0; }
+
+#ruckena01 {
+  margin-left: 296px;
+  width: 68px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #ruckena01 div {
+    left: 0; }
+
+#hershor01 {
+  margin-left: 904px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hershor01 div {
+    right: 0; }
+
+#tenacge01 {
+  margin-left: 792px;
+  width: 108px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #tenacge01 div {
+    right: 0; }
+
+#terrybi01 {
+  margin-left: 424px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #terrybi01 div {
+    left: 0; }
+
+#wynnea01 {
+  margin-left: 552px;
+  width: 188px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #wynnea01 div {
+    left: 0; }
+
+#mageesh01 {
+  margin-left: 272px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #mageesh01 div {
+    left: 0; }
+
+#uhlege01 {
+  margin-left: 392px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #uhlege01 div {
+    left: 0; }
+
+#appieke01 {
+  margin-left: 952px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #appieke01 div {
+    right: 0; }
+
+#grimebu01 {
   margin-left: 368px;
   width: 140px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #burleigh-grimes div {
+  #grimebu01 div {
     left: 0; }
-#timeline #sam-rice {
-  margin-left: 360px;
+
+#willine01 {
+  margin-left: 64px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #willine01 div {
+    left: 0; }
+
+#flickel01 {
+  margin-left: 224px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #flickel01 div {
+    left: 0; }
+
+#suttodo01 {
+  margin-left: 768px;
+  width: 172px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #suttodo01 div {
+    right: 0; }
+
+#medwijo01 {
+  margin-left: 496px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #medwijo01 div {
+    left: 0; }
+
+#adamsba01 {
+  margin-left: 288px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #adamsba01 div {
+    left: 0; }
+
+#becklja01 {
+  margin-left: 144px;
   width: 148px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #sam-rice div {
+  #becklja01 div {
     left: 0; }
-#timeline #edd-roush {
-  margin-left: 344px;
+
+#kinerra01 {
+  margin-left: 608px;
+  width: 68px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #kinerra01 div {
+    left: 0; }
+
+#evansda01 {
+  margin-left: 792px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #evansda01 div {
+    right: 0; }
+
+#breitte01 {
+  margin-left: 168px;
+  width: 76px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #breitte01 div {
+    left: 0; }
+
+#tanneje01 {
+  margin-left: 192px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #tanneje01 div {
+    left: 0; }
+
+#daviswi02 {
+  margin-left: 720px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #daviswi02 div {
+    right: 0; }
+
+#colliji01 {
+  margin-left: 200px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #colliji01 div {
+    left: 0; }
+
+#wheatza01 {
+  margin-left: 312px;
   width: 140px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #edd-roush div {
+  #wheatza01 div {
     left: 0; }
-#timeline #eppa-rixey {
+
+#killeha01 {
+  margin-left: 672px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #killeha01 div {
+    right: 0; }
+
+#keelewi01 {
+  margin-left: 176px;
+  width: 140px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #keelewi01 div {
+    left: 0; }
+
+#goodedw01 {
+  margin-left: 912px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #goodedw01 div {
+    right: 0; }
+
+#freehbi01 {
+  margin-left: 728px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #freehbi01 div {
+    right: 0; }
+
+#finlech01 {
+  margin-left: 928px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #finlech01 div {
+    right: 0; }
+
+#olerujo01 {
+  margin-left: 952px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #olerujo01 div {
+    right: 0; }
+
+#stargwi01 {
+  margin-left: 736px;
+  width: 156px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #stargwi01 div {
+    right: 0; }
+
+#coopewi01 {
+  margin-left: 336px;
+  width: 108px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #coopewi01 div {
+    left: 0; }
+
+#powelja01 {
+  margin-left: 216px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #powelja01 div {
+    left: 0; }
+
+#fordwh01 {
+  margin-left: 640px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #fordwh01 div {
+    left: 0; }
+
+#mullato01 {
+  margin-left: 88px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #mullato01 div {
+    left: 0; }
+
+#welchmi01 {
+  margin-left: 80px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #welchmi01 div {
+    left: 0; }
+
+#deandi01 {
+  margin-left: 480px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #deandi01 div {
+    left: 0; }
+
+#jennihu01 {
+  margin-left: 168px;
+  width: 212px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #jennihu01 div {
+    left: 0; }
+
+#kellejo01 {
+  margin-left: 168px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #kellejo01 div {
+    left: 0; }
+
+#lombaer01 {
+  margin-left: 488px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #lombaer01 div {
+    left: 0; }
+
+#hermabi01 {
+  margin-left: 488px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hermabi01 div {
+    left: 0; }
+
+#careyma01 {
+  margin-left: 320px;
+  width: 148px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #careyma01 div {
+    left: 0; }
+
+#dobyla01 {
+  margin-left: 616px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #dobyla01 div {
+    left: 0; }
+
+#rixeyep01 {
   margin-left: 336px;
   width: 164px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #eppa-rixey div {
+  #rixeyep01 div {
     left: 0; }
-#timeline #earl-averill {
-  margin-left: 472px;
-  width: 92px;
+
+#tinkejo01 {
+  margin-left: 256px;
+  width: 108px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #earl-averill div {
+  #tinkejo01 div {
     left: 0; }
-#timeline #nellie-fox {
+
+#puckeki01 {
+  margin-left: 912px;
+  width: 84px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #puckeki01 div {
+    right: 0; }
+
+#slaugen01 {
+  margin-left: 544px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #slaugen01 div {
+    left: 0; }
+
+#bendech01 {
+  margin-left: 264px;
+  width: 172px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bendech01 div {
+    left: 0; }
+
+#seweljo01 {
+  margin-left: 400px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #seweljo01 div {
+    left: 0; }
+
+#perezto01 {
+  margin-left: 752px;
+  width: 172px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #perezto01 div {
+    right: 0; }
+
+#lemonbo01 {
+  margin-left: 568px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #lemonbo01 div {
+    left: 0; }
+
+#chancfr01 {
+  margin-left: 224px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #chancfr01 div {
+    left: 0; }
+
+#hoopeha01 {
+  margin-left: 312px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #hoopeha01 div {
+    left: 0; }
+
+#mcphebi01 {
+  margin-left: 96px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #mcphebi01 div {
+    left: 0; }
+
+#camparo01 {
+  margin-left: 624px;
+  width: 68px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #camparo01 div {
+    left: 0; }
+
+#bancrda01 {
+  margin-left: 360px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bancrda01 div {
+    left: 0; }
+
+#foxne01 {
   margin-left: 616px;
   width: 140px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #nellie-fox div {
+  #foxne01 div {
     left: 0; }
-#timeline #waite-hoyt {
+
+#bresnro01 {
+  margin-left: 216px;
+  width: 140px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #bresnro01 div {
+    left: 0; }
+
+#hoytwa01 {
   margin-left: 384px;
   width: 156px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #waite-hoyt div {
-    left: 0; }
-#timeline #orlando-cepeda {
-  margin-left: 704px;
-  width: 124px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #orlando-cepeda div {
-    right: 0; }
-#timeline #ernie-lombardi {
-  margin-left: 488px;
-  width: 124px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #ernie-lombardi div {
+  #hoytwa01 div {
     left: 0; }
-#timeline #heinie-manush {
-  margin-left: 424px;
-  width: 124px;
+
+#jossad01 {
+  margin-left: 256px;
+  width: 60px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #heinie-manush div {
+  #jossad01 div {
     left: 0; }
-#timeline #travis-jackson {
-  margin-left: 416px;
+
+#doerrbo01 {
+  margin-left: 536px;
   width: 108px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #travis-jackson div {
+  #doerrbo01 div {
     left: 0; }
-#timeline #luis-aparicio {
+
+#averiea01 {
+  margin-left: 472px;
+  width: 92px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #averiea01 div {
+    left: 0; }
+
+#lazzeto01 {
+  margin-left: 448px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #lazzeto01 div {
+    left: 0; }
+
+#cuyleki01 {
+  margin-left: 408px;
+  width: 132px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #cuyleki01 div {
+    left: 0; }
+
+#thompsa01 {
+  margin-left: 120px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #thompsa01 div {
+    left: 0; }
+
+#eversjo01 {
+  margin-left: 256px;
+  width: 212px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #eversjo01 div {
+    left: 0; }
+
+#aparilu01 {
   margin-left: 688px;
   width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #luis-aparicio div {
+  #aparilu01 div {
     right: 0; }
-#timeline #chief-bender {
-  margin-left: 264px;
-  width: 172px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #chief-bender div {
+
+#kleinch01 {
+  margin-left: 464px;
+  width: 124px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #kleinch01 div {
     left: 0; }
-#timeline #herb-pennock {
-  margin-left: 336px;
-  width: 172px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #herb-pennock div {
+
+#chesbja01 {
+  margin-left: 232px;
+  width: 76px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #chesbja01 div {
     left: 0; }
-#timeline #hack-wilson {
-  margin-left: 424px;
-  width: 84px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #hack-wilson div {
-    left: 0; }
-#timeline #phil-rizzuto {
-  margin-left: 568px;
-  width: 116px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #phil-rizzuto div {
-    left: 0; }
-#timeline #addie-joss {
-  margin-left: 256px;
-  width: 60px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #addie-joss div {
-    left: 0; }
-#timeline #bruce-sutter {
-  margin-left: 848px;
-  width: 92px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #bruce-sutter div {
-    right: 0; }
-#timeline #jim-rice {
+
+#riceji01 {
   margin-left: 832px;
   width: 116px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #jim-rice div {
+  #riceji01 div {
     right: 0; }
-#timeline #chuck-klein {
-  margin-left: 464px;
+
+#cepedor01 {
+  margin-left: 704px;
   width: 124px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #chuck-klein div {
-    left: 0; }
-#timeline #ross-youngs {
-  margin-left: 376px;
-  width: 68px;
+  #cepedor01 div {
+    right: 0; }
+
+#ricesa01 {
+  margin-left: 360px;
+  width: 148px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #ross-youngs div {
+  #ricesa01 div {
     left: 0; }
-#timeline #catfish-hunter {
-  margin-left: 760px;
+
+#jackstr01 {
+  margin-left: 416px;
   width: 108px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #catfish-hunter div {
-    right: 0; }
-#timeline #red-schoendienst {
-  margin-left: 600px;
+  #jackstr01 div {
+    left: 0; }
+
+#gomezle01 {
+  margin-left: 480px;
+  width: 100px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #gomezle01 div {
+    left: 0; }
+
+#manushe01 {
+  margin-left: 424px;
+  width: 124px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #manushe01 div {
+    left: 0; }
+
+#duffyhu01 {
+  margin-left: 144px;
   width: 140px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #red-schoendienst div {
+  #duffyhu01 div {
     left: 0; }
-#timeline #rollie-fingers {
-  margin-left: 784px;
-  width: 132px;
+
+#roushed01 {
+  margin-left: 344px;
+  width: 140px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #rollie-fingers div {
-    right: 0; }
-#timeline #jack-chesbro {
-  margin-left: 232px;
-  width: 76px;
+  #roushed01 div {
+    left: 0; }
+
+#pennohe01 {
+  margin-left: 336px;
+  width: 172px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #jack-chesbro div {
+  #pennohe01 div {
     left: 0; }
-#timeline #lou-brock {
+
+#wilsoha01 {
+  margin-left: 424px;
+  width: 84px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #wilsoha01 div {
+    left: 0; }
+
+#combsea01 {
+  margin-left: 432px;
+  width: 84px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #combsea01 div {
+    left: 0; }
+
+#brocklo01 {
   margin-left: 728px;
   width: 140px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #lou-brock div {
+  #brocklo01 div {
     right: 0; }
-#timeline #rabbit-maranville {
+
+#hunteca01 {
+  margin-left: 760px;
+  width: 108px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #hunteca01 div {
+    right: 0; }
+
+#suttebr01 {
+  margin-left: 848px;
+  width: 92px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #suttebr01 div {
+    right: 0; }
+
+#rizzuph01 {
+  margin-left: 568px;
+  width: 116px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #rizzuph01 div {
+    left: 0; }
+
+#schoere01 {
+  margin-left: 600px;
+  width: 140px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #schoere01 div {
+    left: 0; }
+
+#maranra01 {
   margin-left: 336px;
   width: 180px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #rabbit-maranville div {
+  #maranra01 div {
     left: 0; }
-#timeline #pie-traynor {
-  margin-left: 400px;
-  width: 132px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #pie-traynor div {
-    left: 0; }
-#timeline #george-kell {
+
+#kellge01 {
   margin-left: 584px;
   width: 108px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #george-kell div {
+  #kellge01 div {
     left: 0; }
-#timeline #jim-bottomley {
+
+#youngro01 {
+  margin-left: 376px;
+  width: 68px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #youngro01 div {
+    left: 0; }
+
+#bottoji01 {
   margin-left: 416px;
   width: 116px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #jim-bottomley div {
+  #bottoji01 div {
     left: 0; }
-#timeline #freddie-lindstrom {
-  margin-left: 432px;
-  width: 92px;
+
+#fingero01 {
+  margin-left: 784px;
+  width: 132px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #freddie-lindstrom div {
-    left: 0; }
-#timeline #jesse-haines {
-  margin-left: 384px;
-  width: 148px;
+  #fingero01 div {
+    right: 0; }
+
+#traynpi01 {
+  margin-left: 400px;
+  width: 132px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #jesse-haines div {
+  #traynpi01 div {
     left: 0; }
-#timeline #chick-hafey {
-  margin-left: 432px;
-  width: 100px;
-  background-color: #cccce0;
-  background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #chick-hafey div {
-    left: 0; }
-#timeline #ray-schalk {
+
+#schalra01 {
   margin-left: 336px;
   width: 132px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #ray-schalk div {
+  #schalra01 div {
     left: 0; }
-#timeline #rube-marquard {
+
+#marquru01 {
   margin-left: 304px;
   width: 132px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #rube-marquard div {
+  #marquru01 div {
     left: 0; }
-#timeline #rick-ferrell {
+
+#ferreri01 {
   margin-left: 472px;
   width: 140px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #rick-ferrell div {
+  #ferreri01 div {
     left: 0; }
-#timeline #bill-mazeroski {
+
+#haineje01 {
+  margin-left: 384px;
+  width: 148px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #haineje01 div {
+    left: 0; }
+
+#mazerbi01 {
   margin-left: 688px;
   width: 124px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #bill-mazeroski div {
+  #mazerbi01 div {
     right: 0; }
-#timeline #high-pockets-kelly {
+
+#lindsfr01 {
+  margin-left: 432px;
+  width: 92px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #lindsfr01 div {
+    left: 0; }
+
+#hafeych01 {
+  margin-left: 432px;
+  width: 100px;
+  background-color: #cccce0;
+  background-color: rgba(0, 0, 100, 0.2); }
+  #hafeych01 div {
+    left: 0; }
+
+#kellyge01 {
   margin-left: 360px;
   width: 132px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #high-pockets-kelly div {
+  #kellyge01 div {
     left: 0; }
-#timeline #lloyd-waner {
+
+#wanerll01 {
   margin-left: 456px;
   width: 140px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #lloyd-waner div {
+  #wanerll01 div {
     left: 0; }
-#timeline #tommy-mccarthy {
+
+#mccarto01 {
   margin-left: 112px;
   width: 92px;
   background-color: #cccce0;
   background-color: rgba(0, 0, 100, 0.2); }
-  #timeline #tommy-mccarthy div {
+  #mccarto01 div {
     left: 0; }
-#timeline #barry-bonds {
+
+#bondsba01 {
   margin-left: 928px;
   width: 164px;
   background-color: #000064; }
-  #timeline #barry-bonds div {
+  #bondsba01 div {
     right: 0; }
-#timeline #roger-clemens {
+
+#clemero02 {
   margin-left: 912px;
   width: 180px;
   background-color: #000064; }
-  #timeline #roger-clemens div {
+  #clemero02 div {
     right: 0; }
-#timeline #alex-rodriguez {
+
+#rodrial01 {
   margin-left: 992px;
   width: 132px;
   background-color: #000064; }
-  #timeline #alex-rodriguez div {
+  #rodrial01 div {
     right: 0; }
-#timeline #albert-pujols {
-  margin-left: 1048px;
-  width: 76px;
-  background-color: #000064; }
-  #timeline #albert-pujols div {
-    right: 0; }
-#timeline #greg-maddux {
-  margin-left: 928px;
-  width: 172px;
-  background-color: #000064; }
-  #timeline #greg-maddux div {
-    right: 0; }
-#timeline #randy-johnson {
+
+#johnsra05 {
   margin-left: 944px;
   width: 164px;
   background-color: #000064; }
-  #timeline #randy-johnson div {
+  #johnsra05 div {
     right: 0; }
-#timeline #mariano-rivera {
+
+#maddugr01 {
+  margin-left: 928px;
+  width: 172px;
+  background-color: #000064; }
+  #maddugr01 div {
+    right: 0; }
+
+#pujolal01 {
+  margin-left: 1048px;
+  width: 76px;
+  background-color: #000064; }
+  #pujolal01 div {
+    right: 0; }
+
+#martipe02 {
+  margin-left: 976px;
+  width: 132px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #martipe02 div {
+    right: 0; }
+
+#riverma01 {
   margin-left: 1000px;
   width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #mariano-rivera div {
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #riverma01 div {
     right: 0; }
-#timeline #ivan-rodriguez {
-  margin-left: 968px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #ivan-rodriguez div {
-    right: 0; }
-#timeline #ken-griffey {
+
+#griffke02 {
   margin-left: 952px;
   width: 164px;
   background-color: #333383;
   background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #ken-griffey div {
+  #griffke02 div {
     right: 0; }
-#timeline #mike-piazza {
+
+#schilcu01 {
+  margin-left: 944px;
+  width: 148px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #schilcu01 div {
+    right: 0; }
+
+#rodriiv01 {
+  margin-left: 968px;
+  width: 156px;
+  background-color: #333383;
+  background-color: rgba(0, 0, 100, 0.8); }
+  #rodriiv01 div {
+    right: 0; }
+
+#piazzmi01 {
   margin-left: 976px;
   width: 116px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #mike-piazza div {
+  #piazzmi01 div {
     right: 0; }
-#timeline #pedro-martinez {
-  margin-left: 976px;
-  width: 132px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #pedro-martinez div {
-    right: 0; }
-#timeline #chipper-jones {
-  margin-left: 984px;
-  width: 140px;
-  background-color: #333383;
-  background-color: rgba(0, 0, 100, 0.8); }
-  #timeline #chipper-jones div {
-    right: 0; }
-#timeline #frank-thomas {
-  margin-left: 960px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #frank-thomas div {
-    right: 0; }
-#timeline #mike-mussina {
+
+#mussimi01 {
   margin-left: 968px;
   width: 132px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #mike-mussina div {
+  #mussimi01 div {
     right: 0; }
-#timeline #jim-edmonds {
+
+#jonesch06 {
   margin-left: 984px;
-  width: 132px;
+  width: 140px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-edmonds div {
+  #jonesch06 div {
     right: 0; }
-#timeline #curt-schilling {
-  margin-left: 944px;
-  width: 148px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #curt-schilling div {
-    right: 0; }
-#timeline #derek-jeter {
-  margin-left: 1000px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #derek-jeter div {
-    right: 0; }
-#timeline #jim-thome {
-  margin-left: 968px;
-  width: 156px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #jim-thome div {
-    right: 0; }
-#timeline #tom-glavine {
+
+#glavito02 {
   margin-left: 936px;
   width: 164px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #tom-glavine div {
+  #glavito02 div {
     right: 0; }
-#timeline #craig-biggio {
+
+#hallaro01 {
+  margin-left: 1024px;
+  width: 100px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #hallaro01 div {
+    right: 0; }
+
+#thomafr04 {
+  margin-left: 960px;
+  width: 140px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #thomafr04 div {
+    right: 0; }
+
+#jeterde01 {
+  margin-left: 1000px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #jeterde01 div {
+    right: 0; }
+
+#rolensc01 {
+  margin-left: 1008px;
+  width: 116px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #rolensc01 div {
+    right: 0; }
+
+#smoltjo01 {
+  margin-left: 944px;
+  width: 164px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #smoltjo01 div {
+    right: 0; }
+
+#biggicr01 {
   margin-left: 944px;
   width: 148px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #craig-biggio div {
+  #biggicr01 div {
     right: 0; }
-#timeline #scott-rolen {
-  margin-left: 1008px;
-  width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #scott-rolen div {
-    right: 0; }
-#timeline #roy-halladay {
-  margin-left: 1024px;
-  width: 100px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #roy-halladay div {
-    right: 0; }
-#timeline #kenny-lofton {
-  margin-left: 968px;
-  width: 124px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #kenny-lofton div {
-    right: 0; }
-#timeline #manny-ramirez {
+
+#ramirma02 {
   margin-left: 984px;
   width: 140px;
   background-color: #6666a2;
   background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #manny-ramirez div {
+  #ramirma02 div {
     right: 0; }
-#timeline #andruw-jones {
+
+#thomeji01 {
+  margin-left: 968px;
+  width: 156px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #thomeji01 div {
+    right: 0; }
+
+#loftoke01 {
+  margin-left: 968px;
+  width: 124px;
+  background-color: #6666a2;
+  background-color: rgba(0, 0, 100, 0.6); }
+  #loftoke01 div {
+    right: 0; }
+
+#jonesan01 {
   margin-left: 1008px;
   width: 116px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #andruw-jones div {
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #jonesan01 div {
     right: 0; }
-#timeline #sammy-sosa {
-  margin-left: 952px;
-  width: 140px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #sammy-sosa div {
-    right: 0; }
-#timeline #todd-helton {
-  margin-left: 1016px;
-  width: 108px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #todd-helton div {
-    right: 0; }
-#timeline #carlos-beltran {
+
+#beltrca01 {
   margin-left: 1024px;
   width: 100px;
-  background-color: #6666a2;
-  background-color: rgba(0, 0, 100, 0.6); }
-  #timeline #carlos-beltran div {
-    right: 0; }
-#timeline #john-smoltz {
-  margin-left: 944px;
-  width: 164px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #john-smoltz div {
+  #beltrca01 div {
     right: 0; }
-#timeline #joe-mauer {
-  margin-left: 1072px;
-  width: 52px;
+
+#heltoto01 {
+  margin-left: 1016px;
+  width: 108px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #joe-mauer div {
+  #heltoto01 div {
     right: 0; }
-#timeline #gary-sheffield {
-  margin-left: 944px;
-  width: 164px;
+
+#utleych01 {
+  margin-left: 1064px;
+  width: 60px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #gary-sheffield div {
+  #utleych01 div {
     right: 0; }
-#timeline #jason-giambi {
-  margin-left: 1000px;
-  width: 124px;
+
+#sosasa01 {
+  margin-left: 952px;
+  width: 140px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jason-giambi div {
+  #sosasa01 div {
     right: 0; }
-#timeline #vladimir-guerrero {
-  margin-left: 1008px;
-  width: 116px;
+
+#edmonji01 {
+  margin-left: 984px;
+  width: 132px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #vladimir-guerrero div {
+  #edmonji01 div {
     right: 0; }
-#timeline #jorge-posada {
-  margin-left: 1000px;
-  width: 124px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jorge-posada div {
-    right: 0; }
-#timeline #ichiro-suzuki {
+
+#suzukic01 {
   margin-left: 1048px;
   width: 76px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #ichiro-suzuki div {
+  #suzukic01 div {
     right: 0; }
-#timeline #bobby-abreu {
+
+#abreubo01 {
   margin-left: 1008px;
   width: 116px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #bobby-abreu div {
+  #abreubo01 div {
     right: 0; }
-#timeline #jeff-kent {
-  margin-left: 976px;
+
+#santajo02 {
+  margin-left: 1040px;
+  width: 76px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #santajo02 div {
+    right: 0; }
+
+#beltrad01 {
+  margin-left: 1024px;
+  width: 100px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #beltrad01 div {
+    right: 0; }
+
+#guerrvl01 {
+  margin-left: 1008px;
+  width: 116px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #guerrvl01 div {
+    right: 0; }
+
+#sheffga01 {
+  margin-left: 944px;
+  width: 164px;
+  background-color: #9999c1;
+  background-color: rgba(0, 0, 100, 0.4); }
+  #sheffga01 div {
+    right: 0; }
+
+#giambja01 {
+  margin-left: 1000px;
   width: 124px;
   background-color: #9999c1;
   background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #jeff-kent div {
-    right: 0; }
-#timeline #lance-berkman {
-  margin-left: 1032px;
-  width: 92px;
-  background-color: #9999c1;
-  background-color: rgba(0, 0, 100, 0.4); }
-  #timeline #lance-berkman div {
+  #giambja01 div {
     right: 0; }
