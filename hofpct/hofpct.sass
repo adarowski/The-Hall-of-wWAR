@@ -1,0 +1,91 @@
+@import ../mixins.sass
+
+$li_width: 300px
+$diamond_width: 188px
+$hof_diamond_width: 21px
+$pa_diamond_width: 58px
+$ip_diamond_width: 49px
+
+#about
+  h1
+    color: fade_out($default_color, 0.2)
+    font-size: 80px
+    text-align: center
+    margin: 30px
+    span
+      font-family: Lucida Grande
+      font-size: 30px
+      color: #666
+  ul
+    padding: 0
+    text-align: center
+    margin-bottom: 80px
+  li
+    display: inline-block
+    padding-top: 300px
+    position: relative
+    font-size: 20px
+    color: #666
+    text-align: center
+    vertical-align: top
+    width: $li_width
+    strong, em
+      display: block
+    strong
+      font-family: 'ChunkFiveRegular'
+      color: fade_out($default_color, 0.2)
+      font-size: 48px
+      line-height: 1
+      sup
+        font-family: Lucida Grande
+        font-size: 20px
+        font-weight: normal
+        padding-left: 3px
+        color: #999
+    em
+      font-size: 14px
+      font-style: normal
+    &:before
+      +level5
+      content: ''
+      display: block
+      position: absolute
+      top: 50px
+      left: ($li_width - $diamond_width) / 2
+      width: $diamond_width
+      height: $diamond_width
+      +rotate(45)
+    &#hof
+      strong:before
+        +level2
+        content: ''
+        display: block
+        position: absolute
+        top: 133px
+        left: ($li_width - $hof_diamond_width) / 2
+        width: $hof_diamond_width
+        height: $hof_diamond_width
+        +rotate(45)
+    &#pa
+      strong:before
+        +level2
+        content: ''
+        display: block
+        position: absolute
+        top: 115px
+        left: ($li_width - $pa_diamond_width) / 2
+        width: $pa_diamond_width
+        height: $pa_diamond_width
+        +rotate(45)
+    &#ip
+      strong:before
+        +level2
+        content: ''
+        display: block
+        position: absolute
+        top: 119px
+        left: ($li_width - $ip_diamond_width) / 2
+        width: $ip_diamond_width
+        height: $ip_diamond_width
+        +rotate(45)
+      

@@ -1,0 +1,282 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hall of wWAR: Percentage of Plate Appearances and Innings Pitched Performed by a Hall of Famer, Year by Year</title>
+  <link rel="stylesheet" href="../screen.css" media="screen">
+  <link rel="stylesheet" href="hofpct.css" media="screen">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="../hall-of-wwar.js"></script>
+  <script src="../table-sorter.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Year','Percentage of Plate Appearances','Percentage of Innings Pitched'],
+        ['1871', 4.6, 12.3],
+        ['1872', 8.2, 28.2],
+        ['1873', 9.7, 25.6],
+        ['1874', 8.8, 26.8],
+        ['1875', 6.4, 17.0],
+        ['1876', 6.8, 15.7],
+        ['1877', 8.4, 5.1],
+        ['1878', 8.5, 10.0],
+        ['1879', 8.8, 20.7],
+        ['1880', 11.0, 28.8],
+        ['1881', 14.2, 31.7],
+        ['1882', 10.9, 18.6],
+        ['1883', 9.3, 18.9],
+        ['1884', 5.5, 9.7],
+        ['1885', 9.2, 14.9],
+        ['1886', 9.3, 13.4],
+        ['1887', 9.2, 12.1],
+        ['1888', 10.4, 10.4],
+        ['1889', 12.5, 11.7],
+        ['1890', 9.6, 9.7],
+        ['1891', 13.9, 14.5],
+        ['1892', 19.1, 14.6],
+        ['1893', 18.3, 13.1],
+        ['1894', 19.1, 12.3],
+        ['1895', 17.8, 12.6],
+        ['1896', 17.0, 9.1],
+        ['1897', 16.1, 10.2],
+        ['1898', 16.7, 10.7],
+        ['1899', 15.6, 12.4],
+        ['1900', 23.4, 18.6],
+        ['1901', 13.3, 14.4],
+        ['1902', 12.5, 14.1],
+        ['1903', 11.6, 17.2],
+        ['1904', 12.5, 17.4],
+        ['1905', 12.0, 15.9],
+        ['1906', 11.9, 14.6],
+        ['1907', 11.2, 15.7],
+        ['1908', 11.1, 15.7],
+        ['1909', 10.6, 13.2],
+        ['1910', 11.4, 10.9],
+        ['1911', 10.5, 11.4],
+        ['1912', 10.5, 11.1],
+        ['1913', 11.3, 9.9],
+        ['1914', 8.4, 7.2],
+        ['1915', 8.6, 8.0],
+        ['1916', 13.0, 11.6],
+        ['1917', 12.4, 11.8],
+        ['1918', 11.6, 7.8],
+        ['1919', 13.2, 9.1],
+        ['1920', 15.0, 11.6],
+        ['1921', 15.4, 12.7],
+        ['1922', 16.1, 12.8],
+        ['1923', 17.4, 13.4],
+        ['1924', 20.5, 12.5],
+        ['1925', 21.9, 14.8],
+        ['1926', 23.0, 13.2],
+        ['1927', 23.0, 12.5],
+        ['1928', 23.4, 13.8],
+        ['1929', 24.7, 12.0],
+        ['1930', 22.7, 11.3],
+        ['1931', 22.1, 10.8],
+        ['1932', 23.3, 11.3],
+        ['1933', 24.1, 10.3],
+        ['1934', 22.6, 9.0],
+        ['1935', 20.0, 8.6],
+        ['1936', 18.3, 8.1],
+        ['1937', 17.4, 8.4],
+        ['1938', 16.7, 6.4],
+        ['1939', 15.6, 6.3],
+        ['1940', 14.6, 6.0],
+        ['1941', 13.9, 6.2],
+        ['1942', 13.1, 4.6],
+        ['1943', 8.1, 2.3],
+        ['1944', 5.6, 2.3],
+        ['1945', 4.6, 2.3],
+        ['1946', 11.3, 4.9],
+        ['1947', 12.5, 6.1],
+        ['1948', 12.5, 6.6],
+        ['1949', 13.9, 6.7],
+        ['1950', 13.4, 7.6],
+        ['1951', 14.0, 6.8],
+        ['1952', 11.8, 7.7],
+        ['1953', 11.9, 7.7],
+        ['1954', 13.8, 7.5],
+        ['1955', 13.8, 7.0],
+        ['1956', 16.3, 7.9],
+        ['1957', 14.5, 7.5],
+        ['1958', 14.0, 8.0],
+        ['1959', 14.2, 9.0],
+        ['1960', 14.2, 8.8],
+        ['1961', 13.2, 8.0],
+        ['1962', 11.8, 7.8],
+        ['1963', 11.4, 8.6],
+        ['1964', 11.0, 8.1],
+        ['1965', 10.7, 9.7],
+        ['1966', 11.3, 10.1],
+        ['1967', 12.2, 9.8],
+        ['1968', 11.7, 10.5],
+        ['1969', 10.0, 9.5],
+        ['1970', 9.4, 10.1],
+        ['1971', 9.1, 10.0],
+        ['1972', 8.6, 10.8],
+        ['1973', 8.5, 10.0],
+        ['1974', 8.2, 9.7],
+        ['1975', 8.1, 9.6],
+        ['1976', 7.2, 9.6],
+        ['1977', 7.1, 8.4],
+        ['1978', 7.6, 8.2],
+        ['1979', 7.8, 7.3],
+        ['1980', 7.2, 6.7],
+        ['1981', 7.3, 6.8],
+        ['1982', 8.2, 6.1],
+        ['1983', 8.1, 5.5],
+        ['1984', 7.3, 4.9],
+        ['1985', 7.8, 4.5],
+        ['1986', 7.3, 4.0],
+        ['1987', 7.0, 3.0],
+        ['1988', 7.4, 1.8],
+        ['1989', 6.2, 1.6],
+        ['1990', 6.3, 1.1],
+        ['1991', 6.4, 0.8],
+        ['1992', 6.2, 1.1],
+        ['1993', 5.2, 0.4],
+        ['1994', 4.4, 0.3],
+        ['1995', 3.6, 0.1],
+        ['1996', 3.4, 0.1],
+        ['1997', 2.4, 0.1],
+        ['1998', 2.2, 0.1],
+        ['1999', 1.6, 0.0],
+        ['2000', 1.1, 0.0],
+        ['2001', 1.0, 0.0],
+        ['2002', 0.8, 0.0],
+        ['2003', 0.5, 0.0],
+        ['2004', 0.3, 0.0],
+        ['2005', 0.0, 0.0],
+        ['2006', 0.0, 0.0],
+        ['2007', 0.0, 0.0],
+        ['2008', 0.0, 0.0],
+        ['2009', 0.0, 0.0],
+        ['2010', 0.0, 0.0],
+        ['2011', 0.0, 0.0]
+      ]);
+
+      var options = {
+        title: 'Percentage of Plate Appearances and Innings Pitched Performed by a Hall of Famer, Year by Year',
+        chartArea: {left:30,top:50,width:"100%",height:"70%"},
+        legend: {position: 'bottom'}
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+
+    }
+  </script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<header>
+  <h1><a href="../">Hall of wWAR</a></h1>
+  <h2>The Hall of Fame Re-Populated by Weighted WAR</h2>
+  <nav>
+    By <a href="http://darowski.com">Adam Darowski</a>
+    (<a href="../about">About</a>)
+    <a id="show-visuals" href="#">More Visuals and Research</a>
+    <div id="visuals">
+      <p>Note that these visuals are based on the previous version of the Hall of wWAR.</p>
+      <dl>
+        <dt><a href="../graham/">Graham Womack&rsquo;s Hall of Fame Project</a></dt>
+        <dd>Compared to the Hall of wWAR</dd>
+        <dt><a href="../screwed/">Screwed by the Hall of Fame Voters</a></dt>
+        <dd>Franchises Most Affected</dd>
+        <dt><a href="../halls/">Hall of wWAR vs. Hall of Fame vs. Hall of Merit</a></dt>
+        <dd>Overlaps Between the Halls</dd>
+        <dt><a href="../exclusivity/">The Hall of Fame and the Myth of Exclusivity</a></dt>
+        <dd>Hall Voters are Becoming Stricter</dd>
+        <dt><a href="../expectancy/">Manager Wins Above Expectancy</a></dt>
+        <dd>Managers who Beat Expectations</dd>
+        <dt><a href="../war-vs-waa/">WAR vs. WAA (Position Players, 1871–2009)</a></dt>
+        <dd>A Look Into Wins Above Average</dd>
+        <dt><a href="../hofpct/">There’s a Hall of Famer in Every Lineup</a></dt>
+        <dd>Percentage of Plate Appearances and Innings Pitched Performed by a Hall of Famer</dd>
+        <dt><a href="../rwar/">Previous Version of the Hall of wWAR</a></dt>
+        <dd>Based on Rally’s WAR</dd>
+        <dt><a href="http://hallofstats.com">Red Sox Hall of wWAR</a></dt>
+        <dd>A Baseball Hack Day Project with Jeffrey Chupp</dd>
+      </dl>
+    </div>
+  </nav>
+</header>
+
+<div id="wrapper">
+
+  <section id="about">
+    <h1>17,732 <span>players have played Major League Baseball</span></h1>
+    <ul>
+      <li id="hof"><strong>1.3<sup>%</sup></strong> are Hall of Famers <em>(234 in all)</em></li>
+      <li id="pa"><strong>9.6<sup>%</sup></strong> of all plate appearances <em>made by a Hall of Famer</em></li>
+      <li id="ip"><strong>7.1<sup>%</sup></strong> of all innings <em>pitched by a Hall of Famer</em></li>
+    </ul>
+    <p>These numbers drop if you only include Hall of Famers inducted as a player. Then, 208 players of them are Hall of Famers (1.2%). 9.1% of plate appearances and 7.0% of innings pitched were performed by Hall of Fame <em>players</em>.</p>
+    <p>Recent seasons are very low because most players who played in those seasons are not yet eligible for the Hall of Fame. For example, Roger Clemens will be on the next Hall of Fame ballot and his career began in 1984. So, if we look at the percentages only through 1983, then 12.7% of plate appearances and 10.0 percent of innings pitched were performed by Hall of Famers (11.9% and 9.8% if you only include those in the Hall as a player).</p>
+    <p>Here’s how the numbers look over time for all Hall of Famers:</p>
+    <div id="chart_div" style="width: 1120px; height: 600px;"></div>
+  </section>
+
+  <div style="display:none;"
+    <p>A few things:</p>
+    <ol>
+      <li>
+        <p><strong>World War II:</strong> An incredibly low percentage of Hall of Famers played during World War II. From 1942 to 1945, just 7.4% of plate appearances and 2.9% of innings pitched were performed by Hall of Famers. In the four years preceding the WAR, those percentages were 15.2% and 6.2%. In the four years following, they were 12.6% and 6.1%. World War I did not have a similar drop. In fact, the percentages in 1917 and 1918 were higher than those in 1914 and 1915.</p>
+      </li>
+      <li>
+        <p><strong>1800s pitchers:</strong> 1872 to 1883 (oddly, with the exception of 1877) is all out of whack. Over those twelve years, 20.8% of all innings were thrown by a Hall of Famer. Two things are at work here. First, only 13.8% of the innings were thrown by pitchers in the Hall of Fame <em>as a player</em>. So, many early pitchers are in for other reasons, like a pioneer or executive (think Candy Cummings and Albert Goodwill Spalding). Secondly, in that era clubs typically relied on one or two pitchers to throw all of their innings. Because of this, there were far fewer pitchers and the ones who lasted tended to compile obscene career numbers that got them in the Hall of Fame. The weakest Hall of Fame pitcher from this era is probably Mickey Welch. He’s still a perfectly acceptable Hall of Famer.</p>
+        <p>Between 1872 and 1883, 205 pitchers appeared in the major leagues. 65% of the innings were thrown by 22 of the pitchers (my cutoff here being 1000 IP). Almost a third of the innings were thrown by seven pitchers—Bobby Mathews, Tommy Bond, Jim McCormick, Will White, Pud Galvin, Al Spalding, George Bradley, and John Montgomery Ward. From that group, only Galvin, Spalding, and Ward are Hall of Famers (and Spalding is in as an executive). Honestly, cases could be made for the induction of Mathews (297-248, 104 ERA+, 65.6 WAR), Bond (234-163, 115 ERA+, 60.8 WAR), and McCormick (265-214, 118 ERA+, 72.2 WAR). The high percentage of pitchers from this era in the Hall of Fame is simply a result of how pitchers were used.</p>
+      </li>
+      <li>
+        <p><strong>Hitters from the 1920s and 1930s:</strong> Frankie Frisch is often accused of diluting the Hall of Fame by lobbying for the induction of several of his cronies. This, of course, is 100% true. Frisch played from 1919 to 1937. Coincidentally, from 1920 to 1939 over 15% of plate appearances were made by Hall of Famers <em>every single season</em>. That’s the minimum. From 1924 to 1935, the minimum was 20%. The peak was 1929 when 24.7% of plate appearances were made by a Hall of Famer. Let me say that again—<strong>one out of every four players to come to the plate all season for every team was a Hall of Famer</strong>.</p>
+        <p>The <a href="http://darowski.com/hall-of-wwar">Hall of wWAR</a> identifies many players from this era who do not belong in the Hall of Fame. The list includes:
+        <ul>
+          <li>Joe Sewell</li>
+          <li>Pie Traynor</li>
+          <li>Kiki Cuyler</li>
+          <li>Travis Jackson</li>
+          <li>Jim Bottomley</li>
+          <li>Heinie Manush</li>
+          <li>Hack Wilson</li>
+          <li>Earle Combs</li>
+          <li>Freddy Lindstrom</li>
+          <li>Chick Hafey</li>
+          <li>Tony Lazzeri</li>
+          <li>Lloyd Waner</li>
+          <li>Chuck Klein</li>
+          <li>Earl Averill</li>
+        </ul>
+        <p>Jackson, Bottomley, Wilson, Lindstrom, and Hafey just happened to be teammates of Frisch.</p>
+        <p>Most of these selections are terrible. Some you can understand given the information available at the time. Manush, for example, hit .330. Lazzeri and Combs got big boosts from being on famous Yankee teams. Hack Wilson had the 56-homer, 191-RBI season in 1930. Chuck Klein took advantage of his home field to produce some gaudy power numbers.</p>
+        <p>But it simply doesn’t make sense that one twenty year period would produce Hall of Famers in 20.2% of plate appearances (and 11.0% of innings) while the next twenty years produced them in 12.4% (and 6.2% of innings). The next twenty years after that (1960 to 1979)? Just 9.7% and 9.2%. And how about 1980 to 1999 (so far)? 5.7% of plate appearances and 2.4% of innings.</p>
+      </li>
+    </ol>
+  </div>
+
+  <footer>
+    <p>Published: July 16, 2012.</p>
+  </footer>
+  
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-379490-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
